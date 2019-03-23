@@ -37,3 +37,7 @@ Os participantes simularam alguns dos rituais do Scrum em uma versão bem mais r
 Ao longo das Sprints, ocorreram 2 dailys de 30 segundos cada.
 
 Depois da segunda Sprint, as histórias foram lidas.
+
+## Material Utilizado
+
+Material de apoio exibido em slides: [Slide do Canvas](https://www.canva.com/design/DADSQXBPaz8/nbRv_gzpGSEsymtOoLEMPA/view?utm_content=DADSQXBPaz8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
