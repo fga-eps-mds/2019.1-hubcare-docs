@@ -1,12 +1,12 @@
 # Treinamento de Práticas Ágeis
 
-**Resposáveis**: [Filipe Toyoshima](filipetoyoshima) em colaboração com a [Orc'estra Gamificação](http://orcestra.com.br/)
+**Resposáveis**: [Filipe Toyoshima](https://github.com/filipetoyoshima) em colaboração com a [Orc'estra Gamificação](http://orcestra.com.br/)
 
-Membros do Time que Compareceram: [Francisco](@FranciscoHeronildo), [Vitor Alves](@vitorAlves7), [Vitor Meireles](@VitorMeirelesOliveira)
+Membros do Time que Compareceram: [Francisco](https://github.com/FranciscoHeronildo), [Vitor Alves](https://github.com/vitorAlves7), [Vitor Meireles](https://github.com/VitorMeirelesOliveira)
 
 ## Contexto
 
-A Orc'estra Gamificação organizou um Workshop de princípios ágeis aberto à comunidade da FGA. Um dos principais organizadores foi [Filipe Toyoshima](@filipetoyoshima), parte também da equipe de Engenharia de Produto do software ao qual se refere esta documentação.
+A Orc'estra Gamificação organizou um Workshop de princípios ágeis aberto à comunidade da FGA. Um dos principais organizadores foi [Filipe Toyoshima](https://github.com/filipetoyoshima), parte também da equipe de Engenharia de Produto do software ao qual se refere esta documentação.
 
 Como as metodologias ágeis serão utilizadas por toda a equipe responsável por manter esse projeto e como a equipe de desenvolvimento ainda não está familiarizada com as práticas, esta equipe foi encaminhada para este treinamento.
 
@@ -14,7 +14,7 @@ Compareceram, além dos citados acima, cerca de 25 interessados.
 
 ## Formato do Treinamento
 
-O Workshop foi conduzido por [Martha Dantas](@MarthaDs) e [Filipe Toyoshima](@filipetoyoshima).
+O Workshop foi conduzido por [Martha Dantas](https://github.com/MarthaDs) e [Filipe Toyoshima](https://github.com/filipetoyoshima).
 
 No primeiro momento, foram expostos, com o apoio de slides, os princípios básicos de qualquer metodologia ágil. A explicação se manteve de tal forma que se tentasse mantê-la abertas a dúvidas ou contribuições a qualquer momento.
 
