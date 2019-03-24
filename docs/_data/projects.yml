@@ -1,0 +1,7 @@
+-
+  name: Product
+  icon: admin.svg
+  description: Guides for the basic usage.
+  path: product/
+  pages:
+    Project Charter: project-charter/

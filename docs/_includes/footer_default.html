@@ -1,0 +1,29 @@
+<footer class="app-footer {% if page.theme == 'light' %}app-footer--light{% else %}app-footer--black{% endif %}">
+    <div class="container">
+
+        <div class="app-footer_col">
+            <input id="menu1" type="checkbox" />
+            <label for="menu1" class="app-footer_pre-menu"></label>
+            <ul class="app-footer_nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Docs</a></li>
+            </ul>
+        </div>
+
+        <div class="app-footer_col">
+            <input id="menu2" type="checkbox" />
+            <label for="menu2" class="app-footer_pre-menu"></label>
+            <ul class="app-footer_nav">
+                <li><a href="/">License</a></li>
+            </ul>
+        </div>
+
+        <div class="app-footer_wrap-logo">
+            <a class="app-footer_github-link" target="_blank" href="https://github.com/fga-eps-mds/2019.1-Grupo-7"
+                rel="noopener noreferrer">
+                <span><img src="{{ site.url }}/images/default/github.svg" alt="GitHub"></span>
+                Open on GitHub
+            </a>
+        </div>
+    </div>
+</footer>
