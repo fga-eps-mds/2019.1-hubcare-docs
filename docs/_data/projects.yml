@@ -1,0 +1,14 @@
+-
+  name: Product
+  icon: admin.svg
+  description: Guides for the basic usage.
+  path: product/
+  pages:
+    Project Charter: project-charter/
+-
+  name: Training
+  icon: admin.svg
+  description: training documentation applied to the development team.
+  path: training/
+  pages:
+    Agile: agile/

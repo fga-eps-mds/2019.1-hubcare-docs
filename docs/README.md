@@ -1,3 +1,8 @@
+---
+layout: home
+permalink: /index.html
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/fga-eps-mds/2019.1-Grupo-7/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

@@ -1,1 +1,27 @@
-theme: jekyll-theme-architect
+title: "2019.1-Grupo-7"
+description: "description"
+
+url: https://fga-eps-mds.github.io/2019.1-Grupo-7/
+
+version: 35
+
+defaults:
+  - scope:
+      type: ""
+    values:
+      layout: "default"
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+markdown: kramdown
+
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# theme: jekyll-theme-architect
