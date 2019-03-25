@@ -1,14 +1,24 @@
 -
   name: Product
   icon: admin.svg
-  description: Guides for the basic usage.
+  description: Product documentation.
   path: product/
   pages:
     Project Charter: project-charter/
 -
+  name: Project
+  icon: admin.svg
+  description: Project documentation.
+  path: project/
+  pages:
+    Vision Document: vision-document
+    Architecture Document: architecture-document
+-
   name: Training
   icon: admin.svg
-  description: training documentation applied to the development team.
+  description: Training documentation applied to the development team.
   path: training/
   pages:
     Agile: agile/
+    Docker: docker/
+    Git: git/

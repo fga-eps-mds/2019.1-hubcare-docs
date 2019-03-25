@@ -1,6 +1,6 @@
 function scroll_toc(path) {
   // remove base either '/docs/' or '/'
-  var base = '/docs/';
+  var base = '/2019.1-Grupo-7/';
 
   path = path.indexOf(base) == 0? path.substring(base.length) : path.substring(1);
 
@@ -81,16 +81,16 @@ function checkTocOffset() {
 
 $(document).ready(function() {
 
-  scroll_toc(window.location.pathname);
+  scroll_toc(window.location.pathname.replace("2019.1-Grupo-7/", ""));
 
   $('#my_toc li:first-child a').addClass(' active');
 
-  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
+  var path = "/2019.1-Grupo-7/";
 
   addTocLevels();
 
 
-  if(location.pathname !== '/' && location.pathname !== '/docs/'){
+  if(location.pathname !== '/2019.1-Grupo-7/' && location.pathname !== '/docs/'){
 
 
 
