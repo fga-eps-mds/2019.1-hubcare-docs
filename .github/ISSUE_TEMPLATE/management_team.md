@@ -2,7 +2,7 @@
 name: Management Team Issues
 about: Template reserved to management team issues
 title: Doc name / Setup needed
-labels: ''
+labels: 'Docs'
 assignees: ''
 
 ---
