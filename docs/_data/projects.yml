@@ -1,0 +1,24 @@
+-
+  name: Produto
+  icon: admin.svg
+  description: Documentação do produto.
+  path: product/
+  pages:
+    Termo de Abertura de Projeto: project-charter/
+-
+  name: Projeto
+  icon: admin.svg
+  description: Documentação do produto.
+  path: project/
+  pages:
+    Documento de Visão: vision-document
+    Documento de Arquitetura: architecture-document
+-
+  name: Treinamentos
+  icon: admin.svg
+  description: Documentação dos treinamentos aplicadas para a equipe de desenvolvimento.
+  path: training/
+  pages:
+    Ágil: agile/
+    Docker: docker/
+    Git: git/
