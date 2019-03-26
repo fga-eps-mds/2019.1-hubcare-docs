@@ -8,6 +8,36 @@
 |:----:|:------:|:---------:|:-----:|
 | 24/03/19 | 0.1 | Abertura do Documento de Visão | Brian Lui |
 | 24/03/19 | 0.2 | Descrições dos Envolvidos e dos Usuários | Brian Lui |
+| 26/03/19 | 0.3 | Introdução | Francisco Heronildo |
+
+
+***
+## 1. Introdução
+***
+Esta introdução fonecerá tópicos relacionados a uma visão geral do produto, assim como próposito, escopo, definições, acrônimos, abreviações e referências do projeto.
+
+### 1.1 Propósito
+  
+Esse documento tem como propósito, apresentar uma visão geral do desenvolvimento do hubcare, e visa auxiliar a compreensão do contexto no qual será inserido.
+
+### 1.2 Escopo
+
+Esse projeto tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios ativo, receptivos e que lhe darão surporte, assim, zelando a qualidade da comunidade.
+
+### 1.3 Definições, acrônimos e abreviações
+
+* Hubcare - Nome do Plug-in
+* UnB - Universidade de Brasília
+* MDS - Métodos de Desenvolvimento de Software
+* EPS - Engenharia de Protudo de Software
+
+### 1.4 Referências
+
+* [**IBM Knowledge Center.**](https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.5/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html) Acessado em 24 de Março de 2019.
+
+### 1.5 Visão geral
+
+O documento de visão descreve os detalhes sobre as características e utilidades do plugin a ser desenvolvido. São apresentados o problema que motivou o desenvolvimento do software, o posicionamento do produto, descrição da parte interessada e do usuário, recursos, restrições e requisitos do produto.
 
 ***
 ## 3. Descrições dos Envolvidos e dos Usuários
