@@ -9,7 +9,7 @@
 | 24/03/19 | 0.1 | Abertura do Documento de Visão | Brian Lui |
 | 24/03/19 | 0.2 | Descrições dos Envolvidos e dos Usuários | Brian Lui |
 | 26/03/19 | 0.3 | Introdução | Francisco Heronildo |
-
+|26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário
 
 ***
 ## 1. Introdução
@@ -80,3 +80,15 @@ O documento de visão descreve os detalhes sobre as características e utilidade
   <tr><th>Envolvimento</th><td>Alto</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
+
+## 5. Recursos do Produto 
+***
+### 5.1 Verificar se o repositorio está ativo
+  O usuario poderá verificar se o repositorio está ativo, de acordo com quantidade de commits no ultimo mês e sua qualidade de aceitação de PRs.
+
+### 5.2 Verificar a receptividade para novos colaboradores
+  Verificar se o repositorio é receptivo através da qualidade de aceitação de PRs e a quantidade de contribuidores diferentes no ulitmo mês, levando em conta também a taxas de issues ativas e se possui Realease notes, Template de Pull Request e uma Taxa de Good-First-Issues.
+
+### 5.3 Verificação de Suporte
+  Analizar se o repositorio possui suporte ao usuario, com a verificação de ReadMe, Template de issues, se o repositorio possui Licença,Código de Conduta e se possui alguma descrição com informações para o usuario que queira contribuir. 
+  
