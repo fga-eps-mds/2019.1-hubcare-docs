@@ -10,6 +10,7 @@
 | 24/03/19 | 0.2 | Descrições dos Envolvidos e dos Usuários | Brian Lui |
 | 26/03/19 | 0.3 | Introdução | Francisco Heronildo |
 | 26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário |
+| 26/03019 | 0.5 | Posicionando | Francisco Heronildo |
  
 ***
 ## 1. Introdução
@@ -38,6 +39,23 @@ Esse projeto tem como objetivo suprir as necessidades de auxiliar os usuários d
 ### 1.5 Visão geral
 
 O documento de visão descreve os detalhes sobre as características e utilidades do plugin a ser desenvolvido. São apresentados o problema que motivou o desenvolvimento do software, o posicionamento do produto, descrição da parte interessada e do usuário, recursos, restrições e requisitos do produto.
+
+
+***
+## 2. Posicionando
+*** 
+
+### 2.1 Oportunidade de Negócios
+
+O Hubcare é um plugin voltado para comunidade do Github, e tem como proposta verificar projetos
+
+### 2.2 Instrução do Problema
+
+O problema de verificar a saúde do repositório afeta usuários do Github que tenham contribuido com algum repositório inativo, não receptivo ou sem suporte. O impacto do problema é que o contribuidor gastará tempo em um projeto abandonado. Uma solução bem sucedida incluiria desenvolvimendo de um software para auxilar a comunidade.
+
+### 2.3 	Instrução de Posição do Produto 
+
+Para os usuários da comunidade do Github que gostam contribuir com alguns projetos. O Hubcare é um plug-in que verificar a saúde do repositório. De outro modo sem concorrentes no momento, nosso produto preza pela qualidade do projeto.
 
 ***
 ## 3. Descrições dos Envolvidos e dos Usuários
