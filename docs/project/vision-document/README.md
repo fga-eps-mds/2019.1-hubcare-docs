@@ -23,7 +23,7 @@ Esse documento tem como propósito, apresentar uma visão geral do desenvolvimen
 
 ### 1.2 Escopo
 
-Esse projeto tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios ativo, receptivos e que lhe darão surporte, assim, zelando a qualidade da comunidade.
+O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios ativo, receptivos e que lhe darão surporte, assim, zelando a qualidade da comunidade.
 
 ### 1.3 Definições, acrônimos e abreviações
 
@@ -47,15 +47,17 @@ O documento de visão descreve os detalhes sobre as características e utilidade
 
 ### 2.1 Oportunidade de Negócios
 
-O Hubcare é um plugin voltado para comunidade do Github, e tem como proposta verificar projetos
+Atualmente para contribuir com projetos no Github é simples , porém, exite um problema, o usuário não tem a certeza se irá ter um retorno sobre aquele projeto.
+
+Hubcare, será desevolvido para fazer essa verificação nos repositórios da comunidade e classifica-ló se é ideal para contribuição.  
 
 ### 2.2 Instrução do Problema
 
-O problema de verificar a saúde do repositório afeta usuários do Github que tenham contribuido com algum repositório inativo, não receptivo ou sem suporte. O impacto do problema é que o contribuidor gastará tempo em um projeto abandonado. Uma solução bem sucedida incluiria desenvolvimendo de um software para auxilar a comunidade.
+O problema de verificar a saúde do repositório afeta usuários do Github que tenham contribuido com algum repositório inativo, não receptivo ou sem suporte. O impacto do problema é que o contribuidor gastará tempo em um projeto inativo. Uma solução bem sucedida incluiria desenvolvimendo de um software verificação para auxilar a comunidade.
 
 ### 2.3 	Instrução de Posição do Produto 
 
-Para os usuários da comunidade do Github que gostam contribuir com alguns projetos. O Hubcare é um plug-in que verificar a saúde do repositório. De outro modo sem concorrentes no momento, nosso produto preza pela qualidade do projeto.
+Para os usuários da comunidade do Github que gostam contribuir com alguns projetos. O Hubcare é um plug-in que verificar a saúde do repositório. De outro modo sem concorrentes no momento, nosso produto preza pela qualidade dos repositórios do Github.
 
 ***
 ## 3. Descrições dos Envolvidos e dos Usuários
