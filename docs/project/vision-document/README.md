@@ -11,6 +11,7 @@
 | 26/03/19 | 0.3 | Introdução | Francisco Heronildo |
 | 26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário |
 | 26/03019 | 0.5 | Posicionando | Francisco Heronildo |
+| 27/03/19 | 0.6 | Restrições | Jacó Apolinário |
  
 ***
 ## 1. Introdução
@@ -118,3 +119,8 @@ Para os usuários da comunidade do Github que gostam contribuir com alguns proje
 ### 5.3 Verificação de Suporte
   Analisar se o repositório possui suporte ao usuário, com a verificação de ReadMe, Template de issues, se o repositório possui Licença,Código de Conduta e se possui alguma descrição com informações para o usuário que queira contribuir. 
   
+## 6. Restrições
+***
+* É necessário conexão com Internet.
+* É necessário API do Github.
+* Só poderá ser usado no Chrome.
