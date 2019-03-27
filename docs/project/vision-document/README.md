@@ -9,8 +9,8 @@
 | 24/03/19 | 0.1 | Abertura do Documento de Visão | Brian Lui |
 | 24/03/19 | 0.2 | Descrições dos Envolvidos e dos Usuários | Brian Lui |
 | 26/03/19 | 0.3 | Introdução | Francisco Heronildo |
-|26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário
-
+| 26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário |
+ 
 ***
 ## 1. Introdução
 ***
@@ -61,7 +61,7 @@ O documento de visão descreve os detalhes sobre as características e utilidade
   <tr><th> Comentários / Problemas </th><td> - </td></tr>
 </table>
 
-#### 3.3.2	Equipe de Desenvolvedores
+#### 3.2.2	Equipe de Desenvolvedores
 <table>
   <tr><th> Representantes </th><td>
   Cleber José de Castro Júnior<br>
@@ -80,6 +80,12 @@ O documento de visão descreve os detalhes sobre as características e utilidade
   <tr><th>Envolvimento</th><td>Alto</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
+
+### 3.3 Principais Necessidades dos Usuários ou dos Envolvidos
+
+| Necessidade | Prioridade | Preocupações | Solução Atual | Soluções Propostas |
+|:---:|:---:|:---:|:---:|:---:|
+| Dados com as métricas que irão medir o nível de receptividade dos repositórios do Github. | Alta | Falta de métricas e de confiança dessas métricas. | Verificação manual das métricas dos repositórios. | Realizar a leitura dessas métricas, juntar todos em um plugin , e deste modo gerar dados que irão mostar o nível de saúde dos repositórios. |
 
 ## 5. Recursos do Produto 
 ***
