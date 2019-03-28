@@ -7,7 +7,7 @@
 | Data | Versão | Descrição | Autor |
 |:----:|:------:|:---------:|:-----:|
 | 24/03/19 | 0.1 | Abertura do Documento de Visão | Brian Lui |
-| 24/03/19 | 0.2 | Descrições dos Envolvidos e dos Usuários | Brian Lui |
+| 24/03/19 | 0.2 | Descrições da Parte Interessada e do Usuário | Brian Lui |
 | 26/03/19 | 0.3 | Introdução | Francisco Heronildo |
 | 26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário |
 | 26/03019 | 0.5 | Posicionando | Francisco Heronildo |
@@ -58,12 +58,12 @@ Hubcare, será desevolvido para fazer essa verificação nos repositórios da co
 
 O problema de verificar a saúde do repositório afeta usuários do Github que tenham contribuido com algum repositório inativo, não receptivo ou sem suporte. O impacto do problema é que o contribuidor gastará tempo em um projeto inativo. Uma solução bem sucedida incluiria desenvolvimendo de um software verificação para auxilar a comunidade.
 
-### 2.3 	Instrução de Posição do Produto 
+### 2.3 Instrução de Posição do Produto 
 
 Para os usuários da comunidade do Github que gostam contribuir com alguns projetos. O Hubcare é um plug-in que verificar a saúde do repositório. De outro modo sem concorrentes no momento, nosso produto preza pela qualidade dos repositórios do Github.
 
 ***
-## 3. Descrições dos Envolvidos e dos Usuários
+## 3. Descrições da Parte Interessada e do Usuário
 ***
 
 ### 3.1 Resumo dos Envolvidos
@@ -104,7 +104,7 @@ Para os usuários da comunidade do Github que gostam contribuir com alguns proje
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
 
-### 3.3 Principais Necessidades dos Usuários ou dos Envolvidos
+### 3.3 Principais Necessidades da Parte Interessada ou do Usuário
 
 | Necessidade | Prioridade | Preocupações | Solução Atual | Soluções Propostas |
 |:---:|:---:|:---:|:---:|:---:|
