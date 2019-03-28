@@ -17,6 +17,7 @@
 ***
 ## 1. Introdução
 ***
+
 Esta introdução fonecerá tópicos relacionados a uma visão geral do produto, assim como próposito, escopo, definições, acrônimos, abreviações e referências do projeto.
 
 ### 1.1 Propósito
@@ -126,8 +127,14 @@ O Hubcare irá automatizar o processo de análise de um determinado repositório
   
 </table>
 
+### 4.3 Licenciamento e Instalação
+
+Será a instalação do plugin no Chrome. O licenciamento do produto será do tipo MIT(software livre). Ou seja, qualquer pessoa que adquirir uma cópia dos arquivos deste software, poderá lidar com ele sem restrições e sem limitação do direito de uso, cópia, publicação, publicar ou até mesmo vender.
+
+***
 ## 5. Recursos do Produto 
 ***
+
 ### 5.1 Verificar se o repositorio está ativo
   O usuário poderá verificar se o repositório está ativo, de acordo com quantidade de commits no ultimo mês e sua qualidade de aceitação de PRs.
 
@@ -137,6 +144,7 @@ O Hubcare irá automatizar o processo de análise de um determinado repositório
 ### 5.3 Verificação de Suporte
   Analisar se o repositório possui suporte ao usuário, com a verificação de ReadMe, Template de issues, se o repositório possui Licença,Código de Conduta e se possui alguma descrição com informações para o usuário que queira contribuir. 
   
+***
 ## 6. Restrições
 ***
 * É necessário conexão com Internet.
