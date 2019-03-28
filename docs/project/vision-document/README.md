@@ -34,6 +34,7 @@ O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do G
 * UnB - Universidade de Brasília
 * MDS - Métodos de Desenvolvimento de Software
 * EPS - Engenharia de Protudo de Software
+* PR's - Pull Requests
 
 ### 1.4 Referências
 
