@@ -12,6 +12,7 @@
 | 26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário |
 | 26/03019 | 0.5 | Posicionando | Francisco Heronildo |
 | 27/03/19 | 0.6 | Restrições | Jacó Apolinário |
+| 27/03/19 | 0.7 | Visão Geral do Produto | Brian Lui |
  
 ***
 ## 1. Introdução
@@ -107,6 +108,14 @@ Para os usuários da comunidade do Github que gostam contribuir com alguns proje
 | Necessidade | Prioridade | Preocupações | Solução Atual | Soluções Propostas |
 |:---:|:---:|:---:|:---:|:---:|
 | Dados com as métricas que irão medir o nível de receptividade dos repositórios do Github. | Alta | Falta de métricas e de confiança dessas métricas. | Verificação manual das métricas dos repositórios. | Realizar a leitura dessas métricas, juntar todos em um plugin , e deste modo gerar dados que irão mostar o nível de saúde dos repositórios. |
+
+***
+## 4. Visão Geral do Produto
+***
+
+### 4.1 Perspectiva do Produto
+
+O Hubcare irá automatizar o processo de análise de um determinado repositório que seja de interesse do usuário, mostrando se o  mesmo está ativo e se é receptível. O plugin fornecerá dados de acordo com métricas pré-determinadas, para os usuários com os dados necessários para saber o nível de receptividade. Tais métricas contemplam pull requests aceitos e rejeitador, número de issues abertas, fechadas, com comentários e sem comentários,número de commits. Deste modo, é possível agilizar o processo em que um usuário tenha que entrar em um repositório e analisar todas essas métricas um por um. 
 
 ## 5. Recursos do Produto 
 ***
