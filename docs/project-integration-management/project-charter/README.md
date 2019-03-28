@@ -2,11 +2,16 @@
 
 **Autor: Lucas Hiroshi Horinouchi**
 
-## Descrição do Projeto em alto nível   
+## Descrição do Projeto em alto nível
+Existem diversas comunidades dentro do github e decidir se irá contribuir para uma comunidade X ou Y é um problema não é possivel saber como está a saúde de uma comunidade.
+
+Ao criar uma *issue* dentro de uma comunidade é possível que ele não seja respondido e que um *pull requests* não seja avaliado. 
+
+É necessario ter um modo de avaliar uma comunidade para evitar retrabalhos seja em refatoração de codigo devido a bibliotecas descontinuadas ou tempo gasto contribuindo e abrindo um *PR* que não será respondido.
 <br>
 
 ## Propósito ou justificativa do Projeto
-Existe uma dificuldade em saber em quais projetos dentro da plataforma Github é recomendado contribuir.
+Saber em quais projetos dentro da plataforma Github é recomendado contribuir de acordo com a atividade de uma comunidade.
 <br>
 
 ## Objetivos do Projeto
@@ -26,8 +31,6 @@ A serem levantados
 ## Premissas Iniciais
 - A equipe deverá consultar os requisitos com um stakeholder
 - As métricas deverão refletir a comunidade
-- 
-- 
 <br>
 
 ## Restrições Iniciais
@@ -64,11 +67,15 @@ A serem levantados
 
 ## Requisitos para aprovação do Projeto
 - Estar matriculado em MDS e EPS
-- Projeto ter sido aceito pela Prof. Carla Silva Rocha Aguiar
+- Tema e escopo do projeto ter sido aceito pela Prof. Carla Silva Rocha Aguiar
 <br>
 
-## Gerente do Projeto
-A serem levantados
+## Gerentes do Projeto
+|Nome|Responsabilidades|
+|----|-----------------|
+|Lucas Hiroshi Horinouchi|Garantir que o projeto será concluído e os objetivos, alcançados. Definir responsabilidades e recursos. 
+|Filipe Toyoshima|Garantir que o projeto atende aos requisitos. Definir objetivos gerais e individuais, cronograma de atividades. 
+
 <br>
 
 # Referências
