@@ -13,6 +13,7 @@
 | 26/03019 | 0.5 | Posicionando | Francisco Heronildo |
 | 27/03/19 | 0.6 | Restrições | Jacó Apolinário |
 | 27/03/19 | 0.7 | Visão Geral do Produto | Brian Lui |
+| 28/03/19 | 0.8 | Revisão | Brian Lui, Francisco Heronildo, Jacó Apolinário |
  
 ***
 ## 1. Introdução
@@ -26,7 +27,7 @@ Esse documento tem como propósito, apresentar uma visão geral do desenvolvimen
 
 ### 1.2 Escopo
 
-O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios ativo, receptivos e que lhe darão surporte, assim, zelando a qualidade da comunidade.
+O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios, assim, zelando a qualidade da comunidade.
 
 ### 1.3 Definições, acrônimos e abreviações
 
@@ -137,17 +138,21 @@ Será a instalação do plugin no Chrome. O licenciamento do produto será do ti
 ***
 
 ### 5.1 Verificar se o repositorio está ativo
-  O usuário poderá verificar se o repositório está ativo, de acordo com quantidade de commits no ultimo mês e sua qualidade de aceitação de PRs.
+
+O usuário poderá verificar se o repositório está ativo, de acordo com quantidade de commits no ultimo mês e sua qualidade de aceitação de PRs.
 
 ### 5.2 Verificar a receptividade para novos colaboradores
-  Verificar se o repositório é receptivo através da qualidade de aceitação de PRs e a quantidade de contribuidores diferentes no ultimo mês, levando em conta também a taxas de issues ativas e se possui Realease notes, Template de Pull Request e uma Taxa de Good-First-Issues.
+
+Verificar se o repositório é receptivo através da qualidade de aceitação de PRs e a quantidade de contribuidores diferentes no ultimo mês, levando em conta também a taxas de issues ativas e se possui Realease notes, Template de Pull Request e uma Taxa de Good-First-Issues.
 
 ### 5.3 Verificação de Suporte
-  Analisar se o repositório possui suporte ao usuário, com a verificação de ReadMe, Template de issues, se o repositório possui Licença,Código de Conduta e se possui alguma descrição com informações para o usuário que queira contribuir. 
+
+Analisar se o repositório possui suporte ao usuário, com a verificação de ReadMe, Template de issues, se o repositório possui Licença,Código de Conduta e se possui alguma descrição com informações para o usuário que queira contribuir. 
   
 ***
 ## 6. Restrições
 ***
-* É necessário conexão com Internet.
+
+* Conexão com Internet.
 * É necessário API do Github.
-* Só poderá ser usado no Chrome.
+* Suporte com o navegador Google Chrome.
