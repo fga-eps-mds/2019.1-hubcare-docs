@@ -115,7 +115,16 @@ Para os usuários da comunidade do Github que gostam contribuir com alguns proje
 
 ### 4.1 Perspectiva do Produto
 
-O Hubcare irá automatizar o processo de análise de um determinado repositório que seja de interesse do usuário, mostrando se o  mesmo está ativo e se é receptível. O plugin fornecerá dados de acordo com métricas pré-determinadas, para os usuários com os dados necessários para saber o nível de receptividade. Tais métricas contemplam pull requests aceitos e rejeitador, número de issues abertas, fechadas, com comentários e sem comentários,número de commits. Deste modo, é possível agilizar o processo em que um usuário tenha que entrar em um repositório e analisar todas essas métricas um por um. 
+O Hubcare irá automatizar o processo de análise de um determinado repositório que seja de interesse do usuário, mostrando se o  mesmo está ativo e se é receptível. O plugin fornecerá dados de acordo com métricas pré-determinadas, para os usuários com os dados necessários para saber o nível de receptividade. Tais métricas contemplam pull requests aceitos e rejeitados, número de issues abertas, fechadas, com comentários e sem comentários,número de commits. Deste modo, é possível agilizar o processo em que um usuário tenha que entrar em um repositório e analisar todas essas métricas um por um. 
+
+### 4.2 Resumo das Capacidades
+
+<table>
+
+  <tr><th>Benefício para o Cliente</th><th>Recursos de Suporte</td></tr>
+  <tr><td>Agilidade na análise dos dados de algum repositório.</th><td>Será apresentada uma base de dados, em que o usuário poderá identificar rapidamente a saúde do repositório..</td></tr>
+  
+</table>
 
 ## 5. Recursos do Produto 
 ***
