@@ -55,17 +55,39 @@ O documento de visão descreve os características e utilidades da aplicação. 
 
 ### 2.1 Oportunidade de Negócios
 
-Atualmente para contribuir com projetos no Github é simples , porém, exite um problema, o usuário não tem a certeza se irá ter um retorno sobre aquele projeto.
+O hubcare é direcionado para os usuários, que terá conhecimento do nível de receptividade dos seus repositórios, também para contribuidores, que pretendem fazer uma contribuição para algum projeto. 
 
-Hubcare, será desevolvido para fazer essa verificação nos repositórios da comunidade e classifica-ló se é ideal para contribuição.  
+Atualmente para contribuir com projetos no Github é simples , porém, exite um problema, o usuário não tem a certeza se irá ter um retorno sobre aquele projeto. Desse modo, o hubcare será desenvolvido para fazer essas verificações e classificar se o repositório é ideal.
 
 ### 2.2 Instrução do Problema
 
-O problema de verificar a saúde do repositório afeta usuários do Github que tenham contribuido com algum repositório inativo, não receptivo ou sem suporte. O impacto do problema é que o contribuidor gastará tempo em um projeto inativo. Uma solução bem sucedida incluiria desenvolvimendo de um software verificação para auxilar a comunidade.
+| Tipo | Descrição |
+|:----:|:---------:|
+|**Problema**| Contribuir para um repositório que seja pouco receptivo |
+|**Afeta**| Contribuidores do Github |
+|**Impactos**| Contribuidor gastará tempo em um projeto não muito ativo |
+|**Solução**| apresentará dados da saúde do repositório |
+
+<br><br/>
+
+| Tipo | Descrição |
+|:----:|:---------:|
+|**Problema**| O usuário não tem conhecimento se o seu repositório é atrativo para comunidade |
+|**Afeta**| Usuários do Github |
+|**Impactos**| O usuário não terá ajuda da comunidade em seu projeto |
+|**Solução**| apresentará dados da saúde do repositório |
+
 
 ### 2.3 Instrução de Posição do Produto 
 
-Para os usuários da comunidade do Github que gostam contribuir com alguns projetos. O Hubcare é um plug-in que verificar a saúde do repositório. De outro modo sem concorrentes no momento, nosso produto preza pela qualidade dos repositórios do Github.
+
+| Tipo | Descrição |
+|:----:|:---------:|
+|**Público Alvo**| Comunidade do Github |
+|**Carências**| Exibição intuitiva dos dados do repositório |
+|**Solução**| Hubcare |
+|**Solução Descrição da Solução**| Plugin que apresentará dados a respeito do repositório de forma intuitiva |
+|**Diferenciais**| Primeiro software a realizar essa aplicação |
 
 ***
 ## 3. Descrições da Parte Interessada e do Usuário
