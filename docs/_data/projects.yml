@@ -1,11 +1,4 @@
 -
-  name: Produto
-  icon: admin.svg
-  description: Documentação do produto.
-  path: product/
-  pages:
-    Termo de Abertura de Projeto: project-charter/
--
   name: Projeto
   icon: admin.svg
   description: Documentação do produto.
@@ -13,6 +6,20 @@
   pages:
     Documento de Visão: vision-document
     Documento de Arquitetura: architecture-document
+-
+  name: Gerenciamento de Integração
+  icon: admin.svg
+  description: Integração inclui características de unificação, consolidação, comunicação e ações integradoras que são essenciais para a execução controlada do projeto até a sua conclusão.
+  path: project-integration-management/
+  pages:
+    Termo de Abertura de Projeto: project-charter/
+-
+  name: Gerenciamento de qualidade
+  icon: admin.svg
+  description: Modelos de medição utilizados no projeto.
+  path: project-quality-management/
+  pages:
+    Modelo de Medição de Repositórios do GitHub: measurement-model/
 -
   name: Treinamentos
   icon: admin.svg

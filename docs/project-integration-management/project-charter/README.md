@@ -71,10 +71,11 @@ A serem levantados
 <br>
 
 ## Gerentes do Projeto
+
 |Nome|Responsabilidades|
 |----|-----------------|
-|Lucas Hiroshi Horinouchi|Garantir que o projeto será concluído e os objetivos, alcançados. Definir responsabilidades e recursos. 
-|Filipe Toyoshima|Garantir que o projeto atende aos requisitos. Definir objetivos gerais e individuais, cronograma de atividades. 
+| Lucas Hiroshi Horinouchi | Garantir que o projeto será concluído e os objetivos, alcançados. Definir responsabilidades e recursos. |
+| Filipe Toyoshima | Garantir que o projeto atende aos requisitos. Definir objetivos gerais e individuais, cronograma de atividades. |
 
 <br>
 
