@@ -14,7 +14,8 @@
 | 27/03/19 | 0.6 | Restrições | Jacó Apolinário |
 | 27/03/19 | 0.7 | Visão Geral do Produto | Brian Lui |
 | 28/03/19 | 0.8 | Revisão | Brian Lui, Francisco Heronildo, Jacó Apolinário |
- 
+ | 29/03/19 | 0.9 | Ajustes da Introdução| Francisco Heronildo, Brian Lui |
+
 ***
 ## 1. Introdução
 ***
@@ -25,9 +26,11 @@ Esta introdução fonecerá tópicos relacionados a uma visão geral do produto,
   
 Esse documento tem como propósito, apresentar uma visão geral do desenvolvimento do hubcare, e visa auxiliar a compreensão do contexto no qual será inserido.
 
+O hubcare é um plugin, feito para comunidade do Github, que visa verificar se os repositórios são receptives para os usuários de acordo com métricas pré-derteminadas. 
+
 ### 1.2 Escopo
 
-O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios, assim, zelando a qualidade da comunidade.
+O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios e ajuda-ló a fazer escolhas atráves de dados, seja um contribuidor que quer saber se a contribuçao vai ser aceita pela comunidade ou um usuário do software que quer saber se ele terá suporte ou será abandonado pela comunidade, assim, zelando a qualidade da mesma.
 
 ### 1.3 Definições, acrônimos e abreviações
 
@@ -43,7 +46,7 @@ O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do G
 
 ### 1.5 Visão geral
 
-O documento de visão descreve os detalhes sobre as características e utilidades do plugin a ser desenvolvido. São apresentados o problema que motivou o desenvolvimento do software, o posicionamento do produto, descrição da parte interessada e do usuário, recursos, restrições e requisitos do produto.
+O documento de visão descreve os características e utilidades da aplicação. São apresentados o problema que motivou o desenvolvimento do software, o posicionamento do produto, descrição da parte interessada e do usuário, recursos, restrições e requisitos do produto.
 
 
 ***
