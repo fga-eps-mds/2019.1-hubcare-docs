@@ -15,7 +15,7 @@ Obs: Por mais que o objetivo deste projeto de software seja auxiliar usuários d
 
 ### Visão Geral
 
-![Diagrama do GQM](/docs/images/charts/gqmChart.png)
+![Diagrama do GQM]({{ site.url }}/images/charts/gqmChart.png)
 
 ## Nível Conceitual - Os Objetivo de Medição
 

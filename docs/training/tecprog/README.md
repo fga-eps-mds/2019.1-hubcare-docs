@@ -16,10 +16,16 @@ Foram passados slides seguidos por uma discussão em como aplicar as técninas.
 
 ## Material Utilizado
 
-[Project Presentation](01.pdf "Boas Práticas e Clean Code")
-[Project Presentation](02.pdf "Code smells: Bloaters")
-[Project Presentation](03.pdf "Guia de Estilos")
-[Project Presentation](04.pdf "Boas práticas de refatoração")
-[Project Presentation](05.pdf "Change preventers")
-[Project Presentation](06.pdf "Dispensáveis")
-[Project Presentation](07.pdf "Acopladores")
+[Boas Práticas e Clean Code](01.pdf "Boas Práticas e Clean Code")
+<br>
+[Code smells: Bloaters](02.pdf "Code smells: Bloaters")
+<br>
+[Guia de Estilos](03.pdf "Guia de Estilos")
+<br>
+[Boas práticas de refatoração](04.pdf "Boas práticas de refatoração")
+<br>
+[Change preventers](05.pdf "Change preventers")
+<br>
+[Dispensáveis](06.pdf "Dispensáveis")
+<br>
+[Acopladores](07.pdf "Acopladores")
