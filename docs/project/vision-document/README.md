@@ -15,6 +15,8 @@
 | 27/03/19 | 0.7 | Visão Geral do Produto | Brian Lui |
 | 28/03/19 | 0.8 | Revisão | Brian Lui, Francisco Heronildo, Jacó Apolinário |
  | 29/03/19 | 0.9 | Ajustes da Introdução| Francisco Heronildo, Brian Lui |
+| 29/03/19 | 0.10 | Ajustes do Posicionamento | Francisco Heronildo, Brian Lui |
+| 29/03/19 | 0.11 | Ajustes dos Perfis do Usuário | Francisco Heronildo, Brian Lui |
 
 ***
 ## 1. Introdução
@@ -96,14 +98,14 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 ### 3.1 Resumo dos Envolvidos
 | Nome | Descrição | Responsabilidades |
 |:----:|:---------:|:-----------------:|
-| Investidores | Usuários do Github. | Avaliar a qualidade deste sistema para que os usuários da plataforma se beneficiem cada vez mais.
+| Usuários do Github | Pessoas que utilizam a plataforma, Github. | Avaliar a qualidade deste sistema para que os usuários da plataforma se beneficiem cada vez mais.
 | Equipe de desenvolvimento do projeto | A Equipe é composta por alunos de graduação do Curso de Engenharia de Software da Universidade de Brasília, discentes na matéria Métodos de Desenvolvimento de Software ou Engenharia de Produto de Software. | Planejar, desenvolver, testar, documentar e implementar o sistema. |
 
 ### 3.2 Perfis dos Usuários
 
-#### 3.2.1	Investidores
+#### 3.2.1	Usuários do Github
 <table>
-  <tr><th>Descrição</th><td>Usuários do Github com o interesse em medir a receptividade de um determinado repositório.</td></tr>
+  <tr><th>Descrição</th><td>Contribuidores e usuários de projeto do Github com o interesse em medir a receptividade de um determinado repositório.</td></tr>
   <tr><th>Tipo</th><td>Conhecimento da plataforma do Github.</td></tr>
   <tr><th>Responsabilidades</th><td> Testar o plugin e dar o feedback se o repositório é mesmo receptível de acordo com os dados demonstrados.</td></tr>
   <tr><th>Critérios de Sucesso </th><td>O repositório escolhido pelo usuário apresentar a receptividade de acordo com os resultados apresentado no Plugin.</td></tr>
@@ -135,7 +137,7 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 
 | Necessidade | Prioridade | Preocupações | Solução Atual | Soluções Propostas |
 |:---:|:---:|:---:|:---:|:---:|
-| Dados com as métricas que irão medir o nível de receptividade dos repositórios do Github. | Alta | Falta de métricas e de confiança dessas métricas. | Verificação manual das métricas dos repositórios. | Realizar a leitura dessas métricas, juntar todos em um plugin , e deste modo gerar dados que irão mostar o nível de saúde dos repositórios. |
+| Dados com as métricas que irão medir o nível de receptividade dos repositórios e se o mesmo está ativo , dando suporte ao usuário. | Alta | Falta de métricas e de confiança dessas métricas. | Verificação manual das métricas dos repositórios. | Realizar a leitura dos dados da API do github, com isso será criado métricas, e assim gerando indicadores de um determinado repositório, para assim mostrar o nível de saúde. |
 
 ***
 ## 4. Visão Geral do Produto
