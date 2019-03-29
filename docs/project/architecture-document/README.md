@@ -30,7 +30,7 @@ Este sistema de visualizaçãoe está fortemente ligado à representação por U
 
 ### Diagrama de relações:
 
-![Gras^[Fonte: Do_autor]](images/Gras.png)
+![Carga^[Fonte: Do_autor]](images/Gras.png)
 
 ### Metodologia
 
