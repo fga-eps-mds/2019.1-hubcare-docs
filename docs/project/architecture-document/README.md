@@ -34,6 +34,9 @@ Este sistema de visualizaçãoe está fortemente ligado à representação por U
 
 ### Metodologia
 
+O hubcare utiliza uma arquitetura elaborada com base 
+nos principais componentes estruturais que serão utilizadas no sistema. A arquitetura vem com intuito de mostrar diferentes perspectiva do software, demonstrando todas as tecnologias e as aplicações no projeto.
+
 ### Design do processo arquitetural
 Microsserviços - Abordagem que desenvolve uma única aplicação em uma suite de pequenos serviços.
 
