@@ -17,6 +17,7 @@
  | 29/03/19 | 0.9 | Ajustes da Introdução| Francisco Heronildo, Brian Lui |
 | 29/03/19 | 0.10 | Ajustes do Posicionamento | Francisco Heronildo, Brian Lui |
 | 29/03/19 | 0.11 | Ajustes dos Perfis do Usuário | Francisco Heronildo, Brian Lui |
+| 29/03/19 | 0.12 | Ajustes da Visão Geral do Produto | Francisco Heronildo, Brian Lui |
 
 ***
 ## 1. Introdução
@@ -145,7 +146,7 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 
 ### 4.1 Perspectiva do Produto
 
-O Hubcare irá automatizar o processo de análise de um determinado repositório que seja de interesse do usuário, mostrando se o  mesmo está ativo e se é receptível. O plugin fornecerá dados de acordo com métricas pré-determinadas, para os usuários com os dados necessários para saber o nível de receptividade. Tais métricas contemplam pull requests aceitos e rejeitados, número de issues abertas, fechadas, com comentários e sem comentários,número de commits. Deste modo, é possível agilizar o processo em que um usuário tenha que entrar em um repositório e analisar todas essas métricas um por um. 
+O Hubcare irá automatizar o processo de análise de um determinado repositório que seja de interesse do usuário, mostrando se o  mesmo está ativo e se é receptível. O plugin fornecerá dados de acordo com métricas pré-determinadas, para os usuários com os dados necessários para saber o nível de receptividade. Deste modo, é possível agilizar o processo em que um usuário tenha que entrar em um repositório e analisar todas essas métricas um por um. 
 
 ### 4.2 Resumo das Capacidades
 
@@ -158,7 +159,7 @@ O Hubcare irá automatizar o processo de análise de um determinado repositório
 
 ### 4.3 Licenciamento e Instalação
 
-Será a instalação do plugin no Chrome. O licenciamento do produto será do tipo MIT(software livre). Ou seja, qualquer pessoa que adquirir uma cópia dos arquivos deste software, poderá lidar com ele sem restrições e sem limitação do direito de uso, cópia, publicação, publicar ou até mesmo vender.
+Será necessário a instalação do plugin que estará disponível na Chrome Store do navegador Google Chrome. O licenciamento do produto será do tipo MIT(software livre). Ou seja, qualquer pessoa que adquirir uma cópia dos arquivos deste software, poderá lidar com ele sem restrições e sem limitação do direito de uso, cópia, publicação, publicar ou até mesmo vender.
 
 ***
 ## 5. Recursos do Produto 
