@@ -62,7 +62,7 @@ A serem levantados
 - Equipe de desevolvimento
 - Comunidades do Github
 - Carla Silva Rocha Aguiar
-- Miranda
+- Matheus Miranda
 <br>
 
 ## Requisitos para aprovação do Projeto
