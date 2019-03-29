@@ -43,16 +43,23 @@ Microsserviços - Abordagem que desenvolve uma única aplicação em uma suite d
 ## Metas e restrições de arquitetura
 Tecnologias envolvidas.
 
-HTML/CSS - Utilizado no desenvolvimento Web de forma padrão e estruturado.
-JavaScrip - Utilizado no desenvolvimento Web de forma dinâmica.
-Python - Linguagem utilizada no desenvolvimento back-end da aplicação.
-Django - Framework de desenvolvimento para web que faz uso do padrão model-template-view.
-Docker - Tecnologia de fornecimento de contêineres, adicionando uma camada de abstração, automação e virtualização ao S.O.
-Google Chrome - Navegador para aplicação do plug-in.
+* HTML/CSS - Utilizado no desenvolvimento Web de forma padrão e estruturado.
+* JavaScrip - Utilizado no desenvolvimento Web de forma dinâmica.
+* Python - Linguagem utilizada no desenvolvimento back-end da aplicação.
+* Django - Framework de desenvolvimento para web que faz uso do padrão model-template-view.
+* Docker - Tecnologia de fornecimento de contêineres, adicionando uma camada de abstração, automação e virtualização ao S.O.
+* Google Chrome - Navegador para aplicação do plug-in.
+
+O Pluguin possui as seguintes restrições de arquitetura:
+
+* Versão do plugin apenas para o Google Chrome
+* Número limitado de requisições feitas para a API do GitHub
 
 ## Visão de implementação
 Os dados serão modelados através de UML.
 Os pacotes terão caminhos no front-end e back-end .
+A API desenvolvida com o framework Django REST fara requerimentos 
+na API do GitHUb
 
 ## Pipeline
 CJJCastro
