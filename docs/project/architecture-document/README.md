@@ -1,4 +1,4 @@
-# Architecture Document
+# Documento de arquitetura
 
 ## Introdução
 
@@ -26,21 +26,27 @@ Este documento apresenta o sistema de arquitetura no formato 4+1 view. Este form
 
 Este sistema de visualizaçãoe está fortemente ligado à representação por UML.
 
+
 ## Arquitetura do processo
 
-### Diagrama de relações:
+### Diagrama de arquitetura do Django
 
-![Carga^[Fonte: Do_autor]](images/Gras.png)
+![Diagrama de arquitetura Django](Django.png)
 
 ### Metodologia
 
 O hubcare utiliza uma arquitetura elaborada com base 
 nos principais componentes estruturais que serão utilizadas no sistema. A arquitetura vem com intuito de mostrar diferentes perspectiva do software, demonstrando todas as tecnologias e as aplicações no projeto.
 
+
+
 ### Design do processo arquitetural
+
+
 Microsserviços - Abordagem que desenvolve uma única aplicação em uma suite de pequenos serviços.
 
 ## Metas e restrições de arquitetura
+
 Tecnologias envolvidas.
 
 * HTML/CSS - Utilizado no desenvolvimento Web de forma padrão e estruturado.
@@ -50,14 +56,21 @@ Tecnologias envolvidas.
 * Docker - Tecnologia de fornecimento de contêineres, adicionando uma camada de abstração, automação e virtualização ao S.O.
 * Google Chrome - Navegador para aplicação do plug-in.
 
-O Pluguin possui as seguintes restrições de arquitetura:
+O Pluguin Hubcare possui as seguintes restrições de arquitetura:
+
 
 * Versão do plugin apenas para o Google Chrome
-* Número limitado de requisições feitas para a API do GitHub
+* Número de requisições feitas para a API do GitHub
+* O pluguin não haverá suporte 24/7
+
+
+
 
 ## Visão de implementação
+
+
 Os dados serão modelados através de UML.
-Os pacotes terão caminhos no front-end e back-end .
+Os pacotes terão caminhos no front-end e back-end.
 A API desenvolvida com o framework Django REST fara requerimentos 
 na API do GitHUb
 
