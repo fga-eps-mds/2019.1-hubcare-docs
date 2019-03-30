@@ -7,12 +7,13 @@
     Documento de Visão: vision-document
     Documento de Arquitetura: architecture-document
 -
-  name: Gerenciamento de Integração
+ name: Gerenciamento de Integração
   icon: admin.svg
   description: Integração inclui características de unificação, consolidação, comunicação e ações integradoras que são essenciais para a execução controlada do projeto até a sua conclusão.
   path: project-integration-management/
   pages:
     Termo de Abertura de Projeto: project-charter/
+    Plano de Gerenciamento de Projeto: project-management-plan/
 -
   name: Gerenciamento de qualidade
   icon: admin.svg
@@ -30,3 +31,4 @@
     Docker: docker/
     Git: git/
     Tecprog: tecprog/
+ 
