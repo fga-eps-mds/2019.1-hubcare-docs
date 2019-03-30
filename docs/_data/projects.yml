@@ -7,7 +7,7 @@
     Documento de Visão: vision-document
     Documento de Arquitetura: architecture-document
 -
- name: Gerenciamento de Integração
+  name: Gerenciamento de Integração
   icon: admin.svg
   description: Integração inclui características de unificação, consolidação, comunicação e ações integradoras que são essenciais para a execução controlada do projeto até a sua conclusão.
   path: project-integration-management/
