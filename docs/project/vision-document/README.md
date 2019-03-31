@@ -18,6 +18,7 @@
 | 29/03/19 | 0.10 | Ajustes do Posicionamento | Francisco Heronildo, Brian Lui |
 | 29/03/19 | 0.11 | Ajustes dos Perfis do Usuário | Francisco Heronildo, Brian Lui |
 | 29/03/19 | 0.12 | Ajustes da Visão Geral do Produto | Francisco Heronildo, Brian Lui |
+| 30/03/19 | 0.13 | Ajustes dos Recusos do Produto | Francisco Heronildo, Jacó |
 
 ***
 ## 1. Introdução
@@ -165,18 +166,8 @@ Será necessário a instalação do plugin que estará disponível na Chrome Sto
 ## 5. Recursos do Produto 
 ***
 
-### 5.1 Verificar se o repositorio está ativo
+O Hubcare através de dados coletados da API do Github,deve ser um plugin capaz de fornecer informações sobre os repositórios,verificando se ele é ativo,receptivo,e se fornece assistência à comunidade do Github.
 
-O usuário poderá verificar se o repositório está ativo, de acordo com quantidade de commits no ultimo mês e sua qualidade de aceitação de PRs.
-
-### 5.2 Verificar a receptividade para novos colaboradores
-
-Verificar se o repositório é receptivo através da qualidade de aceitação de PRs e a quantidade de contribuidores diferentes no ultimo mês, levando em conta também a taxas de issues ativas e se possui Realease notes, Template de Pull Request e uma Taxa de Good-First-Issues.
-
-### 5.3 Verificação de Suporte
-
-Analisar se o repositório possui suporte ao usuário, com a verificação de ReadMe, Template de issues, se o repositório possui Licença,Código de Conduta e se possui alguma descrição com informações para o usuário que queira contribuir. 
-  
 ***
 ## 6. Restrições
 ***
