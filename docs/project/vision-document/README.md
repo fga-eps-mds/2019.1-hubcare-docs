@@ -21,6 +21,7 @@
 | 30/03/19 | 0.13 | Ajustes dos Recusos do Produto | Francisco Heronildo, Jacó |
 | 30/03/19 | 0.14 | Ajustes das Restrições do Produto | Francisco Heronildo, Jacó |
 | 30/03/19 | 0.15 | Faixas de Qualidade | Francisco Heronildo |
+| 31/03/19 | 0.16 | Outros Requisitos do Produto | Francisco Heronildo |
 
 ***
 ## 1. Introdução
@@ -190,3 +191,11 @@ O software deverá ser desenvolvido nas linguagens HTML/CSS,JavaScript e Python 
 ***
 
 O plugin será disponibilizado na Chrome Web Store para maior eficiência em dispositivos que tenham suporte com o navegador Google Chrome e conexão com a internet.
+
+
+***
+## 8. Outros Requisitos do Produto
+***
+
+### 8.1 Requisitos do Sistema
+   Dispositivo que tenham suporte com o Navegador Google Chrome e acesso a internet
