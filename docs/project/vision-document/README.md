@@ -24,37 +24,6 @@
 | 31/03/19 | Outros Requisitos do Produto | Francisco Heronildo |
 | 31/03/19 | Índice | Francisco Heronildo |
 
-
-## Índice
-
-* [1. Introdução](#id1)
-* [1.1 Propósito](#id11)
-* [1.2 Escopo](#id12)
-* [1.3 Definições, acrônimos e abreviações](#id13)
-* [1.4 Referências](#id14)
-* [1.5 Visão Geral](#id15)
-* [2. Posicionando](#id2)
-* [2.1 Oportunidade de Negócios](#id21)
-* [2.2 Instrução do Problema](#id22)
-* [2.2.1 Contribuidor](#id221)
-* [2.2.2 Usuários do Github](#id222)
-* [2.3 Instrução de Posição do Produto](#id23)
-* [3. Descrições da Parte Interessada e do Usuário](#id3)
-* [3.1 Resumo dos Envolvidos](#id31)
-* [3.2 Perfis dos Usuários](#id32)
-* [3.2.1 Usuários do Github](#id321)
-* [3.2.2 Equipe de Desenvolvedores](#id322)
-* [3.3 Principais Necessidades da Parte Interessada ou do Usuário](#id33)
-* [4. Visão Geral do Produto](#id4)
-* [4.1 Perspectiva do Produto](#id41)
-* [4.2 Resumo das Capacidades](#id4)
-* [4.3 Licenciamento e Instalação](#id43)
-* [5. Recursos do Produto](#id5)
-* [6. Restrições](#id6)
-* [6.1 Restrições de Design](#id61)
-* [6.2 Restrições de Implementação](#id63)
-* [7. Faixas de Qualidade](#id7)
-
 ***
 ## 1. Introdução
 ***
