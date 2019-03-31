@@ -4,25 +4,25 @@
 ## Histórico de Revisão
 ***
 
-| Data | Versão | Descrição | Autor |
-|:----:|:------:|:---------:|:-----:|
-| 24/03/19 | 0.1 | Abertura do Documento de Visão | Brian Lui |
-| 24/03/19 | 0.2 | Descrições da Parte Interessada e do Usuário | Brian Lui |
-| 26/03/19 | 0.3 | Introdução | Francisco Heronildo |
-| 26/03/19 | 0.4 | Recursos do Produto e Restrições | Jacó Apolinário |
-| 26/03019 | 0.5 | Posicionando | Francisco Heronildo |
-| 27/03/19 | 0.6 | Restrições | Jacó Apolinário |
-| 27/03/19 | 0.7 | Visão Geral do Produto | Brian Lui |
-| 28/03/19 | 0.8 | Revisão | Brian Lui, Francisco Heronildo, Jacó Apolinário |
- | 29/03/19 | 0.9 | Ajustes da Introdução| Francisco Heronildo, Brian Lui |
-| 29/03/19 | 0.10 | Ajustes do Posicionamento | Francisco Heronildo, Brian Lui |
-| 29/03/19 | 0.11 | Ajustes dos Perfis do Usuário | Francisco Heronildo, Brian Lui |
-| 29/03/19 | 0.12 | Ajustes da Visão Geral do Produto | Francisco Heronildo, Brian Lui |
-| 30/03/19 | 0.13 | Ajustes dos Recusos do Produto | Francisco Heronildo, Jacó |
-| 30/03/19 | 0.14 | Ajustes das Restrições do Produto | Francisco Heronildo, Jacó |
-| 30/03/19 | 0.15 | Faixas de Qualidade | Francisco Heronildo |
-| 31/03/19 | 0.16 | Outros Requisitos do Produto | Francisco Heronildo |
-| 31/03/19 | 0.16 | Índice | Francisco Heronildo |
+| Data | Descrição | Autor |
+|:----:|:---------:|:-----:|
+| 24/03/19 | Abertura do Documento de Visão | Brian Lui |
+| 24/03/19 | Descrições da Parte Interessada e do Usuário | Brian Lui |
+| 26/03/19 | Introdução | Francisco Heronildo |
+| 26/03/19 | Recursos do Produto e Restrições | Jacó Apolinário |
+| 26/03019 | Posicionando | Francisco Heronildo |
+| 27/03/19 | Restrições | Jacó Apolinário |
+| 27/03/19 | Visão Geral do Produto | Brian Lui |
+| 28/03/19 | Revisão | Brian Lui, Francisco Heronildo, Jacó Apolinário |
+ | 29/03/19 | Ajustes da Introdução| Francisco Heronildo, Brian Lui |
+| 29/03/19 | Ajustes do Posicionamento | Francisco Heronildo, Brian Lui |
+| 29/03/19 | Ajustes dos Perfis do Usuário | Francisco Heronildo, Brian Lui |
+| 29/03/19 | Ajustes da Visão Geral do Produto | Francisco Heronildo, Brian Lui |
+| 30/03/19 | Ajustes dos Recusos do Produto | Francisco Heronildo, Jacó |
+| 30/03/19 | Ajustes das Restrições do Produto | Francisco Heronildo, Jacó |
+| 30/03/19 | Faixas de Qualidade | Francisco Heronildo |
+| 31/03/19 | Outros Requisitos do Produto | Francisco Heronildo |
+| 31/03/19 | Índice | Francisco Heronildo |
 
 
 ## Índice
@@ -36,6 +36,8 @@
 * [2. Posicionando](#id2)
 * [2.1 Oportunidade de Negócios](#id21)
 * [2.2 Instrução do Problema](#id22)
+* [2.2.1 Contribuidor](#id221)
+* [2.2.2 Usuários do Github](#id222)
 * [2.3 Instrução de Posição do Produto](#id23)
 * [3. Descrições da Parte Interessada e do Usuário](#id3)
 * [3.1 Resumo dos Envolvidos](#id31)
@@ -45,7 +47,7 @@
 * [3.3 Principais Necessidades da Parte Interessada ou do Usuário](#id33)
 * [4. Visão Geral do Produto](#id4)
 * [4.1 Perspectiva do Produto](#id41)
-* [4.2 Resumo das Capacidades](#id4)2
+* [4.2 Resumo das Capacidades](#id4)
 * [4.3 Licenciamento e Instalação](#id43)
 * [5. Recursos do Produto](#id5)
 * [6. Restrições](#id6)
@@ -61,7 +63,7 @@
 ***
 <div id='id1'/>
 
-A introdução fonecerá tópicos relacionados a uma visão geral do produto, assim como próposito, escopo, definições, acrônimos, abreviações e referências do projeto.
+A introdução  fornecerá tópicos relacionados a uma visão geral do produto, assim como próposito, escopo, definições, acrônimos, abreviações e referências do projeto.
 
 ### 1.1 Propósito
 <div id='id11'/>
@@ -110,6 +112,9 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 ### 2.2 Instrução do Problema
 <div id='id22'/>
 
+#### 2.2.1 Contribuidor:
+<div id='id221'/>
+
 | Tipo | Descrição |
 |:----:|:---------:|
 |**Problema**| Contribuir para um repositório que seja pouco receptivo |
@@ -118,6 +123,9 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 |**Solução**| apresentará dados da saúde do repositório |
 
 <br><br/>
+
+#### 2.2.2 Usuários do Github:
+<div id='id222'/>
 
 | Tipo | Descrição |
 |:----:|:---------:|
