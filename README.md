@@ -15,7 +15,7 @@ Coming soon!
 
 ## Contributing
 
-Please make sure to read the [Contributing Guide]() before making a pull request. After you've read, don't forget to take an issue!
+Please make sure to read the [Contribution Guide]() before making a pull request. After you've read, don't forget to take an issue!
 
 ## License
 
