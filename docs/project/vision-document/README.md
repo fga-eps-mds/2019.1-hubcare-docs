@@ -52,11 +52,8 @@
 * [5. Recursos do Produto](#id5)
 * [6. Restrições](#id6)
 * [6.1 Restrições de Design](#id61)
-* [6.2 Restrições Externas](#id62)
-* [6.3 Restrições de Implementação](#id63)
+* [6.2 Restrições de Implementação](#id63)
 * [7. Faixas de Qualidade](#id7)
-* [8. Outros Requisitos do Produto](#id8)
-* [8.1 Requisitos do Sistema](#id81)
 
 ***
 ## 1. Introdução
@@ -68,23 +65,23 @@ A introdução  fornecerá tópicos relacionados a uma visão geral do produto, 
 ### 1.1 Propósito
 <div id='id11'/>
   
-Esse documento tem como propósito, apresentar uma visão geral do desenvolvimento do hubcare, e visa auxiliar a compreensão do contexto no qual será inserido.
+Esse documento tem como propósito, apresentar uma visão geral do desenvolvimento do HubCare, e visa auxiliar a compreensão do contexto no qual será inserido.
 
-O hubcare é um plugin, feito para comunidade do Github, que visa verificar se os repositórios são receptives para os usuários de acordo com métricas pré-derteminadas. 
+O HubCare é um plugin, feito para comunidade do GitHub, que visa verificar se os repositórios são receptíveis para os usuários de acordo com métricas pré-derteminadas. 
 
 ### 1.2 Escopo
 <div id='id12'/>
 
-O hubcare tem como objetivo suprir as necessidades de auxiliar os usuários do Github, na verificação de repositórios e ajuda-ló a fazer escolhas atráves de dados, seja um contribuidor que quer saber se a contribuçao vai ser aceita pela comunidade ou um usuário do software que quer saber se ele terá suporte ou será abandonado pela comunidade, assim, zelando a qualidade da mesma.
+O HubCare tem como objetivo suprir as necessidades e auxiliar os usuários do Github, na verificação de repositórios e ajudá-los a fazer escolhas atráves de dados, seja um contribuidor que quer saber se a contribuçao vai ser aceita pela comunidade ou um usuário do software que quer saber se ele terá suporte ou será abandonado, assim, zelando a qualidade da mesma.
 
 ### 1.3 Definições, acrônimos e abreviações
 <div id='id13'/>
 
-* Hubcare - Nome do Plug-in
+* HubCare - Nome do Plug-in
 * UnB - Universidade de Brasília
 * MDS - Métodos de Desenvolvimento de Software
 * EPS - Engenharia de Protudo de Software
-* PR's - Pull Requests
+* PR - Pull Request
 
 ### 1.4 Referências
 <div id='id14'/>
@@ -105,9 +102,9 @@ O documento de visão descreve os características e utilidades da aplicação. 
 ### 2.1 Oportunidade de Negócios
 <div id='id21'/>
 
-O hubcare é direcionado para os usuários, que terá conhecimento do nível de receptividade dos seus repositórios, também para contribuidores, que pretendem fazer uma contribuição para algum projeto. 
+O HubCare é direcionado para usuários do GitHub, para que tenham conhecimento do nível de receptividade dos seus repositórios, também para contribuidores, que pretendem fazer uma contribuição para algum projeto. 
 
-Atualmente para contribuir com projetos no Github é simples , porém, exite um problema, o usuário não tem a certeza se irá ter um retorno sobre aquele projeto. Desse modo, o hubcare será desenvolvido para fazer essas verificações e classificar se o repositório é ideal.
+Atualmente para contribuir com projetos no Github é simples , porém, exite um problema, o usuário não tem a certeza se irá ter um retorno sobre aquele projeto. Desse modo, o HubCare será desenvolvido para fazer essas verificações e classificar se o repositório é ideal.
 
 ### 2.2 Instrução do Problema
 <div id='id22'/>
@@ -141,7 +138,7 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 |:----:|:---------:|
 |**Público Alvo**| Comunidade do Github |
 |**Carências**| Exibição intuitiva dos dados do repositório |
-|**Solução**| Hubcare |
+|**Solução**| HubCare |
 |**Solução Descrição da Solução**| Plugin que apresentará dados a respeito do repositório de forma intuitiva |
 |**Diferenciais**| Primeiro software a realizar essa aplicação |
 
@@ -210,7 +207,7 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 ### 4.1 Perspectiva do Produto
 <div id='id41'/>
 
-O Hubcare irá automatizar o processo de análise de um determinado repositório que seja de interesse do usuário, mostrando se o  mesmo está ativo e se é receptível. O plugin fornecerá dados de acordo com métricas pré-determinadas, para os usuários com os dados necessários para saber o nível de receptividade. Deste modo, é possível agilizar o processo em que um usuário tenha que entrar em um repositório e analisar todas essas métricas um por um. 
+O HubCare irá automatizar o processo de análise de um determinado repositório que seja de interesse do usuário, mostrando se o  mesmo está ativo e se é receptível. O plugin fornecerá dados de acordo com métricas pré-determinadas, para os usuários com os dados necessários para saber o nível de receptividade. Deste modo, é possível agilizar o processo em que um usuário tenha que entrar em um repositório e analisar todas essas métricas um por um. 
 
 ### 4.2 Resumo das Capacidades
 <div id='id42'/>
@@ -232,7 +229,7 @@ Será necessário a instalação do plugin que estará disponível na Chrome Sto
 ***
 <div id='id5'/>
 
-O Hubcare através de dados coletados da API do Github,deve ser um plugin capaz de fornecer informações sobre os repositórios,verificando se ele é ativo,receptivo,e se fornece assistência à comunidade do Github.
+O HubCare através de dados coletados da API do Github,deve ser um plugin capaz de fornecer informações sobre os repositórios,verificando se ele é ativo,receptivo,e se fornece assistência à comunidade do Github.
 
 ***
 ## 6. Restrições
@@ -242,14 +239,9 @@ O Hubcare através de dados coletados da API do Github,deve ser um plugin capaz 
 ### 6.1 Restrições de Design
 <div id='id61'/>
 
-O plugin deve ter uma interface que seja de fácil compreensão, para a comunidade do Github, de forma que seja de facil compreensão.
+O plugin deve ter uma interface que seja de fácil compreensã para a comunidade do Github.
 
-### 6.2 Retrições Externas
-<div id='id62'/>
-
-Pequenos impasses na equipe de desenvolvimento e inexperiência na linguagem e Framework da aplicação.
-
-### 6.3 Restrições de Implementação
+### 6.2 Restrições de Implementação
 <div id='id63'/>
 
 O software deverá ser desenvolvido nas linguagens HTML/CSS,JavaScript e Python com a utilização do Framework Django para aplicação web.
@@ -263,11 +255,8 @@ O plugin será disponibilizado na Chrome Web Store para maior eficiência em dis
 
 
 ***
-## 8. Outros Requisitos do Produto
+<!-- ## 8. Outros Requisitos do Produto
 ***
-<div id='id8'/>
+<div id='id8'/> -->
 
-### 8.1 Requisitos do Sistema
-<div id='id81'/>
-
-   Dispositivo que tenham suporte com o Navegador Google Chrome e acesso a internet
+<!-- Backlog em construção -->
