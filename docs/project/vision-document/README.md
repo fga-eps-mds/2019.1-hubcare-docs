@@ -19,6 +19,7 @@
 | 29/03/19 | 0.11 | Ajustes dos Perfis do Usuário | Francisco Heronildo, Brian Lui |
 | 29/03/19 | 0.12 | Ajustes da Visão Geral do Produto | Francisco Heronildo, Brian Lui |
 | 30/03/19 | 0.13 | Ajustes dos Recusos do Produto | Francisco Heronildo, Jacó |
+| 30/03/19 | 0.14 | Ajustes das Restrições do Produto | Francisco Heronildo, Jacó |
 
 ***
 ## 1. Introdução
@@ -171,7 +172,15 @@ O Hubcare através de dados coletados da API do Github,deve ser um plugin capaz 
 ***
 ## 6. Restrições
 ***
+### 6.1 Restrições de Design
 
-* Conexão com Internet.
-* É necessário API do Github.
-* Suporte com o navegador Google Chrome.
+O plugin deve ter uma interface que seja de fácil compreensão, para a comunidade do Github, de forma que seja de facil compreensão.
+
+
+### 6.2 Retrições de Externas
+
+Pequenos impasses na equipe de desenvolvimento e inexperiência na linguagem e Framework da aplicação.
+
+### 6.3 Restrições de Implementação
+
+O software deverá ser desenvolvido nas linguagens HTML/CSS,JavaScript e Python com a utilização do Framework Django para aplicação web.
