@@ -20,12 +20,13 @@
 | 29/03/19 | 0.12 | Ajustes da Visão Geral do Produto | Francisco Heronildo, Brian Lui |
 | 30/03/19 | 0.13 | Ajustes dos Recusos do Produto | Francisco Heronildo, Jacó |
 | 30/03/19 | 0.14 | Ajustes das Restrições do Produto | Francisco Heronildo, Jacó |
+| 30/03/19 | 0.15 | Faixas de Qualidade | Francisco Heronildo |
 
 ***
 ## 1. Introdução
 ***
 
-Esta introdução fonecerá tópicos relacionados a uma visão geral do produto, assim como próposito, escopo, definições, acrônimos, abreviações e referências do projeto.
+A introdução fonecerá tópicos relacionados a uma visão geral do produto, assim como próposito, escopo, definições, acrônimos, abreviações e referências do projeto.
 
 ### 1.1 Propósito
   
@@ -82,9 +83,7 @@ Atualmente para contribuir com projetos no Github é simples , porém, exite um 
 |**Impactos**| O usuário não terá ajuda da comunidade em seu projeto |
 |**Solução**| apresentará dados da saúde do repositório |
 
-
 ### 2.3 Instrução de Posição do Produto 
-
 
 | Tipo | Descrição |
 |:----:|:---------:|
@@ -172,6 +171,7 @@ O Hubcare através de dados coletados da API do Github,deve ser um plugin capaz 
 ***
 ## 6. Restrições
 ***
+
 ### 6.1 Restrições de Design
 
 O plugin deve ter uma interface que seja de fácil compreensão, para a comunidade do Github, de forma que seja de facil compreensão.
@@ -184,3 +184,9 @@ Pequenos impasses na equipe de desenvolvimento e inexperiência na linguagem e F
 ### 6.3 Restrições de Implementação
 
 O software deverá ser desenvolvido nas linguagens HTML/CSS,JavaScript e Python com a utilização do Framework Django para aplicação web.
+
+***
+## 7. Faixas de Qualidade
+***
+
+O plugin será disponibilizado na Chrome Web Store para maior eficiência em dispositivos que tenham suporte com o navegador Google Chrome e conexão com a internet.
