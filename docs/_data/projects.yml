@@ -32,3 +32,11 @@
     Git: git/
     Tecprog: tecprog/
  
+-
+  name: Sprints
+  icon: admin.svg
+  description: Documentação das Sprints.
+  path: sprint/
+  pages:
+    Sprint 1 Planning: sprint-1-planning/
+    Sprint 1 Review: sprint-1-review/
