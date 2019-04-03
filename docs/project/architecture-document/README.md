@@ -1,52 +1,25 @@
 # Documento de arquitetura
 
-## Introdução
+## introdução
 
-### Propósito
-Este decumento tem como objetivo especificar a arquitetura a ser empregada no projeto HubCare, assim como as tecnologias e
-funções deste plug-in para o GitHub utilizado no navegador Google Chrome.
+### Finalidade
+Esse documento tem como objetivo descrever a arquitetura do plug-in hubcare. Ele deve apresentar as decisões de arquiterura para o projeto de forma objetiva e clara e também deve conter informações que sirvam de guia para desenvolvedores e gestores terem o fluxo de informações e tecnologias envolvidas.
 
 ### Escopo
-Este documento descreve o HubCare, um plug-in utilizado na web e a arquitetura utilizada é representada de forma sistêmica.
+Esse documento demostra as decisões tomadas sobre a organização arquitetural do hubcare. Estão descritos neste documento: padrões adotados, __frameworks__ e linguagens escolhidas. O objetivo do plug-in é fornecer mais informações sobre repositórios no github. A finalidade é fazer com que desenvolvedores e usuários tenham mais informações para ponderar o tempo dedicado a respositórios em questões como contribuição ou uso mesmo.
 
-### Definições e palavras de referência
-link -> Documento de visão
+### Definições, acrônimos e abreviações
 
->API: Interface entre aplicação e programação, gerando comunicação entre sistemas. Utilizada em relação aos microserviços do projeto.
->4+1: Modelo de visualização que descreve a arquitetura do sistema de software baseado em multíplos views paralelos.
->Chrome extension: Um pequeno módulo de software para personalizar o navegador Google Chrome.
+### Visão geral
+Este documento descreve de forma detalhada os principais parâmetros a serem seguidos para o melhor desenvolvimento do hubcare.
 
-### Apresentação arquitetural
-Este documento apresenta o sistema de arquitetura no formato 4+1 view. Este formato inclui:
->Logical view
->Process view
->Development view
->Physical view
->Use-case view(Scenarios) 
+## Representação da arquitetura
 
-Este sistema de visualizaçãoe está fortemente ligado à representação por UML.
+### Django rest
 
-
-## Arquitetura do processo
-
-### Diagrama de arquitetura do Django
-
-![Diagrama de arquitetura Django](Django.png)
-
-### Metodologia
-
-O hubcare utiliza uma arquitetura elaborada com base 
-nos principais componentes estruturais que serão utilizadas no sistema. A arquitetura vem com intuito de mostrar diferentes perspectiva do software, demonstrando todas as tecnologias e as aplicações no projeto.
-
-
-
-### Design do processo arquitetural
-
-
-Microsserviços - Abordagem que desenvolve uma única aplicação em uma suite de pequenos serviços.
+### Plug-in, Google Chrome
 
 ## Metas e restrições de arquitetura
-
 Tecnologias envolvidas.
 
 * HTML/CSS - Utilizado no desenvolvimento Web de forma padrão e estruturado.
@@ -63,18 +36,14 @@ O Pluguin Hubcare possui as seguintes restrições de arquitetura:
 * Número de requisições feitas para a API do GitHub
 * O pluguin não haverá suporte 24/7
 
+### Ambintes e ferramentas de desenvolvimento
 
+## Visão lógica
 
+### Diagrama de pacotes
 
-## Visão de implementação
+#### Descrever os demais, baseado no MVT
 
+## Arquitetura dos serviços e visão de implementação
 
-Os dados serão modelados através de UML.
-Os pacotes terão caminhos no front-end e back-end.
-A API desenvolvida com o framework Django REST fara requerimentos 
-na API do GitHUb
-
-## Pipeline
-CJJCastro
-
-## Bibliografia
+## Visão de dados
