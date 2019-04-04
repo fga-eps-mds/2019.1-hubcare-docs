@@ -1,30 +1,73 @@
 # Documento de arquitetura
 
-## introdução
+## Histórico de Revisões
 
-### Finalidade
-Esse documento tem como objetivo descrever a arquitetura do plug-in hubcare. Ele deve apresentar as decisões de arquiterura para o projeto de forma objetiva e clara e também deve conter informações que sirvam de guia para desenvolvedores e gestores terem o fluxo de informações e tecnologias envolvidas.
+| Data | Versão | Descrição | Autor |
+| :--: | :----: | :-------: | :---: |
+|  30/03/2019    | 0.1    | Criação do documento e introdução | Vitor Alves e Vitor Meireles |
+|  03/04/2019 | 0.2 | Adição de Restrições da Arquitetura  |  Vitor Meireles |
+| 04/04/2019 | 0.3 | Adição da Representação da Arquitetura | Rômulo Souza e Vitor Meireles
 
-### Escopo
-Esse documento demostra as decisões tomadas sobre a organização arquitetural do hubcare. Estão descritos neste documento: padrões adotados, __frameworks__ e linguagens escolhidas. O objetivo do plug-in é fornecer mais informações sobre repositórios no github. A finalidade é fazer com que desenvolvedores e usuários tenham mais informações para ponderar o tempo dedicado a respositórios em questões como contribuição ou uso mesmo.
+## Sumário
 
-### Definições, acrônimos e abreviações
+## 1. Introdução
 
-### Visão geral
-Este documento descreve de forma detalhada os principais parâmetros a serem seguidos para o melhor desenvolvimento do hubcare.
+### 1.1. Finalidade
 
-## Representação da arquitetura
+Este documento tem como objetivo descrever a arquitetura do plug-in Hubcare. Ele apresenta as decisões de arquiterura para o projeto de forma objetiva e clara e também contém informações que servem de guia para desenvolvedores e gestores compreenderem o fluxo de informações e tecnologias envolvidas.
 
-### Django rest
+### 1.2. Escopo
 
-### Plug-in, Google Chrome
+Esse documento demostra as decisões tomadas sobre a organização arquitetural do Hubcare. Estão descritos neste documento: padrões adotados, __frameworks__ e linguagens escolhidas.
 
-## Metas e restrições de arquitetura
+### 1.3. Definições, acrônimos e abreviações
+
+* API - Application Programming Interface: conjunto de rotinas e padrões estabelecidos por um software para a utilização das suas funcionalidades por demais aplicativos que desejam utilizar seu serviço
+* DRF - Django Rest Framework: framework de python utilizado para construção de web APIs
+* MVC - Model View Controller: padrão de arquitetura de software constituído por três camadas
+* DOM - Document Object Model: plataforma e interface que permite programas a acessar e atualizar o conteúdo, a estrutura e o estilo de um documento
+
+### 1.4. Visão geral
+
+O documento detalha a arquitetura utilizada no projeto. Para isso, é explicada a arquitetura individual dentro de cada tecnologia escolhida e como estas se encaixam no contexto. Depois do entendimento de cada tecnologia, é abordada uma visão lógica do projeto e, uma visão geral representando todo fluxo de informações dentro do Hubcare, bem como todos os serviços utilizados e a visão de implementação dentro de cada tecnologia.
+
+## 2. Representação da arquitetura
+
+### 2.1. Django Rest Framework
+
+O DRF é um extensão do Django Framework e é utilizado para a construção de APIs em plataforma Web. Com esse, é possível criar um backend independente, através de microsserviços, podendo se comunicar com um front-end de uma aplicação mobile ou web através de arquivos JSON. Uma arquitetura REST opera através de métodos de protocolo HTTP; como GET, POST, PUT, DELETE, entre outros.
+
+A arquitetura do DRF é baseada na arquitetura MVC, onde a camada da controller ocorre internamente ao framework, de forma automática. No Hubcare, cada funcionalidade é representada por um app interno, para melhor modularização do sistema. Além disso, app contém sua model e suas views. Isso pode ser melhor observado na [Visão de implementação]()
+
+A model do DRF é a camada responsável por gerir, modelar e persistir os dados. Tem   como principais funções controlar o estado dos dados, responder a instruções para mudança de estado dos dados, cuidar das regras de negócio da aplicação e controlar as transações com o banco de dados da aplicação.
+
+A view do DRF é a camada encarregada por interpretar entradas vindas de outros sistemas (através de endpoints), distribuindo comandos que geram atualização, busca de dados ou requisições em outras partes do próprio sistema ou de outro sistema que esteja sendo consumido, fazendo o uso das classes definidas na camada de modelo(Model).
+
+
+### 2.2. Plug-in Google Chrome
+
+Plug-ins para o google chrome são pequenos programas utilizados para customizar a experiência de um usuário ao ulitizar o browser. São extensões que permitem a utilização de novas funcionalidades.
+
+Os plug-ins são feitos em tecnologias web, como HTML, CSS e JavaScript. No Hubcare, o plug-in será responsável por trocar informações com o backend e mostrá-las na página acessada pelo usuário. Para isso, deve editar o conteúdo HTML presente na página, acrescentando as informações recebidas pelo backend.A arquitetura do plug-in é composta por 4 componentes: popup.html, popup.js, background.js e contentscript.js.
+
+* Popup.html - janela feita em HTML que sobrepõe o conteúdo da página
+* Popup.js - controla as funcionalidades da popup.html
+* Background.js - script responsável pelos eventos que ocorrem na página e precisam ser observados pelo plug-in. O módulo background deve ficar desabilitado quando não é utilizado, e carregado apenas quando necessário.
+* Contentscript.js - responsável pela leitura e escrita em uma página web. Ele lê e modifica o DOM de páginas web acessadas pelo browser.
+
+<img alt="chrome-architecture" src="../../images/default/chrome-architecture.png" />
+
+### 2.3 API Github
+
+A API do Github é consumida pelo backend do Hubcare. Os dados advindos da API são processados de acordo com os critérios adotados, presentes no [plano de medição](), gerando as métricas desejadas, que retornarão ao plugin do Chrome.
+
+## 3. Metas e restrições de arquitetura
 Tecnologias envolvidas.
 
+<!-- ?????? -->
 * HTML/CSS - Utilizado no desenvolvimento Web de forma padrão e estruturado.
 * JavaScrip - Utilizado no desenvolvimento Web de forma dinâmica.
-* Python - Linguagem utilizada no desenvolvimento back-end da aplicação.
+* Python - Linguagem utilizada no desenvolvimento backend da aplicação.
 * Django - Framework de desenvolvimento para web que faz uso do padrão model-template-view.
 * Docker - Tecnologia de fornecimento de contêineres, adicionando uma camada de abstração, automação e virtualização ao S.O.
 * Google Chrome - Navegador para aplicação do plug-in.
@@ -36,14 +79,46 @@ O Pluguin Hubcare possui as seguintes restrições de arquitetura:
 * Número de requisições feitas para a API do GitHub
 * O pluguin não haverá suporte 24/7
 
-### Ambintes e ferramentas de desenvolvimento
+### Ambientes e ferramentas de desenvolvimento
 
-## Visão lógica
+## 4. Visão lógica
 
-### Diagrama de pacotes
+### 4.1. Diagrama de Classes
 
-#### Descrever os demais, baseado no MVT
+### 4.2. Diagrama de Pacotes
 
-## Arquitetura dos serviços e visão de implementação
+<!-- ???? -->
+<!-- #### Descrever os demais, baseado no MVT -->
 
-## Visão de dados
+## 5. Arquitetura dos Serviços 
+
+## 6. Visão de Implementação
+
+### 6.1. Django Rest Framework
+
+No projeto, cada tema estará definido por um app do django. Os apps são separados por issues, pull requests e community, por serem as principais divisões que estão contidas nas métricas escolhidas para a avaliação de um repositório. Além disso, cada app é composto pelos seguintes arquivos:
+
+* **models.py** - implementa a camada model e as validações personalizadas dos dados que serão guardados no banco de dados
+* **views** - pasta que contém todas as views relacionadas ao app
+* **views.py** - implementa a camada view, que é responsável pela interação com a model e por processar todos os dados advindos da API do Github
+* **urls.py** - endpoints que permitem acesso às views
+* **serializers.py** - responsável por serializar dados - convertê-los de objeto para JSON - e também por validá-los de acordo com os dados da modelo
+
+### 6.2. Plug-in Google Chrome
+
+No hubcare, a popup.html será apenas uma pequena janela responsável por habilitar e desabilitar o plug-in e ficará visível ao ser clicada pelo usuário.
+
+O contentscript é a parte principal da aplicação. Ele receberá as métricas providas pelo backend e as apresentará dentro da aba **Hubcare**, que o próprio plug-in irá criar.
+
+
+## Referências Bibliográficas
+
+>Definição de DOM pela w3school. Disponível em: https://www.w3schools.com/js/js_htmldom.asp. Acesso em: 04 abr. 2019.
+
+>Documentação oficial do Django. Disponível em: https://www.djangoproject.com/. Acesso em: 04 abr. 2019
+
+>Documentação oficial do Django Rest Framework. Disponível em: https://www.django-rest-framework.org/. Acesso em: 04 abr. 2019.
+
+>Tutorial sobre plug-in do chrome para desenvolvedores. Disponível em: https://developer.chrome.com/extensions/overview. Acesso em: 04 abr. 2019.
+
+<!-- ## Visão de dados -->
