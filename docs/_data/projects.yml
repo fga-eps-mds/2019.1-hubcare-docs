@@ -22,6 +22,14 @@
   pages:
     Modelo de Medição de Repositórios do GitHub: measurement-model/
 -
+
+  name: Gerenciamento de Riscos
+  icon: admin.svg
+  description: Modelos de medição utilizados no projeto.
+  path: project-risk-management/
+  pages:
+    Plano de gestão de riscos: risk-management-plan/
+-
   name: Treinamentos
   icon: admin.svg
   description: Documentação dos treinamentos aplicadas para a equipe de desenvolvimento.
