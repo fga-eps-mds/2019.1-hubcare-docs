@@ -25,7 +25,8 @@
 
   name: Gerenciamento de Riscos
   icon: admin.svg
-  description: Modelos de medição utilizados no projeto.
+  description: O Gerenciamento dos riscos do projeto inclui os processos de planejamento, identificação, análise,
+planejamento de respostas e controle de riscos de um projeto.
   path: project-risk-management/
   pages:
     Plano de gestão de riscos: risk-management-plan/

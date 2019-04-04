@@ -2,8 +2,12 @@
 
 ## Objetivos  
 
-<p align = "justify">O objetivo deste documento é detalhar os riscos do projeto.</p>
+O Gerenciamento dos riscos do projeto inclui os processos de planejamento, identificação, análise,
+planejamento de respostas e controle de riscos de um projeto. Os objetivos do gerenciamento dos riscos do
+projeto são aumentar a probabilidade e o impacto dos eventos positivos e reduzir a probabilidade e o impacto
+dos eventos negativos no projeto.
 
+## Identificar os riscos
 
 ### Riscos Negativos
 
