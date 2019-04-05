@@ -22,6 +22,15 @@
   pages:
     Modelo de Medição de Repositórios do GitHub: measurement-model/
 -
+
+  name: Gerenciamento de Riscos
+  icon: admin.svg
+  description: O Gerenciamento dos riscos do projeto inclui os processos de planejamento, identificação, análise, planejamento de respostas e controle de riscos de um projeto.
+  path: project-risk-management/
+  pages:
+    Plano de gestão de riscos: risk-management-plan/
+    Registro dos Riscos: risk-management-list/
+-
   name: Treinamentos
   icon: admin.svg
   description: Documentação dos treinamentos aplicadas para a equipe de desenvolvimento.
