@@ -8,7 +8,7 @@
 
 ## Contexto
 
-Visando preparar a equipe de desenvolvimento pra a execução do projeto e refatoramento, preparamos um treinamento sobre técnicas de programação..
+Visando preparar a equipe de desenvolvimento pra a execução do projeto e refatoramento, preparamos um treinamento sobre técnicas de programação.
 
 ## Formato do Treinamento
 
