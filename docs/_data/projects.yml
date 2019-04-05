@@ -30,6 +30,7 @@ planejamento de respostas e controle de riscos de um projeto.
   path: project-risk-management/
   pages:
     Plano de gestão de riscos: risk-management-plan/
+    Registro dos Riscos: risk-management-list/
 -
   name: Treinamentos
   icon: admin.svg
