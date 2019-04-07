@@ -11,23 +11,26 @@
 
 ## Sumário
 
-* [1. Introdução](#1-Introdução)
-   * [1.1. Finalidade](#11-Finalidade)
-   * [1.2. Escopo](#12-Escopo)
-   * [1.3. Definições, Acrônimos e Abreviações](#13-Definições-Acrônimos-e-Abreviações)
-   * [1.4. Visão Geral](#14-Visão-Geral)
-* [2. Representação da Arquitetura](#2-Representação-da-Arquitetura)
-   * [2.1. Django Rest Framework](#21-Django-Rest-Framework)
-   * [2.2. Plugin Google Chrome](#22-Plugin-Google-Chrome)
-   * [2.3. API GitHub](#23-API-GitHub)
-* [3. Metas e Restrições de Arquitetura](#3-Metas-e-Restrições-de-Arquitetura)
-* [4. Visão Lógica](#4-Visão-Lógica)
-   * [4.1. Diagrama de Classes](#41-Diagrama-de-Classes)
-* [5. Arquitetura dos Serviços](#5-Arquitetura-dos-Serviços)
-* [6. Visão de Implementação](#6-Visão-de-Implementação)
-   * [6.1. Django Rest Framework](#61-Django-Rest-Framework)
-   * [6.2. Plugin Google Chrome](#62-Plugin-Google-Chrome)
-* [7. Referências Bibliogŕaficas](#7-Referências-Bibliográficas)
+- [Documento de arquitetura](#documento-de-arquitetura)
+  - [Histórico de Revisões](#hist%C3%B3rico-de-revis%C3%B5es)
+  - [Sumário](#sum%C3%A1rio)
+  - [1. Introdução](#1-introdu%C3%A7%C3%A3o)
+    - [1.1. Finalidade](#11-finalidade)
+    - [1.2. Escopo](#12-escopo)
+    - [1.3. Definições, Acrônimos e Abreviações](#13-defini%C3%A7%C3%B5es-acr%C3%B4nimos-e-abrevia%C3%A7%C3%B5es)
+    - [1.4. Visão geral](#14-vis%C3%A3o-geral)
+  - [2. Representação da Arquitetura](#2-representa%C3%A7%C3%A3o-da-arquitetura)
+    - [2.1. Django Rest Framework](#21-django-rest-framework)
+    - [2.2. Plugin Google Chrome](#22-plugin-google-chrome)
+    - [2.3 API GitHub](#23-api-github)
+  - [3. Metas e Restrições de Arquitetura](#3-metas-e-restri%C3%A7%C3%B5es-de-arquitetura)
+  - [4. Visão lógica](#4-vis%C3%A3o-l%C3%B3gica)
+    - [4.1. Diagrama de Classes](#41-diagrama-de-classes)
+  - [5. Arquitetura dos Serviços](#5-arquitetura-dos-servi%C3%A7os)
+  - [6. Visão de Implementação](#6-vis%C3%A3o-de-implementa%C3%A7%C3%A3o)
+    - [6.1. Django Rest Framework](#61-django-rest-framework)
+    - [6.2. Plugin Google Chrome](#62-plugin-google-chrome)
+  - [7. Referências Bibliográficas](#7-refer%C3%AAncias-bibliogr%C3%A1ficas)
 
 ## 1. Introdução
 
@@ -101,6 +104,8 @@ O Pluguin Hubcare possui as seguintes restrições de arquitetura:
 ### 4.1. Diagrama de Classes
 
 ## 5. Arquitetura dos Serviços 
+
+![arquitetura](../../images/default/eps_architecture.png)
 
 ## 6. Visão de Implementação
 
