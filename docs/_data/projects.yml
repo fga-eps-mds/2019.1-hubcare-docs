@@ -40,7 +40,7 @@
     Docker: docker/
     Git: git/
     Tecprog: tecprog/
- 
+    Testes Unitários: unit_test/
 -
   name: Sprints
   icon: admin.svg
