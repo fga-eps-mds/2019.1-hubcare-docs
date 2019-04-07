@@ -88,13 +88,13 @@ A API do GitHub é consumida pelo backend do Hubcare. Os dados advindos da API s
 Tecnologias utlizadas para o desenvolvimento:
 
 * HTML/CSS - Utilizado no desenvolvimento Web de forma padrão e estruturado.
-* JavaScrip - Utilizado no desenvolvimento Web de forma dinâmica.
+* JavaScript - Utilizado no desenvolvimento Web de forma dinâmica.
 * Python - Linguagem utilizada no desenvolvimento backend da aplicação.
 * Django - Framework de desenvolvimento para web que faz uso do padrão model-template-view.
 * Docker - Tecnologia de fornecimento de contêineres, adicionando uma camada de abstração, automação e virtualização ao S.O.
 * Google Chrome - Navegador para aplicação do plugin.
 
-O Pluguin Hubcare possui as seguintes restrições de arquitetura:
+O Plugin Hubcare possui as seguintes restrições de arquitetura:
 
 * Versão do plugin apenas para o Google Chrome
 * Número de requisições feitas para a API do GitHub limitam-se a 60 quando não autenticado, e a 5000 quando autenticado
