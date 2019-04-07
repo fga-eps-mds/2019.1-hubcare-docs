@@ -103,6 +103,8 @@ O Pluguin Hubcare possui as seguintes restrições de arquitetura:
 
 ### 4.1. Diagrama de Classes
 
+![diagrama_classes](../../images/default/diagrama_classes.jpg)
+
 ## 5. Arquitetura dos Serviços 
 
 ![arquitetura](../../images/default/eps_architecture.png)
