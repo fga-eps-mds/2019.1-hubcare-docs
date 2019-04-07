@@ -1,6 +1,6 @@
 function scroll_toc(path) {
   // remove base either '/docs/' or '/'
-  var base = '/2019.1-Grupo-7/';
+  var base = '/2019.1-hubcare-docs/';
 
   path = path.indexOf(base) == 0? path.substring(base.length) : path.substring(1);
 
@@ -85,12 +85,12 @@ $(document).ready(function() {
 
   $('#my_toc li:first-child a').addClass(' active');
 
-  var path = "/2019.1-Grupo-7/";
+  var path = "/2019.1-hubcare-docs/";
 
   addTocLevels();
 
 
-  if(location.pathname !== '/2019.1-Grupo-7/' && location.pathname !== '/'){
+  if(location.pathname !== '/2019.1-hubcare-docs/' && location.pathname !== '/'){
 
 
 
