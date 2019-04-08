@@ -42,6 +42,14 @@
     Tecprog: tecprog/
     Testes Unitários: unit_test/
 -
+  name: Pipeline
+  icon: admin.svg
+  description: Definições e diagramas das pipelines aplicadas no projeto.
+  path: pipeline/
+  pages:
+    Pipeline da API: api/
+    Pipeline plugin chrome: plugin/
+-
   name: Sprints
   icon: admin.svg
   description: Documentação das Sprints.
