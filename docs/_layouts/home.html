@@ -43,7 +43,7 @@
         </div>
 
         <div class="main">
-            <div class="section section-tabs">
+            <div class="section section-tabs section-projects">
                 {% include projects.html projects=site.data.projects %}
             </div>
         </div>
@@ -74,6 +74,30 @@
     <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
     <script src="{{ site.url }}/public/assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
 
+    <script>
+        $(document).ready(function () {
+            blackKit.initDatePicker();
+            blackKit.initSliders();
+        });
+
+        function scrollToProjects() {
+
+            if ($('.section-projects').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-projects').offset().top
+                }, 1000);
+            }
+        }
+        // function scrollToContributors() {
+
+        //     if ($('.section-contributors').length != 0) {
+        //         $("html, body").animate({
+        //             scrollTop: $('.section-contributors').offset().top
+        //         }, 1000);
+        //     }
+        // }
+    </script>
+    
 </body>
 
 </html>

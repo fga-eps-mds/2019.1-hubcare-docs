@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+        <a class="navbar-brand" href="{{ site.url }}" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
           <span><img class="normal" src="{{ site.url }}/images/default/logo.svg" alt="{{ site.title }}"></span>
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
               <i class="fa fa-cogs d-lg-none d-xl-none"></i> Documentation
             </a>
             <div class="dropdown-menu dropdown-with-icons">
-              <a href="/" class="dropdown-item">
+              <a href="javascript:void(0)" onclick="scrollToProjects()" class="dropdown-item">
                 <i class="tim-icons icon-paper"></i> Docs
               </a>
               <!-- <a href="/" class="dropdown-item">
@@ -46,7 +46,7 @@
               <a href="/" class="dropdown-item">
                 <i class="tim-icons icon-image-02"></i>Landing Page
               </a> -->
-              <a href="/" class="dropdown-item">
+              <a href="#" class="dropdown-item">
                 <i class="tim-icons icon-single-02"></i>Contributors
               </a>
             </div>

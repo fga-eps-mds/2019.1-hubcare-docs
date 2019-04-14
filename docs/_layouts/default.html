@@ -33,7 +33,7 @@
   <div id="sidebar" class="ui sidebar overlay left">
     <div class="sidebar-menu">
       <ul>
-        <li><a href="/">Docs</a></li>
+        <li><a href="{{ site.url }}/project">Docs</a></li>
       </ul>
     </div>
     <div class="toc-sidebar">
@@ -59,7 +59,7 @@
           <div class="wrapper" {%if page.ignoreLinks%}data-proofer-ignore{% endif %}>
             {{ content }}
             <div class="edit-github">
-              <a class="button" href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master{{page.url}}README.md">
+              <a class="button" href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/{{page.url}}README.md">
                 <span class="button--icon">
                   <img src="{{ site.url }}/images/icons/github--white.svg" alt="Github">
                 </span>
