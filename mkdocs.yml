@@ -8,18 +8,19 @@ theme:
 nav:
   - Início: README.md
   - Projeto:
-    - Documento de visão: project/vision-document/README.md
-    - Documento de arquitetura: project/architecture-document/README.md
+    - Documento de Visão: project/vision-document/README.md
+    - Documento de Arquitetura: project/architecture-document/README.md
   - Gerenciamento de Integração:
     - Termo de Abertura de Projeto: project-integration-management/project-charter/README.md
     - Plano de Gerenciamento de Projeto: project-integration-management/project-management-plan/README.md
-  - Gerenciamento de qualidade:
+  - Gerenciamento de Qualidade:
     - Modelo de Medição de Repositórios do GitHub: project-quality-management/measurement-model/README.md
   - Gerenciamento de Riscos:
-    - Plano de gestão de riscos: project-risk-management/risk-management-plan/README.md
+    - Plano de Gestão de Riscos: project-risk-management/risk-management-plan/README.md
     - Registro dos Riscos: project-risk-management/risk-management-list/README.md
+  - Gerenciamento de Custos: project-cost-management/README.md
   - Roadmap:
-    - Roadmap do produto: product-roadmap/README.md
+    - Roadmap do Produto: product-roadmap/README.md
   - Pipelines:
     - Pipeline API: pipeline/api/README.md
     - Pipeline Chrome Extension: pipeline/plugin/README.md
