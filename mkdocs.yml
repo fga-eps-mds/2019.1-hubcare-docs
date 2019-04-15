@@ -1,0 +1,34 @@
+site_name: HubCare
+site_url: https://cjjcastro.gitlab.io/2019-1-hubcare-docs
+repo_name: '2019.1-hubcare-docs'
+repo_url: 'https://github.com/fga-eps-mds/2019.1-hubcare-docs'
+theme:
+  name: 'material'
+
+nav:
+  - Início: README.md
+  - Projeto:
+    - Documento de visão: project/vision-document/README.md
+    - Documento de arquitetura: project/architecture-document/README.md
+  - Gerenciamento de Integração:
+    - Termo de Abertura de Projeto: project-integration-management/project-charter/README.md
+    - Plano de Gerenciamento de Projeto: project-integration-management/project-management-plan/README.md
+  - Gerenciamento de qualidade:
+    - Modelo de Medição de Repositórios do GitHub: project-quality-management/measurement-model/README.md
+  - Gerenciamento de Riscos:
+    - Plano de gestão de riscos: project-risk-management/risk-management-plan/README.md
+    - Registro dos Riscos: project-risk-management/risk-management-list/README.md
+  - Roadmap:
+    - Roadmap do produto: product-roadmap/README.md
+  - Pipelines:
+    - Pipeline API: pipeline/api/README.md
+    - Pipeline Chrome Extension: pipeline/plugin/README.md
+  - Treinamentos:
+    - Ágil: training/agile/README.md
+    - Docker: training/docker/README.md
+    - Git: training/git/README.md
+    - Tecprog: training/tecprog/README.md
+    - Testes Unitários: training/unit_test/README.md
+  - Sprints:
+    - Sprint 1 Planning: sprint/sprint-1-planning/README.md
+    - Sprint 1 Review: sprint/sprint-1-review/README.md

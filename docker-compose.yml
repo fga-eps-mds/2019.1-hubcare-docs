@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  hubcaredocs:
+    image: squidfunk/mkdocs-material
+    volumes:
+      - .:/docs
+    ports:
+      - "8000:8000"

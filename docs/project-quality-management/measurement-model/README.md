@@ -15,7 +15,7 @@ Obs: Por mais que o objetivo deste projeto de software seja auxiliar usuários d
 
 ### Visão Geral
 
-![Diagrama do GQM]({{ site.url }}/images/charts/gqmChart.png)
+<iframe frameborder="0" style="width:100%;height:487px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=GQM%20Sa%C3%BAde%20do%20Reposit%C3%B3rio.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1b0XRy3ICahhu0ra5ZUOjQIfL2gtCFSEK%26export%3Ddownload"></iframe>
 
 ## Nível Conceitual - Os Objetivo de Medição
 
@@ -74,37 +74,6 @@ A opção que oferecer *menos* Pull Requests:
 | Recusado | Sim | Rasoável |
 | Recusado | Não | Ruim
 | Aberto | Não / antiga | Ruim |
-
-#### Relevância para as questões
-
-| Questão | Relevância |
-| ---:| :---:|
-| 1 | Média |
-| 2 | Alta  |
-
-### M2 - Qualidade de Aceitação de Pull Requests
-
-Métrica referente ao quão bem a comunidade vem trabalhando com Pull Requests. Para obter essa avaliação de qualidade, deverá considerar se o Pull Request em questão foi aceito ou recusado e se teve discussão recente.
-
-Considera-se "PR com discussão recente" aquele que teve algum comentário nos últimos 15 dias.
-
-#### Amostra
-
-A opção que oferecer *menos* Pull Requests:
-
-- Pull Requests que foram abertos nos últimos 60 dias
-- Últimos 50 Pull Requests
-
-#### Medida
-
-| Situação | Discussão | Resultado |
-| :------------: | :-------: | :---:|
-| Aceito | Sim | Excelente |
-| Aceito | Não | Bom |
-| Aberto | Recente | Bom |
-| Recusado | Sim | Rasoável |
-| Recusado | Não | Ruim
-| Aberto | Não \|\| Antiga | Ruim |
 
 #### Relevância para as questões
 
