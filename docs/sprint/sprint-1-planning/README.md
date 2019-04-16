@@ -1,8 +1,8 @@
 **Número da _Sprint_**: 1
 
-**Data de Início**: 24/10/2019
+**Data de Início**: 24/03/2019
 
-**Data de Término**: 31/10/2019
+**Data de Término**: 31/03/2019
 
 **Duração**: Uma Semana
 
@@ -16,13 +16,14 @@
 Por ser uma sprint de documentação não ocorreu os pareamentos.
 
 ## Priorização
-Foi priorizado as documentações iniciais do projeto para que seja possível dar inicio ao desenvolvimento do projeto.
+Foi priorizado os documentos iniciais do projeto para que seja possível dar inicio ao desenvolvimento do projeto.
 
 ## Mudanças
+Não ocorreram mudanças ao decorrer da __sprint__.
 
 ## Histórias da _Sprint_
 
-| Repositorio|Issue|Nome|
+| Repositório|Issue|Nome|
 | -----------|-----|----|
 |hubcare-docs|#14| Preliminar Backlog|
 |hubcare-docs|#13| Architecture Document| 
@@ -43,3 +44,7 @@ Foi priorizado as documentações iniciais do projeto para que seja possível da
 |hubcare-docs|#21| Created pull request template|
 |hubcare-docs|#20| Created issues templates|
 |hubcare-docs|#8| Set /doc to GitHub Pages in such way that it can be editable thought .md files|
+|hubcare-api|#1|Setup the API environment on Docker|
+|hubcare-api|#9|Updated Dockerfile, remove commands from compose and add to Dockerfile|
+|hubcare-api|#12|Created contribution guide|
+|hubcare-api|#11|Created initial template for README|
