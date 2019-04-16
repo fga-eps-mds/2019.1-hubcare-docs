@@ -12,14 +12,16 @@
 
 **Pontos Totais**: 47
 
+## Motivação e Objetivo
+Nesta __sprint__ daremos inicio ao código e continuaremos com o desenvolvimento dos planos do projeto.
+
+A pipeline deve estar funcional para que os membros de MDS consigam utiliza-lá.
+
 ## Pareamento
 Nesta sprint foi decidido que os pareamento seriam entre MDS para que eles pudessem se familiarizar com as tecnologias. 
 
 ## Priorização
 Está foi a primeira __sprint__ de código. Foi decidido priorizar as funcionalidades referentes a API devido a sua importância e a dependência de outras features com elas.
-
-## Mudanças
-Não ocorerram.
 
 ## Histórias da _Sprint_
 

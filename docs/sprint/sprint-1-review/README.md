@@ -1,15 +1,15 @@
 
-## Indicadores de Qualidade do Processo
+## Resultados da Sprint
 
 ### Fechamento da Sprint
 
-As histórias planejadas para a <i>sprint</i> foram concluídas baseadas nas necessidades inicias do projeto. As histórias planejadas para a <i>sprint</i> foram os documentos inicias do projeto.
+Grande parte do que foi planejado, ao início da Sprint, foi entregue porém o documento de arquitetura continua devido para a proxima sprint. 
 
 ### _Burndown_
 
 ![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-1-burndown.png?raw=true)
 
-O <i>burndown</i> desta sprint foi consistente com o que se espera.
+O __burndown__ foi consistente com o que se é esperado com entregas constantes.
 
 ### _Velocity_
 
@@ -25,15 +25,6 @@ Por ser a primeira não é possível avaliar a melhoria dos conhecimentos.
 ### Retrospectiva
 <iframe width="1100" height="500" frameborder="0" src="https://docs.google.com/document/d/e/2PACX-1vRnGhpxLPpPAcIvnxFWLD4urmC6B8mf1AoDMy1Bz1F9LgTgDfhCd-2n-BFL72tVzn8DGvzj0cQLU2eF/pub" scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
 
-
-## EVM
-
-#### Dados
-
-
-#### Gráficos
-
-#### Análise da EVM
 
 ## Análise do Scrum Master
 

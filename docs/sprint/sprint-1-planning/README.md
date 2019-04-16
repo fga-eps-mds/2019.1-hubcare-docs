@@ -12,14 +12,13 @@
 
 **Pontos Totais**: 49
 
-## Pareamento
-Por ser uma sprint de documentação não ocorreu os pareamentos.
+## Motivação e Objetivo
+Esta é a __sprint__ inicial do projeto, após a definição do tema. Nela temos como objetivo definir tecnologias que serão utilizadas neste inicio do projeto e dar inicio na documentação necessária.
+
+Teremos como objetivos os treinamentos básicos e a configuração de ambiente inicial além de levantar os requisitos do projeto.
 
 ## Priorização
 Foi priorizado os documentos iniciais do projeto para que seja possível dar inicio ao desenvolvimento do projeto.
-
-## Mudanças
-Não ocorreram mudanças ao decorrer da __sprint__.
 
 ## Histórias da _Sprint_
 

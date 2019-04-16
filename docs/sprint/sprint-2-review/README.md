@@ -26,21 +26,9 @@ Ocorreu uma melhora dos conhecimentos básicos das tecnologias utilizadas no pro
 * Se comunicar mais pelas issues
 Para isso foi decidido que todas as dúvidas ou sugestões deveriam ser colocadas nas issues.  
 
-* Melhorar pareamento
-Foi feito uma agenda de pareamento para as duplas melhor se organizarem.
-
 ### Retrospectiva
 <iframe width="1100" height="500" frameborder="0" src="https://docs.google.com/document/d/e/2PACX-1vT708G-aFlSQgCU5f3Od8sQZgTSKnSg4KDsDZI5-05Khsu5tq8Ir-wlKi8NnCnQSpgVZg27LaXc8wjB/pub
 " scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
-
-## EVM
-
-#### Dados
-
-
-#### Gráficos
-
-#### Análise da EVM
 
 ## Análise do Scrum Master
 Como a __sprint__ 2 teve diversas histórias que não foram entregues, apesar de monitoramento constante que
