@@ -4,9 +4,11 @@ repo_name: '2019.1-hubcare-docs'
 repo_url: 'https://github.com/fga-eps-mds/2019.1-hubcare-docs'
 theme:
   name: 'material'
+  language: 'pt'
 
 nav:
   - Início: README.md
+  - Colaboradores: contributors/README.md
   - Projeto:
     - Documento de Visão: project/vision-document/README.md
     - Documento de Arquitetura: project/architecture-document/README.md
