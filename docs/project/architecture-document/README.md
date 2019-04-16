@@ -6,8 +6,9 @@
 | :--: | :----: | :-------: | :---: |
 |  30/03/2019    | 0.1    | Criação do documento e introdução | Vitor Alves e Vitor Meireles |
 |  03/04/2019 | 0.2 | Adição de Restrições da Arquitetura  |  Vitor Meireles |
-| 04/04/2019 | 0.3 | Adição da Representação da Arquitetura | Rômulo Souza e Vitor Meireles
-| 07/04/2019 | 0.4 | Adição do Sumário | Rômulo Souza
+| 04/04/2019 | 0.3 | Adição da Representação da Arquitetura | Rômulo Souza e Vitor Meireles |
+| 07/04/2019 | 0.4 | Adição do Sumário | Rômulo Souza |
+| 12/04/2019 | 0.5 | Adição do diagrama de classes | Brian, Cleber, Francisco, Rômulo e Vitor Meireles |
 
 ## 1. Introdução
 

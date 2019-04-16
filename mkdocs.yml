@@ -7,6 +7,7 @@ theme:
 
 nav:
   - Início: README.md
+  - Colaboradores: contributors/README.md
   - Projeto:
     - Documento de Visão: project/vision-document/README.md
     - Documento de Arquitetura: project/architecture-document/README.md
