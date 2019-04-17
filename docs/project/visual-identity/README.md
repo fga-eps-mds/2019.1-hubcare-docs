@@ -11,19 +11,45 @@
 
 ***
 
-## 1.1 Apresentação
-![Manual de identidade](identidade1.png)
+## Manual de Identidade Visual
+* HubCare
 
-![Agenda](agenda1.png)
+## Agenda
+* Logo
+* Paleta de Cores
+* Descrição das Cores
+* Tipografia
+* Gráficos
 
-![logo](logo1.png)
+## Logo
+![logo](Logo_HubCare.png)
 
-![Apresentação da Paleta](paleta1.png)
+## Paleta de Cores
+* As cores utilizadas foram baseadas nas cores do GitHub
 
-![Mostruário das Cores](paleta2.png)
+## HubCare Collor Pallete
+![Mostruário das Cores](paleta_de_cores.png)
 
-![Descrição das Cores](descricao1.png)
+## Descrição das Cores
+![Descrição das Cores](descricao_das_cores.png)
 
-![Tipografia](tipografia1.png)
+## Tipografia
+* O Github utiliza a Topografia: -apple-
+* Mas no HubCare será utilizado a Topografia: AmstelvarAlpha
 
-![Abhaya](abhaya1.png)
+## Descrição da Tipografia
+![Abhaya](tipografia.png)
+
+## Gráficos
+
+### Commits por dia
+![Abhaya](commits.png)
+
+### Pull Requests 
+![Abhaya](prs.png)
+
+### Taxa de Issues Marcadas com "Good First Issue", com "Help Wanted" e Issues ativas
+![Abhaya](porcentagem.png)
+
+### Check de Release Note, Presença de Guia de Contribuição, PR Template, Readme, Issue Template, Licença, Código de Conduta, Descrição do Repositório
+![Abhaya](check.png)
