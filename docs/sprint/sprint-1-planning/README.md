@@ -1,8 +1,8 @@
 **Número da _Sprint_**: 1
 
-**Data de Início**: 24/10/2019
+**Data de Início**: 24/03/2019
 
-**Data de Término**: 31/10/2019
+**Data de Término**: 31/03/2019
 
 **Duração**: Uma Semana
 
@@ -12,17 +12,17 @@
 
 **Pontos Totais**: 49
 
-## Pareamento
-Por ser uma sprint de documentação não ocorreu os pareamentos.
+## Motivação e Objetivo
+Esta é a __sprint__ inicial do projeto, após a definição do tema. Nela temos como objetivo definir tecnologias que serão utilizadas neste inicio do projeto e dar inicio na documentação necessária.
+
+Teremos como objetivos os treinamentos básicos e a configuração de ambiente inicial além de levantar os requisitos do projeto.
 
 ## Priorização
-Foi priorizado as documentações iniciais do projeto para que seja possível dar inicio ao desenvolvimento do projeto.
-
-## Mudanças
+Foi priorizado os documentos iniciais do projeto para que seja possível dar inicio ao desenvolvimento do projeto.
 
 ## Histórias da _Sprint_
 
-| Repositorio|Issue|Nome|
+| Repositório|Issue|Nome|
 | -----------|-----|----|
 |hubcare-docs|#14| Preliminar Backlog|
 |hubcare-docs|#13| Architecture Document| 
@@ -43,3 +43,7 @@ Foi priorizado as documentações iniciais do projeto para que seja possível da
 |hubcare-docs|#21| Created pull request template|
 |hubcare-docs|#20| Created issues templates|
 |hubcare-docs|#8| Set /doc to GitHub Pages in such way that it can be editable thought .md files|
+|hubcare-api|#1|Setup the API environment on Docker|
+|hubcare-api|#9|Updated Dockerfile, remove commands from compose and add to Dockerfile|
+|hubcare-api|#12|Created contribution guide|
+|hubcare-api|#11|Created initial template for README|
