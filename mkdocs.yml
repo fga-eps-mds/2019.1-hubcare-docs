@@ -4,6 +4,8 @@ repo_name: '2019.1-hubcare-docs'
 repo_url: 'https://github.com/fga-eps-mds/2019.1-hubcare-docs'
 theme:
   name: 'material'
+  logo: 'images/logo.png'
+  favicon: 'images/logo.png'
   language: 'pt'
 
 nav:
@@ -13,6 +15,7 @@ nav:
     - Documento de Visão: project/vision-document/README.md
     - Documento de Arquitetura: project/architecture-document/README.md
   - Gerenciamento de Integração:
+    - Gerenciamento de Integração: project-integration-management/README.md
     - Termo de Abertura de Projeto: project-integration-management/project-charter/README.md
     - Plano de Gerenciamento de Projeto: project-integration-management/project-management-plan/README.md
   - Gerenciamento de Qualidade:
