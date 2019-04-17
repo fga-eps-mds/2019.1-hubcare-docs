@@ -10,7 +10,7 @@ Como se trata de projeto de metodologia ágil, a duração do projeto é calcula
 
 ## Custo de pessoal
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=0&single=true"></iframe>
+<iframe style="width:100%;height:283px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=0&single=true"></iframe>
 
 Temos 9 integrantes no time, sendo 5 deles desenvolvedores júniores do sistema e os demais tendo papeis relativos à infraestrutura e à gerência. Para estes papeis específicos, foram assumidos cargos análogos presentes no mercado de trabalho.
 
@@ -20,7 +20,7 @@ Os salários foram definidos com base em pesquisa de salário mensal médio de c
 
 ## Equipamento de Desenvolvimento
 
-<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=1310096979&single=true'></iframe>
+<iframe style="width:100%;height:283px;" src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=1310096979&single=true'></iframe>
 
 Os custos desta planilha não são para compra de equipamento. É calculada apenas a depreciação do equipamento utilizado durante o tempo de projeto.
 
@@ -32,7 +32,7 @@ Além disso, é aplicada também uma taxa sobre o valor investido com base na CD
 
 ## Custo de Reunião
 
-<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=660778229&single=true'></iframe>
+<iframe style="width:100%;height:383px;" src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=660778229&single=true'></iframe>
 
 O time precisa se reunir semanalmente para cumprimento da metodologia proposta. Isso exigirá espaço com condições de trabalho suficiente para 9 pessoas, o que inclui água potável, eletricidade e conexão estável com a internet. Inclui-se ainda o custo de uma pequena alimentação durante a reunião, pois ela tem uma longa duração e a maioria dos membros tem uma longa viagem antes e após a reunião.
 
@@ -52,7 +52,7 @@ Para produção, são utilizados servidores da Digital Ocean em um plano de U$ 1
 
 ## Custo Total
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=1839291929&single=true"></iframe>
+<iframe style="width:100%;height:383px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQirOrvhk7KA6gxnBHEOpPebauFSv1cHN-pkd_-BXr4viTUaJaLemlti05ZLHXFmegBt3M1-baYkpX-/pubhtml?gid=1839291929&single=true"></iframe>
 
 Além das categorias de custo listadas na tabela acima, foi considerada uma taxa de gestão de risco de 40% do subtotal.
 

@@ -10,29 +10,6 @@
 | 07/04/2019 | 0.4 | Adição do Sumário | Rômulo Souza |
 | 12/04/2019 | 0.5 | Adição do diagrama de classes | Brian, Cleber, Francisco, Rômulo e Vitor Meireles |
 
-## Sumário
-
-- [Documento de arquitetura](#documento-de-arquitetura)
-  - [Histórico de Revisões](#hist%C3%B3rico-de-revis%C3%B5es)
-  - [Sumário](#sum%C3%A1rio)
-  - [1. Introdução](#1-introdu%C3%A7%C3%A3o)
-    - [1.1. Finalidade](#11-finalidade)
-    - [1.2. Escopo](#12-escopo)
-    - [1.3. Definições, Acrônimos e Abreviações](#13-defini%C3%A7%C3%B5es-acr%C3%B4nimos-e-abrevia%C3%A7%C3%B5es)
-    - [1.4. Visão geral](#14-vis%C3%A3o-geral)
-  - [2. Representação da Arquitetura](#2-representa%C3%A7%C3%A3o-da-arquitetura)
-    - [2.1. Django Rest Framework](#21-django-rest-framework)
-    - [2.2. Plugin Google Chrome](#22-plugin-google-chrome)
-    - [2.3 API GitHub](#23-api-github)
-  - [3. Metas e Restrições de Arquitetura](#3-metas-e-restri%C3%A7%C3%B5es-de-arquitetura)
-  - [4. Visão lógica](#4-vis%C3%A3o-l%C3%B3gica)
-    - [4.1. Diagrama de Classes](#41-diagrama-de-classes)
-  - [5. Arquitetura dos Serviços](#5-arquitetura-dos-servi%C3%A7os)
-  - [6. Visão de Implementação](#6-vis%C3%A3o-de-implementa%C3%A7%C3%A3o)
-    - [6.1. Django Rest Framework](#61-django-rest-framework)
-    - [6.2. Plugin Google Chrome](#62-plugin-google-chrome)
-  - [7. Referências Bibliográficas](#7-refer%C3%AAncias-bibliogr%C3%A1ficas)
-
 ## 1. Introdução
 
 ### 1.1. Finalidade
@@ -78,7 +55,7 @@ Os plugins são feitos em tecnologias web, como HTML, CSS e JavaScript. No Hubca
 * Background.js - script responsável pelos eventos que ocorrem na página e precisam ser observados pelo plugin. O módulo background deve ficar desabilitado quando não é utilizado, e carregado apenas quando necessário.
 * Contentscript.js - responsável pela leitura e escrita em uma página web. Ele lê e modifica o DOM de páginas web acessadas pelo browser.
 
-<img alt="chrome-architecture" src="../../images/default/chrome-architecture.png" />
+<img alt="chrome-architecture" src="chrome-architecture.png" />
 
 ### 2.3 API GitHub
 
@@ -104,11 +81,11 @@ O Plugin Hubcare possui as seguintes restrições de arquitetura:
 
 ### 4.1. Diagrama de Classes
 
-![diagrama_classes](diagrama_classes.png)
+<iframe frameborder="0" style="width:100%;height:483px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D157yRDxAY8LSSzSjLOg3YswH1-UJf6GFu%26export%3Ddownload"></iframe>
 
 ## 5. Arquitetura dos Serviços 
 
-![arquitetura](../../images/default/eps_architecture.png)
+<iframe frameborder="0" style="width:100%;height:594px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=eps_architecture.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vXER5G4wags_JHToZT-_3GOSGvpWjKYl%26export%3Ddownload"></iframe>
 
 ## 6. Visão de Implementação
 
