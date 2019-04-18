@@ -31,7 +31,7 @@ Na logo se encontra 2 mãos segurando a Logo do Github, para se denotar a idéia
 * As cores utilizadas foram baseadas nas cores do GitHub
 
 ## HubCare Collor Pallete
-![Mostruário das Cores](paleta_de_cores.png)
+![Mostruário das Cores](paleta_hubcare.png)
 
 ## Descrição das Cores
 * A cor preta será usada para os Headers, os Textos e para o gráfico de Contribuidores
@@ -39,6 +39,7 @@ Na logo se encontra 2 mãos segurando a Logo do Github, para se denotar a idéia
 * A cor verde será usada no gráfico de Commits, de Porcentagem e de Checks
 * A cor vermelha será usada no gráfico de Porcentagem
 * A cor branca será usada para o fundo
+* A cor laranja será usada para mostrar que está na aba HubCare
 
 ![Descrição das Cores](descricao_das_cores.png)
 
