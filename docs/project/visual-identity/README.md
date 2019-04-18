@@ -37,6 +37,7 @@
 ![Cores Secundárias](Cores_secundarias.png)
 
 ## Descrição das Cores
+* A cor roxo será a Cor principal
 * A cor preta será usada para os Headers, os Textos e para o gráfico de Contribuidores
 * A cor azul será usada no gráfico de PRs
 * A cor verde será usada no gráfico de Commits, de Porcentagem e de Checks
@@ -46,12 +47,13 @@
 
 ## Tipografia
 * O Github utiliza a Topografia: -apple-
-* No HubCare será utilizado a Topografia: AmstelvarAlpha para Textos e Abhaya Libre para Headers. Foi usada essas tipografias, pois se assemelha bastante a tipografia -apple-.
+* Terminal Dosis para Textos
+* Abhaya Libre para Títulos, Headers e Botões.
 
 ## Descrição da Tipografia
-![AmstelvarAlpha](tipografia.png)
+![Terminal Dosis](terminal_dosis.png)
 
-![Abhaya](tipografia2.png)
+![Abhaya](Abhaya.png)
 
 ## Gráficos
 
