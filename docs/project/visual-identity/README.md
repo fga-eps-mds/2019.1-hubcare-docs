@@ -22,34 +22,38 @@
 * Gráficos
 
 ## Logo
-Na logo se encontra 2 mãos segurando a Logo do Github, para se denotar a idéia de cuidado, de saúde. Pois o HubCare irá analisar a saúde dos repositórios.
+![logo](Logo_HubCare.png)
 
-![logo](Logo.svg)
-
+## Logo e Cores
+![Cor da logo](Cores_HubCare.png)
 
 ## Paleta de Cores
 * As cores utilizadas foram baseadas nas cores do GitHub
 
-## HubCare Collor Pallete
-![Mostruário das Cores](paleta_de_cores.png)
+## Cor Principal
+![Cor Principal](Cor_Principal.png)
+
+## Cor Secundárias
+![Cores Secundárias](Cores_secundarias.png)
 
 ## Descrição das Cores
+* A cor roxo será a Cor principal
 * A cor preta será usada para os Headers, os Textos e para o gráfico de Contribuidores
 * A cor azul será usada no gráfico de PRs
 * A cor verde será usada no gráfico de Commits, de Porcentagem e de Checks
 * A cor vermelha será usada no gráfico de Porcentagem
 * A cor branca será usada para o fundo
-
-![Descrição das Cores](descricao_das_cores.png)
+* A cor laranja será usada para mostrar que está na aba HubCare
 
 ## Tipografia
 * O Github utiliza a Topografia: -apple-
-* No HubCare será utilizado a Topografia: AmstelvarAlpha para Textos e Abhaya Libre para Headers. Foi usada essas tipografias, pois se assemelha bastante a tipografia -apple-.
+* Terminal Dosis para Textos
+* Abhaya Libre para Títulos, Headers e Botões.
 
 ## Descrição da Tipografia
-![AmstelvarAlpha](tipografia.png)
+![Terminal Dosis](terminal_dosis.png)
 
-![Abhaya](tipografia2.png)
+![Abhaya](Abhaya.png)
 
 ## Gráficos
 
