@@ -1,5 +1,5 @@
 # Hubcare - Docs
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 The Hubcare is an open-source project to manage if a repository is good or not to a newcomer, either a passing visitor, someone who looks for contributions or someone who just is interested in the software.
 
@@ -29,7 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://github.com/cjjcastro"><img src="https://avatars0.githubusercontent.com/u/26393787?v=4" width="100px;" alt="Cleber Júnior"/><br /><sub><b>Cleber Júnior</b></sub></a><br /><a href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/commits?author=cjjcastro" title="Documentation">📖</a> <a href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/commits?author=cjjcastro" title="Code">💻</a></td><td align="center"><a href="https://github.com/Brian2397"><img src="https://avatars1.githubusercontent.com/u/29316265?v=4" width="100px;" alt="Brian Lui"/><br /><sub><b>Brian Lui</b></sub></a><br /><a href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/commits?author=brian2397" title="Code">💻</a></td></tr></table>
+<table><tr><td align="center"><a href="https://github.com/cjjcastro"><img src="https://avatars0.githubusercontent.com/u/26393787?v=4" width="100px;" alt="Cleber Júnior"/><br /><sub><b>Cleber Júnior</b></sub></a><br /><a href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/commits?author=cjjcastro" title="Documentation">📖</a> <a href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/commits?author=cjjcastro" title="Code">💻</a></td><td align="center"><a href="https://github.com/Brian2397"><img src="https://avatars1.githubusercontent.com/u/29316265?v=4" width="100px;" alt="Brian Lui"/><br /><sub><b>Brian Lui</b></sub></a><br /><a href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/commits?author=brian2397" title="Code">💻</a></td><td align="center"><a href="https://github.com/Hiroshi18"><img src="https://avatars0.githubusercontent.com/u/26282955?v=4" width="100px;" alt="Lucas Hiroshi Horinouchi"/><br /><sub><b>Lucas Hiroshi Horinouchi</b></sub></a><br /><a href="https://github.com/fga-eps-mds/2019.1-hubcare-docs/commits?author=Hiroshi18" title="Code">💻</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
