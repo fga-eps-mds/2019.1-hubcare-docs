@@ -22,16 +22,19 @@
 * Gráficos
 
 ## Logo
-Na logo se encontra 2 mãos segurando a Logo do Github, para se denotar a idéia de cuidado, de saúde. Pois o HubCare irá analisar a saúde dos repositórios.
+![logo](Logo_HubCare.png)
 
-![logo](Logo.svg)
-
+## Logo e Cores
+![Cor da logo](Cores_HubCare.png)
 
 ## Paleta de Cores
 * As cores utilizadas foram baseadas nas cores do GitHub
 
-## HubCare Collor Pallete
-![Mostruário das Cores](paleta_hubcare.png)
+## Cor Principal
+![Cor Principal](Cor_Principal.png)
+
+## Cor Secundárias
+![Cores Secundárias](Cores_secundarias.png)
 
 ## Descrição das Cores
 * A cor preta será usada para os Headers, os Textos e para o gráfico de Contribuidores
@@ -40,8 +43,6 @@ Na logo se encontra 2 mãos segurando a Logo do Github, para se denotar a idéia
 * A cor vermelha será usada no gráfico de Porcentagem
 * A cor branca será usada para o fundo
 * A cor laranja será usada para mostrar que está na aba HubCare
-
-![Descrição das Cores](descricao_das_cores.png)
 
 ## Tipografia
 * O Github utiliza a Topografia: -apple-
