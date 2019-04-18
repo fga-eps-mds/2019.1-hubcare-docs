@@ -71,7 +71,9 @@ O documento de visão descreve os características e utilidades da aplicação. 
 ### 2.1 Oportunidade de Negócios
 <div id='id21'/>
 
-O HubCare é direcionado para usuários do GitHub, para que tenham conhecimento do nível de receptividade dos seus repositórios, também para contribuidores, que pretendem fazer uma contribuição para algum projeto. 
+O HubCare é direcionado para usuários do GitHub, para que tenham conhecimento do nível de receptividade dos seus repositórios, também para contribuidores, que pretendem fazer uma contribuição para algum projeto.
+
+![business_canvas](canvas.jpg)
 
 Atualmente para contribuir com projetos no Github é simples , porém, exite um problema, o usuário não tem a certeza se irá ter um retorno sobre aquele projeto. Desse modo, o HubCare será desenvolvido para fazer essas verificações e classificar se o repositório é ideal.
 
