@@ -33,7 +33,7 @@
 ## Cor Principal
 ![Cor Principal](Cor_Principal.png)
 
-## Cor Secundárias
+## Cores Secundárias
 ![Cores Secundárias](Cores_secundarias.png)
 
 ## Descrição das Cores
@@ -57,17 +57,22 @@
 
 ## Gráficos
 
-### Commits por dia
-![Abhaya](commits.png)
-
-### Pull Requests 
-![Abhaya](prs.png)
-
-### Contribuidores dos últimos 30 dias
-![Abhaya](contribuidores.png)
-
-### Taxa de Issues Marcadas com "Good First Issue", com "Help Wanted" e Issues ativas
-![Abhaya](porcentagem.png)
+### Atividade, Receptividade e Suporte
+![Saude](saude.png)
 
 ### Check de Release Note, Presença de Guia de Contribuição, PR Template, Readme, Issue Template, Licença, Código de Conduta, Descrição do Repositório
-![Abhaya](check.png)
+![Ckeck Image](check.png)
+
+![Check Analsys](checks.png)
+
+### Taxa de Issues Marcadas com "Good First Issue", com "Help Wanted" e Issues ativas
+![Porcentagem](porcentagem.png)
+
+### Commits por dia
+![Commits](commits.png)
+
+### Contribuidores dos últimos 30 dias
+![Contribuidores](contribuidores.png)
+
+### Pull Requests 
+![PRs](prs.png)
