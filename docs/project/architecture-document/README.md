@@ -37,7 +37,7 @@ O documento detalha a arquitetura utilizada no projeto. Para isso, é explicada 
 
 O DRF é um extensão do Django Framework e é utilizado para a construção de APIs em plataforma Web. Com esse, é possível criar um backend independente, através de microsserviços, podendo se comunicar com um front-end de uma aplicação mobile ou web através de arquivos JSON. Uma arquitetura REST opera através de métodos de protocolo HTTP; como GET, POST, PUT, DELETE, entre outros.
 
-A arquitetura do DRF é baseada na arquitetura MVC, onde a camada da controller ocorre internamente ao framework, de forma automática. No Hubcare, cada funcionalidade é representada por um app interno, para melhor modularização do sistema. Além disso, app contém sua model e suas views. Isso pode ser melhor observado na [Visão de implementação](#6-Visão-de-Implementação)
+A arquitetura do DRF é baseada na arquitetura MVC, onde a camada da controller ocorre internamente ao framework, de forma automática. No Hubcare, cada funcionalidade é representada por um app interno, para melhor modularização do sistema. Além disso, app contém sua model e suas views. Isso pode ser melhor observado na [Visão de implementação](#6-visao-de-implementacao)
 
 A model do DRF é a camada responsável por gerir, modelar e persistir os dados. Tem   como principais funções controlar o estado dos dados, responder a instruções para mudança de estado dos dados, cuidar das regras de negócio da aplicação e controlar as transações com o banco de dados da aplicação.
 

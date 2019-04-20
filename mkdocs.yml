@@ -7,6 +7,13 @@ theme:
   logo: 'images/logo.png'
   favicon: 'images/logo.png'
   language: 'pt'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/fga-eps-mds/2019.1-hubcare-docs'
 
 nav:
   - Início: README.md
@@ -27,6 +34,7 @@ nav:
   - Roadmap:
     - Roadmap do Produto: product-roadmap/README.md
   - Pipelines:
+    - DevOps: pipeline/devops/README.md
     - Pipeline API: pipeline/api/README.md
     - Pipeline Chrome Extension: pipeline/plugin/README.md
   - Treinamentos:
