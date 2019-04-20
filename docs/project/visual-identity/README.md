@@ -1,15 +1,12 @@
 # Documento de Identidade Visual
-***
 
 ## Histórico de Revisão
-***
 
 | Data | Descrição | Autor |
 |:----:|:---------:|:-----:|
 | 15/04/19 | Abertura do Documento de Identidade Visual | Brian Lui |
 | 16/04/19 | Adição das imagens | Brian Lui |
 
-***
 
 ## Manual de Identidade Visual
 * HubCare
