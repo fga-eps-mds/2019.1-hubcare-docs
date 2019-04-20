@@ -4,6 +4,29 @@
 
 ## Explicação sobre os estágios:
 
-* **teste:** testes de unidade executam e publicam cobertura de teste no coveralls; 
-* **release:** gera uma build do aplicativo e publica no dockerhub, são gerados apenas no branch master e devel; 
-* **deploy**: atualiza a versão do sistema no deploy, são gerados apenas no branch master e devel (em desenvolvimento)
+* **teste:** São executados testes unitários do python e é publicada a cobertura do código no coveralls. Também é verificada a folha de estilo utilizando pep8; 
+* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no dockerhub, são gerados apenas nas branchs master e devel; 
+* **deploy**: Atualiza a versão do sistema no deploy, são gerados apenas no branch master e devel (em desenvolvimento). O deploy será realizado no DigitalOcean, onde uma ferramenta de orquestração de container está configurada (estamos estudando kubernetes e o docker swarm para isso).
+
+## Ferramentas
+
+### Gitlab CI/CD
+
+O GitLab CI/CD é a ferramenta integrada do GitLab para desenvolvimento de software usando metodologia contínua:
+
+* A Integração Contínua , ou CI, trabalha para integrar o código de sua equipe em um repositório compartilhado. Os desenvolvedores compartilham seu novo código em uma solicitação de mesclagem (pull), que aciona um pipeline para criar, testar e validar o novo código antes de mesclar as alterações em seu repositório.
+* A Entrega Contínua , ou CD, entrega o código validado pelo CI para o seu aplicativo.
+
+### DockerHub
+
+O Docker Hub é a ferrameta utilizada para criar, gerenciar e entregar os aplicativos de contêiner do projeto.
+
+### Coveralls
+
+Auxilia você a fornecer o código com segurança, mostrando quais partes do seu código não são cobertas pelo seu conjunto de testes.
+
+### Orquestrador
+...
+
+### DigitalOcean
+...
