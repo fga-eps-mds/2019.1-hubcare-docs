@@ -51,13 +51,27 @@ A serem levantados
 <br>
 
 ## Resumo do cronograma de marcos
-A serem levantados
 <br>
 
 ## Resumo do orçamento
-A serem levantados
-<br>
+### Custo de pessoal
+**Total por semana: R$ 2.868,39**
 
+### Custo de Equipamento de Desenvolvimento
+**Total por semana: R$ 160,74**
+
+## Custo de Reunião
+**Total por semana: R$ 546,00**
+
+### Custo Servidor
+**Total por semana: R$ 10,00**
+
+### Custo Total
+**Total por semana: R$ 5019,18**
+
+**Custo Total do Projeto: R$ 65.249,30**
+
+<br>
 ## Lista das partes interessadas
 - Equipe de desevolvimento
 - Comunidades do Github
