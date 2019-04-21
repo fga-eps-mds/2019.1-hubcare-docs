@@ -4,8 +4,6 @@ repo_name: '2019.1-hubcare-docs'
 repo_url: 'https://github.com/fga-eps-mds/2019.1-hubcare-docs'
 theme:
   name: 'material'
-  logo: 'images/logo.png'
-  favicon: 'images/logo.png'
   language: 'pt'
   palette:
     primary: 'indigo'
@@ -46,3 +44,9 @@ nav:
   - Sprints:
     - Sprint 1 Planning: sprint/sprint-1-planning/README.md
     - Sprint 1 Review: sprint/sprint-1-review/README.md
+    - Sprint 2 Planning: sprint/sprint-2-planning/README.md
+    - Sprint 2 Review: sprint/sprint-2-review/README.md
+    - Sprint 3 Planning: sprint/sprint-3-planning/README.md
+    - Sprint 3 Review: sprint/sprint-3-review/README.md
+    - Sprint 4 Planning: sprint/sprint-4-planning/README.md
+    - Sprint 4 Review: sprint/sprint-4-review/README.md

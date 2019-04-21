@@ -5,11 +5,7 @@
 ## Ciclo de Vida do Projeto
 <br>
 
-
 ## Diretrizes para a execução do Projeto
-<br>
-
-## Plano de Gerenciamento de Mudanças
 <br>
 
 ## Plano de Gerenciamento de Configuração de Software
@@ -78,7 +74,7 @@ Será cadastrada as tasks e os critérios de aceitação de cada história de us
 * Exemplo: “Eu, como gerente, desejo cadastrar novos produtos, para manter meu estoque sempre atualizado.”
 
 O nome das issues seguirão o seguinte padrão: <Tipo de Issue> - < Nome definido para a história pela equipe >.
-s
+
 * Exemplo : "Feature - Register Product".
 
 <br>

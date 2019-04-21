@@ -2,20 +2,35 @@
 ## Indicadores de Qualidade do Processo
 
 ### Fechamento da Sprint
-O objetivo desta __sprint__ foi 
+O objetivo desta __sprint__ foi fechar os débitos deixados pelas sprint passada.
 
 ### _Burndown_
+
+![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-3-burndown.png?raw=true)
 
 
 ### _Velocity_
 
+![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-3-velocity.png?raw=true)
+
+
+### Melhorias em Relação a __Sprint__ 2
+* Melhorar comunicar pelas issues
+Ocorreram mais comentários nas issues.
+
+* Terminar issues
+Para auxiliar MDS nesse __sprint__ EPS pareou com eles.
+
+### Retrospectiva
+<iframe width="1100" height="500" frameborder="0" src="https://docs.google.com/document/d/e/2PACX-1vR4hY4WB0l7oNnR7YrZbJhMOmAkIX7jnKTl2snDJjQASknB0SEhnAx5SFwU5nGBNiFbuXdWw9mfbtaS/pub
+" scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
 
 ### Quadro de Conhecimento
 
 <iframe width="1100" height="500" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQz4PB1QudgJp7Resl8wUHgxOGqkoSUCB47p7MJxv02Co7vuFXVY0JxMVbYuSR9alX9l6H8kZnjqhd3/pubhtml?gid=95863306&single=true
 " scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
 
-
-
 ## Análise do Scrum Master
+Houve uma melhoria significativa no conhecimento de MDS que pode ser evidenciado no quadro de conhecimentos. 
 
+O documento de testes de aceitação foi passado para a proxima __sprint__ devido a necessidade de terem mais __features__ para a conclusão do documento.
