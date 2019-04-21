@@ -40,6 +40,8 @@ nav:
     - Docker: training/docker/README.md
     - Git: training/git/README.md
     - Tecprog: training/tecprog/README.md
+    - Django: training/django/README.md
+    - Plugin Chrome: training/plugin_chrome/README.md
     - Testes Unitários: training/unit_test/README.md
   - Sprints:
     - Sprint 1 Planning: sprint/sprint-1-planning/README.md
