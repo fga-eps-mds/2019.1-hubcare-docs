@@ -1,18 +1,19 @@
-**Número da _Sprint_**: 2
+**Número da _Sprint_**: 3
 
-**Data de Início**: 24/10/2019
+**Data de Início**: 07/04/2019
 
-**Data de Término**: 31/10/2019
+**Data de Término**: 14/04/2019
 
 **Duração**: Uma Semana
 
-**Pontos Planejados**: 24
+**Pontos Planejados**: 11
 
 **Pontos Adicionados**: 19
 
-**Pontos Totais**: 43
+**Pontos Totais**: 30
 
 ## Motivação e Objetivo
+O objetivo desta __sprint__ é a conclusão dos débitos da __sprint__ passada e o nivelamento de conhecimento.
 
 ## Pareamento
 Nesta __sprint__ irão acontecer entre EPS e MDS.
