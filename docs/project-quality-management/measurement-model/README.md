@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Como consta em Documento de Visão, o objetivo deste software é ajudar a comunidade do GitHub a aferir a saúde de repositórios com dois fins:
+Como consta em [Documento de Visão](../../project/vision-document/README.md), o objetivo deste software é ajudar a comunidade do GitHub a aferir a saúde de repositórios com dois fins:
 
 - Saber se usuários do software alocado no repositório vão ter suporte da comunidade ou dos mantenedores
 - Saber se vale a pena começar a contribuir com a comunidade presente no repositório
@@ -31,6 +31,8 @@ Os usuários das plataformas podem ser caracterizados em dois: usuários e contr
 
 **Questão 3** - Para os usuários, convém querer saber sobre o suporte que eles podem obter da comunidade que mantém determinado software.
 
+A resposta para cada questão se dará num número que varia de 0 a 1 resultante da média ponderada das métricas abaixo, de acordo com o peso predeterminado para cada questão.
+
 ## Nível Quantitativo - As Métricas
 
 ### M1 - Quantidade de Commits no último mês
@@ -39,17 +41,17 @@ Nome autoexplicativo, medirá a quantidade de commits realizado nos últimos 30 
 
 #### Medida
 
-| Qtd de Commits | Resultado |
-| :------------: | :-------: |
-| 10 ou mais     | Satisfatório|
-| entre 9 e 1    | Mediano   |
-| 0              | Ruim      |
+A medida deverá seguir a seguinte fórmula.
+
+`0.1 * Qtd_de_Commits`
+
+O maior resultado possível é 1, de tal maneira que para qualquer valor de `Qtd_de_Commits` igual ou maior que 10, o resultado sempre será 1.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 1 | Alta |
+| 1 | 3 |
 
 ### M2 - Qualidade de Aceitação de Pull Requests
 
@@ -66,21 +68,26 @@ A opção que oferecer *menos* Pull Requests:
 
 #### Medida
 
+Cada PR avaliado deve estar em uma das seguintes categorias:
+
 | Situação | Discussão | Resultado |
-| :------------: | :-------: | :---:|
-| Aceito | Sim | Excelente |
-| Aceito | Não | Bom |
-| Aberto | Recente | Bom |
-| Recusado | Sim | Rasoável |
-| Recusado | Não | Ruim
-| Aberto | Não / antiga | Ruim |
+| :------: | :-------: | :-------: |
+| Merjado | Sim | 1 |
+| Merjado | Não | 0.9 |
+| Aberto | Recente (<=15 dias) | 0.9 |
+| Fechado e sem Merge | Sim | 0.7 |
+| Aberto | Antiga (>15 dias) | 0.3 |
+| Fechado e sem Merge | Não | 0.1 |
+| Aberto | Não / antiga | 0 |
+
+A medida será a média dos resultados obtidos em cada PR.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 1 | Média |
-| 2 | Alta  |
+| 1 | 2 |
+| 2 | 3 |
 
 ### M3 - Quantidade de Contribuídores Diferentes no Último Mês
 
@@ -92,18 +99,16 @@ Commits realizados nos últimos 30 dias.
 
 A medida será calculada com base na quantidade de autores únicos dentro da amostra.
 
-| Qtd de Autores | Resultado |
-| :------------: | :-------: |
-| 4 ou mais | Aceitável |
-| entre 3 e 1 | Mediano |
-| 0 | Ruim |
+`0.25 * Qtd_de_Autores`
+
+O resultado máximo para a equação deve ser 1, assim, para qualquer quantidade de autores maior ou igual a 4, o resultado sempre deverá ser 1.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 1 | Baixa |
-| 2 | Média |
+| 1 | 1 |
+| 2 | 2 |
 
 ### M4 - Presença de Release Notes
 
@@ -113,17 +118,14 @@ Release Notes dos últimos 90 dias.
 
 #### Medida
 
-| Qtd Release Notes | Resultado |
-| :------------: | :-------: |
-| 1 ou mais | Bom |
-| 0 | Ruim |
+Se tiver uma Release Note, será 1. Caso contrário, será 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 1 | Baixa |
-| 3 | Alta |
+| 1 | 1 |
+| 3 | 3 |
 
 ### M5 - Taxa de Issues Ativas
 
@@ -133,36 +135,31 @@ Todas as Issues abertas do repositório.
 
 #### Medida
 
-Tx = Issues ativas / Amostra
+`((qtd_issues_ativas / qtd_issues_abertas)-0.5)*4`
 
-| Tx | Resultado |
-| :------------: | :-------: |
-| 75% ou maior | Bom |
-| entre 75% e 50% | Mediana |
-| menor que 50% | Ruim |
+Onde uma issue ativa significa uma issue que tenha tido alguma atividade no últimos 15 dias.
+
+Lembrando que o valor máximo da métrica deve ser 1 e o valor mínimo deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 1 | Alta |
-| 2 | Média|
-| 3 | Alta |
+| 1 | 3 |
+| 2 | 2 |
+| 3 | 3 |
 
 ### M6 - Presença de Guia de Contribuição
 
 #### Medida
 
-| Guia de Contribuição | Resultado |
-| :------------: | :-------: |
-| Existe | Bom |
-| Não existe | Ruim |
+Se o artefato existir, a medida deve ser 1, caso contrário, deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Alta |
+| 2 | 3 |
 
 ### M7 - Taxa de Issues marcadas com "help wanted"
 
@@ -174,17 +171,17 @@ Todas as issues abertas do repositório.
 
 Tx = Issues Marcadas com "Help Wanted" / Amostra total
 
-| Tx | Resultado |
-| :------------: | :-------: |
-| 10% ou mais | Bom |
-| entre 10% e 5% | Mediano |
-| abaixo de 5% | Ruim |
+`(Tx - 0.04) * 25`
+
+O resultado máximo para a equação deve ser 1, assim, para qualquer quantidade de autores maior ou igual a 0.08, o resultado sempre deverá ser 1.
+
+O mesmo é válido para o valor mínimo, 0, para qualquer Tx menor ou igual a 0.04.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Alta |
+| 2 | 3 |
 
 ### M8 - Taxa de Issues marcadas com "good first issue"
 
@@ -196,112 +193,115 @@ Todas as issues abertas do repositório.
 
 Tx = Issues Marcadas com "good first issue" / Amostra total
 
-| Tx | Resultado |
-| :------------: | :-------: |
-| 10% ou mais | Bom |
-| entre 10% e 5% | Mediano |
-| abaixo de 5% | Ruim |
+`(Tx - 0.04) * 25`
+
+O resultado máximo para a equação deve ser 1, assim, para qualquer quantidade de autores maior ou igual a 0.08, o resultado sempre deverá ser 1.
+
+O mesmo é válido para o valor mínimo, 0, para qualquer Tx menor ou igual a 0.04.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Alta |
+| 2 | 3 |
 
 ### M9 - Presença de Pull Request Template
 
 #### Medida
 
-| PR Template | Resultado |
-| :------------: | :-------: |
-| Existe | Bom |
-| Não existe | Ruim |
+Se o artefato existir, a medida deve ser 1, caso contrário, deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Média |
+| 2 | 2 |
 
 ### M10 - Presença de ReadMe
 
 #### Medida
 
-| README | Resultado |
-| :------------: | :-------: |
-| Existe | Bom |
-| Não existe | Ruim |
+Se o artefato existir, a medida deve ser 1, caso contrário, deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Alta |
-| 3 | Alta |
+| 2 | 3 |
+| 3 | 3 |
 
 ### M11 - Presença de Issue Template
 
 #### Medida
 
-| Issue Temaplate | Resultado |
-| :------------: | :-------: |
-| Existe | Bom |
-| Não existe | Ruim |
+Se o artefato existir, a medida deve ser 1, caso contrário, deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Média |
-| 3 | Média |
+| 2 | 2 |
+| 3 | 2 |
 
 ### M12 - Presença de Licença
 
 #### Medida
 
-| Licença | Resultado |
-| :------------: | :-------: |
-| Existe | Bom |
-| Não existe | Ruim |
+Se o artefato existir, a medida deve ser 1, caso contrário, deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Baixa |
-| 3 | Alta |
+| 2 | 1 |
+| 3 | 3 |
 
 ### M13 - Presença de Código de Conduta
 
 #### Medida
 
-| Código de Conduta | Resultado |
-| :------------: | :-------: |
-| Existe | Bom |
-| Não existe | Ruim |
+Se o artefato existir, a medida deve ser 1, caso contrário, deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Alta |
-| 3 | Baixa |
+| 2 | 3 |
+| 3 | 1 |
 
 ### M14 - Presença da Descrição do Repositório
 
 #### Medida
 
-| Descrição | Resultado |
-| :------------: | :-------: |
-| Existe | Bom |
-| Não existe | Ruim |
+Se o artefato existir, a medida deve ser 1, caso contrário, deve ser 0.
 
 #### Relevância para as questões
 
-| Questão | Relevância |
+| Questão | Peso |
 | ---:| :---:|
-| 2 | Baixa |
-| 3 | Baixa |
+| 2 | 1 |
+| 3 | 1 |
+
+## Resumo da Ponderação
+
+Segue resumo dos pesos de cada métrica atribuídos para cada questão.
+
+| Métrica | Questão 1 | Questão 2 | Questão 3 |
+| ------: | :-------: | :-------: | :-------: |
+| M1 | 3 | 0 | 0 |
+| M2 | 2 | 3 | 0 |
+| M3 | 1 | 2 | 0 |
+| M4 | 1 | 0 | 3 |
+| M5 | 3 | 2 | 3 |
+| M6 | 0 | 3 | 0 |
+| M7 | 0 | 3 | 0 |
+| M8 | 0 | 3 | 0 |
+| M9 | 0 | 2 | 0 |
+| M10 | 0 | 3 | 3 |
+| M11 | 0 | 2 | 2 |
+| M12 | 0 | 1 | 3 |
+| M13 | 0 | 3 | 1 |
+| M14 | 0 | 1 | 1 |
 
 ## Evoluções Futuras
 
