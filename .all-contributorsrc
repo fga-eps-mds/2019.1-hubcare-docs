@@ -70,6 +70,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "vitorAlves7",
+      "name": "Vitor Alves",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43835325?v=4",
+      "profile": "http://vitor.fer.alves7@gmail.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
