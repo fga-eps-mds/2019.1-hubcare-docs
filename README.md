@@ -34,3 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+### Dev's Recommendation to listen while Coding
+
+ <a href="https://open.spotify.com/playlist/3volu6WNAthdgivf0Ki4U1"><img src="https://mosaic.scdn.co/640/072be8c8070865cdbc15eb91bc78e270bdb2d9955fa3a6cc1848ea743a293d2088046746d1b096089e5288926fadb82f873ccf2b45300c3a6f65fa14e10a7d0572569ee5ec9159ed03c79a8b61b308ec" width="100" height="100" title="SO MUSICAO" alt="SO MUSICAO"></a>
