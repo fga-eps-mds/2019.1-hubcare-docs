@@ -31,6 +31,8 @@ Para auxiliar MDS nesse __sprint__ EPS pareou com eles.
 " scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
 
 ## Análise do Scrum Master
-Houve uma melhoria significativa no conhecimento de MDS que pode ser evidenciado no quadro de conhecimentos. 
+Buscamos nesta __sprint__  nivelar o conhecimento de MDS o que pode ser evidenciado pela melhoria significativa no conhecimento de MDS que pode ser evidenciado no quadro de conhecimentos. 
 
 O documento de testes de aceitação foi passado para a proxima __sprint__ devido a necessidade de terem mais __features__ para a conclusão do documento.
+
+Mantivemos algumas dividas da __sprint__ passada.

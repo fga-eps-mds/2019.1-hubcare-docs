@@ -10,7 +10,7 @@
 
 **Pontos Adicionados**: 2
 
-**Pontos Totais**: 0
+**Pontos Totais**: 41
 
 ## Motivação e Objetivo
 
