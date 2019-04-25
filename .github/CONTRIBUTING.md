@@ -24,8 +24,5 @@ Good issues help us to understand what you want and help you to get more help fr
 After clone the repository, create your branch related to a issue. Install ruby and gem. Run:
 
 ```shell
-$cd docs/ # enter in docs folder
-$gem install bundler
-$bundle install # install dependencies
-$bundle exec "jekyll serve --incremental --safe" # start the server
+$ docker-compose up
 ```

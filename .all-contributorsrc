@@ -34,6 +34,60 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "RomuloSouza",
+      "name": "Rômulo Vinícius de Souza",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/36862070?v=4",
+      "profile": "https://github.com/RomuloSouza",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "FranciscoHeronildo",
+      "name": "Francisco Heronildo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30841230?v=4",
+      "profile": "https://github.com/FranciscoHeronildo",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "VitorMeirelesOliveira",
+      "name": "VitorMeirelesOliveira",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/37275710?v=4",
+      "profile": "https://github.com/VitorMeirelesOliveira",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "filipetoyoshima",
+      "name": "Filipe Toyoshima",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29482983?v=4",
+      "profile": "https://gitlab.com/filipetoyoshima",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "vitorAlves7",
+      "name": "Vitor Alves",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43835325?v=4",
+      "profile": "http://vitor.fer.alves7@gmail.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Jacoapolinario",
+      "name": "Jacó Apolinário",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/37712347?v=4",
+      "profile": "https://github.com/Jacoapolinario",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
