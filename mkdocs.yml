@@ -5,6 +5,8 @@ repo_url: 'https://github.com/fga-eps-mds/2019.1-hubcare-docs'
 theme:
   name: 'material'
   language: 'pt'
+  logo: 'images/circle-icon.ico'
+  favicon: 'images/circle-icon.ico'
   palette:
     primary: 'indigo'
     accent: 'indigo'
