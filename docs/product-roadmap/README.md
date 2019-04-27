@@ -81,3 +81,25 @@ Por mais que o Lean concentre-se em planejar as coisas aos poucos para que não 
 Depois da primeira pivotagem planejada, ainda restará um objetivo para ser concluído, que podederá ser resolvido através de auxílio de gráficos. Esses gráficos terão de ser renderizados numa nova aba do GitHub, colocada lá pelo Plugin utilizado no Chrome.
 
 É claro que a execução dessa parte do trabalho é dependente dos resultados da primeira pivotagem, mas a expectativa é que as alterações no que foi planejado para teste inicial sejam pequenas e que o time possa trabalhar em paralelo nessas alteraçõe e nas features que serão incluídas para as próximas.
+
+## Datificação
+
+Até o momento da última atualização deste documento, é difícil mensurar quanto tempo irá durar um ciclo de pivotagem, pois ainda é necessário medir a produtividade da equipe e entender quais são as verdadeiras necessidades do público alvo através da primeira pivotagem. Porém, é possível realizar estimativas.
+
+Com os insumos coletados até o momento, é possível inferir que a primeira pivotagem ocorra na Sprint 6.
+
+Para depois da primeira pivotagem, espera-se completar a solução pensada no começo da concepção do projeto, isto é, a adição dos gráficos na aba adicionada pelo Plugin. Mantendo a produtividade da equipe como ela se encontra no momento, isso tomará cerca de 2 semanas, ocorrendo entre as Sprints 8 e 9.
+
+Depois disso, será necessário coletar as informações sobre o uso do software, através dos [Testes de Aceitação](../project-quality-management/acceptance-test-model/README.md) para validar a maneira como as métricas são exibidas e calculadas. Uma vez que já se espera maturidade do time nesse ponto do projeto, isso não demorará mais do que duas semanas.
+
+A partir deste ponto, não é possível prever com acurácia suficiente o que ocorrerá. Podem surgir novas demandas, podemos expandir o plugin para outros navegadores, ou a API para outras plataforma de software aberto. Vai depender da demanda dos usuários.
+
+Ao meio da Sprint 16 ocorrerá a entrega final.
+
+| Pivotagem | O que se espera testar | Sprint |
+| :-------: | :--------------------: | :----: |
+| 1 | Descrito no [RoadMap Inicial](#Roadmap%20Inicial) | 6 |
+| 2 | Adição de Gráficos em Aba adicional | 8~9 |
+| 3 | Refinamento de Métricas e Visual | 11 |
+| 4 | ¯\\\_(ツ)_/¯ | 13~14 |
+| 5 | ¯\\\_(ツ)_/¯ | 16 |
