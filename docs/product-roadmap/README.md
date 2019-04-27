@@ -30,7 +30,7 @@ Pensando nisso, temos que planejar por onde começar a errar, para que as experi
 
 O planejamento conta com passos de alto nível de abstração, que se referem a outras partes do projeto já documentadas.
 
-<iframe frameborder="0" style="width:100%;height:2114px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=Product%20Roadmap.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LfVQUN_wz5rKCXMoNggUARRcwP3ucQ3m%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%" src="https://www.draw.io/?lightbox=1&highlight=000000&layers=1&nav=1&title=Product%20Roadmap.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LfVQUN_wz5rKCXMoNggUARRcwP3ucQ3m%26export%3Ddownload"></iframe>
 
 O Roadmap é dividio em três níveis: planejamento, preparação, e pivotagem. Quanto mais se desce no diagrama, mais maleáveis são as ideias.
 
@@ -38,7 +38,7 @@ O Roadmap é dividio em três níveis: planejamento, preparação, e pivotagem. 
 
 O planejamento se refere a entender os objetivos finais do projeto, aquilo que tem que ser alcançado.
 
-Inicia-se com a visão, descrita em mais detalhes no [Documento de Visão](https://fga-eps-mds.github.io/2019.1-hubcare-docs/project/vision-document/). Essa visão refere-se à parte mais rígida do planejamento, pois se a visão do produto se altera um pouco, todo o resto terá que se adequar.
+Inicia-se com a visão, descrita em mais detalhes no [Documento de Visão](../project/vision-document/README.md). Essa visão refere-se à parte mais rígida do planejamento, pois se a visão do produto se altera um pouco, todo o resto terá que se adequar.
 
 Para alcançar a visão, foram separados quatro objetivos. Assim como na visão, todo o resto é pensado com base neles.
 
@@ -48,20 +48,58 @@ Como o projeto se trata de entender um domínio, que é a saúde de repositório
 
 A preparação se refere a montar a estrutura para que possam se iniciar a pivotagem. Como o projeto deverá prover uma visão para usuários do GitHub, planejar a estrutura para editar páginas do site será essencial para os primeiros testes.
 
-Os requisitos considerados de maior relevância para a API que realizará as requisições e para o Plugin que modificará as páginas do GitHub já se encontram documentadas. O serviço gerador de gráficos foi postergado para depois da primeira pivotagem, pois se mostra uma feature mais difícil de ajustar.
+#### API HubCare + GitHub API
+
+Para a primeira pivotagem, é necessário que alguns dados já estejam respondendo as perguntas levantadas durante o planejamento, na parte de [Plano de Medição](https://fga-eps-mds.github.io/2019.1-hubcare-docs/project-quality-management/measurement-model/). Lá são indicadas três perguntas, cada uma delas com suas métricas que, por sua vez, podem responder a mais de uma pergunta cada. Sabendo disso, e também que as métricas terão que ser ajustadas ao longo do tempo, foram planejadas respostas para todas as perguntas do Plano de Medição para a primeira pivotagem.
+
+#### Plugin para Chrome
+
+Para que se tenha algo que se possa validar com o usuário, é necessário que se tenha alguma informação renderizada na tela.
+
+A ideia dos objetivos é que eles modifiquem a página dos repositórios onde o usuário entrar. A opção de melhor viabilidade técnica, descrita no [Documento de Arquitetura](../project/architecture-document/README.md), foi um plugin para navegador, pois ele tem como característica essencial modificar a linguagem de marcação renderizada.
+
+Como primeiro navegador a ser testado, o Google Chrome foi escolhido. Além de fornecer um excelente suporte a plugins, é também o navegador mais utilizado atualmente segundo [post da W3Schools](https://www.w3schools.com/browsers/).
+
+![browsers mais usados](browsers.png)
 
 ### Pivotagem
 
 A pivotagem é um passo essencial no Lean, pois se trata de verificar se a solução realizada atende os objetivos propostos e, também, se os objetivos contemplam a visão do projeto.
 
+#### Badges
+
 A primeira pivotagem se refere às badges que resumem a qualidade de um repositório. Através disso, é possível verificar se a solução de modificar as páginas do GitHub agrada os usuários.
 
-Um plano de Teste de Aceitação ainda será planejamento.
+Existe um [Modelo de Teste de Aceitação](../project-quality-management/acceptance-test-model/README.md) a ser seguido para validação das features testadas.
 
 ### Próximas Etapas
 
 Por mais que o Lean concentre-se em planejar as coisas aos poucos para que não se tomem decisões comprometedoras das quais o time pode se arrepender posteriormente, é importante elicitar no roadmap quais são as possíveis features que resolverão objetivos ainda não contemplados na primeira pivotagem.
 
-Depois da primeira pivotagem planejada, ainda restará um objetivo para ser concluído, que podederá ser resolvido através de auxílio de gráficos gerados por um serviço à parte, linkados através de *iframes* HTML.
+#### Aba de Detalhamento com os Gráficos
+
+Depois da primeira pivotagem planejada, ainda restará um objetivo para ser concluído, que podederá ser resolvido através de auxílio de gráficos. Esses gráficos terão de ser renderizados numa nova aba do GitHub, colocada lá pelo Plugin utilizado no Chrome.
 
 É claro que a execução dessa parte do trabalho é dependente dos resultados da primeira pivotagem, mas a expectativa é que as alterações no que foi planejado para teste inicial sejam pequenas e que o time possa trabalhar em paralelo nessas alteraçõe e nas features que serão incluídas para as próximas.
+
+## Datificação
+
+Até o momento da última atualização deste documento, é difícil mensurar quanto tempo irá durar um ciclo de pivotagem, pois ainda é necessário medir a produtividade da equipe e entender quais são as verdadeiras necessidades do público alvo através da primeira pivotagem. Porém, é possível realizar estimativas.
+
+Com os insumos coletados até o momento, é possível inferir que a primeira pivotagem ocorra na Sprint 6.
+
+Para depois da primeira pivotagem, espera-se completar a solução pensada no começo da concepção do projeto, isto é, a adição dos gráficos na aba adicionada pelo Plugin. Mantendo a produtividade da equipe como ela se encontra no momento, isso tomará cerca de 2 semanas, ocorrendo entre as Sprints 8 e 9.
+
+Depois disso, será necessário coletar as informações sobre o uso do software, através dos [Testes de Aceitação](../project-quality-management/acceptance-test-model/README.md) para validar a maneira como as métricas são exibidas e calculadas. Uma vez que já se espera maturidade do time nesse ponto do projeto, isso não demorará mais do que duas semanas.
+
+A partir deste ponto, não é possível prever com acurácia suficiente o que ocorrerá. Podem surgir novas demandas, podemos expandir o plugin para outros navegadores, ou a API para outras plataforma de software aberto. Vai depender da demanda dos usuários.
+
+Ao meio da Sprint 16 ocorrerá a entrega final.
+
+| Pivotagem | O que se espera testar | Sprint |
+| :-------: | :--------------------: | :----: |
+| 1 | Descrito no [RoadMap Inicial](#Roadmap%20Inicial) | 6 |
+| 2 | Adição de Gráficos em Aba adicional | 8~9 |
+| 3 | Refinamento de Métricas e Visual | 11 |
+| 4 | ¯\\\_(ツ)_/¯ | 13~14 |
+| 5 | ¯\\\_(ツ)_/¯ | 16 |
