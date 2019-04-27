@@ -30,7 +30,7 @@ Pensando nisso, temos que planejar por onde começar a errar, para que as experi
 
 O planejamento conta com passos de alto nível de abstração, que se referem a outras partes do projeto já documentadas.
 
-<iframe frameborder="0" style="width:100%" src="https://www.draw.io/?lightbox=1&highlight=000000&layers=1&nav=1&title=Product%20Roadmap.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LfVQUN_wz5rKCXMoNggUARRcwP3ucQ3m%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%; height:800px" src="https://www.draw.io/?lightbox=1&highlight=000000&layers=1&nav=1&title=Product%20Roadmap.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LfVQUN_wz5rKCXMoNggUARRcwP3ucQ3m%26export%3Ddownload"></iframe>
 
 O Roadmap é dividio em três níveis: planejamento, preparação, e pivotagem. Quanto mais se desce no diagrama, mais maleáveis são as ideias.
 
