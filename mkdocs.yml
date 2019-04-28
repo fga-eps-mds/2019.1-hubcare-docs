@@ -35,6 +35,8 @@ nav:
     - DevOps: pipeline/devops/README.md
     - Pipeline API: pipeline/api/README.md
     - Pipeline Chrome Extension: pipeline/plugin/README.md
+    - GitFlow: pipeline/gcs/README.md
+    
   - Treinamentos:
     - Ágil: training/agile/README.md
     - Docker: training/docker/README.md
