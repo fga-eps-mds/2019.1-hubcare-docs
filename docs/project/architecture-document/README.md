@@ -7,8 +7,9 @@
 |  30/03/2019    | 0.1    | Criação do documento e introdução | Vitor Alves e Vitor Meireles |
 |  03/04/2019 | 0.2 | Adição de Restrições da Arquitetura  |  Vitor Meireles |
 | 04/04/2019 | 0.3 | Adição da Representação da Arquitetura | Rômulo Souza e Vitor Meireles |
-| 07/04/2019 | 0.4 | Adição do Sumário | Rômulo Souza |
-| 12/04/2019 | 0.5 | Adição do diagrama de classes | Brian, Cleber, Francisco, Rômulo e Vitor Meireles |
+| 12/04/2019 | 0.4 | Adição do diagrama de classes | Brian, Cleber, Francisco, Rômulo e Vitor Meireles |
+| 28/04/2019 | 0.5 | Atualização do diagrama de classes | Rômulo Souza |
+| 28/04/2019 | 0.6 | Adição do diagrama de pacotes | Rômulo Souza |
 
 ## 1. Introdução
 
@@ -82,6 +83,10 @@ O Plugin Hubcare possui as seguintes restrições de arquitetura:
 ### 4.1. Diagrama de Classes
 
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://www.draw.io/?lightbox=1&target=frame&highlight=0000ff&layers=1&nav=1#G1yHXEmMhrJyWvnxFOGcsrjDaScaF8hABN"></iframe>
+
+### 4.2. Diagrama de Pacotes
+
+<iframe frameborder="0" style="width:100%;height:383px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&layers=1&nav=1#G1y1Mb7aoIyzmeitZpOgdjd4Ujlsbzx8N7"></iframe>
 
 ## 5. Arquitetura dos Serviços 
 
