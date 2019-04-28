@@ -35,7 +35,7 @@ nav:
     - DevOps: pipeline/devops/README.md
     - Pipeline API: pipeline/api/README.md
     - Pipeline Chrome Extension: pipeline/plugin/README.md
-    - GitFlow: pipeline/gcs/README.md
+    - GitFlow: pipeline/gitflow/README.md
     
   - Treinamentos:
     - Ágil: training/agile/README.md
@@ -46,6 +46,7 @@ nav:
     - Plugin Chrome: training/plugin_chrome/README.md
     - Testes Unitários: training/unit_test/README.md
   - Sprints:
+    - Burndown de Riscos: sprint/burndown-risk/README.md
     - Sprint 1 Planning: sprint/sprint-1-planning/README.md
     - Sprint 1 Review: sprint/sprint-1-review/README.md
     - Sprint 2 Planning: sprint/sprint-2-planning/README.md
