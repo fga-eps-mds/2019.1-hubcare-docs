@@ -42,7 +42,7 @@ A arquitetura do DRF é baseada na arquitetura MVC, onde a camada da controller 
 
 A model do DRF é a camada responsável por gerir, modelar e persistir os dados. Tem   como principais funções controlar o estado dos dados, responder a instruções para mudança de estado dos dados, cuidar das regras de negócio da aplicação e controlar as transações com o banco de dados da aplicação.
 
-A view do DRF é a camada encarregada por interpretar entradas vindas de outros sistemas (através de endpoints), distribuindo comandos que geram atualização, busca de dados ou requisições em outras partes do próprio sistema ou de outro sistema que esteja sendo consumido, fazendo o uso das classes definidas na camada de modelo(Model).
+A view do DRF é a camada encarregada por interpretar entradas vindas de outros sistemas (através de endpoints), distribuindo comandos que geram atualização, busca de dados ou requisições em outras partes do próprio sistema ou de outro sistema que esteja sendo consumido, fazendo o uso das classes definidas na camada de modelo (Model).
 
 
 ### 2.2. Plugin Google Chrome
@@ -58,9 +58,51 @@ Os plugins são feitos em tecnologias web, como HTML, CSS e JavaScript. No Hubca
 
 <img alt="chrome-architecture" src="chrome-architecture.png" />
 
-### 2.3 API GitHub
+### 2.3. API GitHub
 
 A API do GitHub é consumida pelo backend do Hubcare. Os dados advindos da API são processados de acordo com os critérios adotados, presentes no [Modelo de Medição](../../project-quality-management/measurement-model/README.md), gerando as métricas desejadas, que retornarão ao plugin do Chrome.
+
+### 2.4. Cliente-servidor
+
+O principal relacionamento do projeto é implementado como um cliente-servidor. O cliente é representado pelo plugin do chrome, que irá realizar uma requisição na API Gateway, que é o servidor central do projeto.
+
+### 2.5. API Gateway
+
+A API Gateway é a API central do projeto, uma fachada entre o frontend e os microsserviços. É responsável por verificar a existência do repositório solicitado, evitando requisições desnecessárias; coletar métricas dos microsserviços, através de requisições do tipo GET; processar as métricas coletadas e retornar indicadores para o plugin do chrome.
+
+### 2.6. Microsserviços
+
+Os microsserviços são responsáveis por coletar os dados da API do GitHub e transformá-los em métricas. Os microsserviços foram criados de acordo com as categorias obtidas através do [plano de medição](../../../project-quality-management/measurement-model/): issue, commit, pull_request e community. Dentro de cada microsserviço, existem as métricas correspondentes àquela categoria, representadas por APPs do DRF. Métricas correspondentes a cada microsserviço:
+
+#### 2.6.1. Commit
+
+* Quantidade de commits no último mês
+* Quantidade de contribuidores no último mês
+
+#### 2.6.2. Community
+
+* Possui README
+* Possui licença
+* Possui descrição
+* Possui release notes
+* Possui código de conduta
+* Possui template de issue
+* Possui guia de contribuição
+* Possui template de pull request
+
+#### 2.6.3. Issue
+
+* Taxa de issues ativas
+* Taxa de good first issue
+* Taxa de help wanted issue
+
+#### 2.6.4. Pull Request
+
+* Qualidade de aceitação de pull requests
+
+### 2.7 Visão Geral da arquitetura
+
+<iframe frameborder="0" style="width:100%;height:594px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=eps_architecture.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vXER5G4wags_JHToZT-_3GOSGvpWjKYl%26export%3Ddownload"></iframe>
 
 ## 3. Metas e Restrições de Arquitetura
 
@@ -77,6 +119,7 @@ O Plugin Hubcare possui as seguintes restrições de arquitetura:
 
 * Versão do plugin apenas para o Google Chrome
 * Número de requisições feitas para a API do GitHub limitam-se a 60 quando não autenticado, e a 5000 quando autenticado
+* Plugin do google chrome realiza apenas requisições do tipo HTTPS
 
 ## 4. Visão lógica
 
@@ -88,30 +131,25 @@ O Plugin Hubcare possui as seguintes restrições de arquitetura:
 
 <iframe frameborder="0" style="width:100%;height:383px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=package_diagram#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1y1Mb7aoIyzmeitZpOgdjd4Ujlsbzx8N7%26export%3Ddownload"></iframe>
 
-## 5. Arquitetura dos Serviços 
+## 5. Visão de Implementação
 
-<iframe frameborder="0" style="width:100%;height:594px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=eps_architecture.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vXER5G4wags_JHToZT-_3GOSGvpWjKYl%26export%3Ddownload"></iframe>
-
-## 6. Visão de Implementação
-
-### 6.1. Django Rest Framework
+### 5.1. Django Rest Framework
 
 No projeto, cada tema estará definido por um app do django. Os apps são separados por issues, pull requests e community, por serem as principais divisões que estão contidas nas métricas escolhidas para a avaliação de um repositório. Além disso, cada app é composto pelos seguintes arquivos:
 
 * **models.py** - implementa a camada model e as validações personalizadas dos dados que serão guardados no banco de dados
-* **views** - pasta que contém todas as views relacionadas ao app
 * **views.py** - implementa a camada view, que é responsável pela interação com a model e por processar todos os dados advindos da API do GitHub
 * **urls.py** - endpoints que permitem acesso às views
 * **serializers.py** - responsável por serializar dados - convertê-los de objeto para JSON - e também por validá-los de acordo com os dados da modelo
 
-### 6.2. Plugin Google Chrome
+### 5.2. Plugin Google Chrome
 
 No hubcare, a popup.html será apenas uma pequena janela responsável por habilitar e desabilitar o plugin e ficará visível ao ser clicada pelo usuário.
 
 O contentscript é a parte principal da aplicação. Ele receberá as métricas providas pelo backend e as apresentará dentro da aba **Hubcare**, que o próprio plugin irá criar.
 
 
-## 7. Referências Bibliográficas
+## 6. Referências Bibliográficas
 
 >Definição de DOM pela w3school. Disponível em: https://www.w3schools.com/js/js_htmldom.asp. Acesso em: 04 abr. 2019.
 
