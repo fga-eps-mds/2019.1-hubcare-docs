@@ -81,7 +81,7 @@ O Plugin Hubcare possui as seguintes restrições de arquitetura:
 
 ### 4.1. Diagrama de Classes
 
-<iframe frameborder="0" style="width:100%;height:483px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D157yRDxAY8LSSzSjLOg3YswH1-UJf6GFu%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://www.draw.io/?lightbox=1&target=frame&highlight=0000ff&layers=1&nav=1#G1yHXEmMhrJyWvnxFOGcsrjDaScaF8hABN"></iframe>
 
 ## 5. Arquitetura dos Serviços 
 
