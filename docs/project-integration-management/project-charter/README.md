@@ -25,7 +25,9 @@ Saber em quais projetos dentro da plataforma Github é recomendado contribuir de
 <br>
 
 ## Requisitos de alto nível
-A serem levantados
+- Deve ser um plugin para o navegador Chrome
+- As métricas devem estar disponíveis em uma API
+- Deve ser gerado gráficos e __badges__
 <br>
 
 ## Premissas Iniciais
@@ -43,14 +45,10 @@ A serem levantados
 - O projeto não irá processar a linguagem natural dos repositórios
 <br>
 
-
 ## Riscos de alto nível
 - Ultrapassar o limite de tempo
 - Membros da equipe se desliguem
 - API do Github ser desativada
-<br>
-
-## Resumo do cronograma de marcos
 <br>
 
 ## Resumo do orçamento
@@ -73,15 +71,10 @@ A serem levantados
 
 <br>
 ## Lista das partes interessadas
-- Equipe de desevolvimento
+- Equipe de desenvolvimento
 - Comunidades do Github
 - Carla Silva Rocha Aguiar
 - Matheus Miranda
-<br>
-
-## Requisitos para aprovação do Projeto
-- Estar matriculado em MDS e EPS
-- Tema e escopo do projeto ter sido aceito pela Prof. Carla Silva Rocha Aguiar
 <br>
 
 ## Gerentes do Projeto

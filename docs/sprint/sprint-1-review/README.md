@@ -28,8 +28,14 @@ Por ser a primeira não é possível avaliar a melhoria dos conhecimentos.
 
 ## Análise do Scrum Master
 
-Durante a <i>sprint 1</i> o time se mostrou capaz de realizar grande parte das atividades atribuídas.
+Inicio do projeto é uma das etapas na qual a equipe de gerencia possui um volume enorme de trabalho, mas a equipe conseguiu entregar.
 
-Dos pontos positivos da <i>sprint</i> vale destacar algumas como a comunicação do time durante a <i>sprint</i>.
+Nos pontos positivos temos a comunicação da equipe.
 
-Algumas atividades características do <i>Scrum</i>, como o <i>daily meeting</i>, deixaram a desejar, muito pelo fato da dificuldade do encontro presencial e este ser feito via <i>Telegram</i>.
+Infelizmente tivemos algumas dificuldades com o documento de arquitetura, mas deve ser resolvido na próxima __sprint__.
+
+Com isso temos um debito técnico.
+
+Inclusive fizemos também nesta sprint os treinamentos básicos para possibilitar a MDS codar.
+
+O próximo passo é iniciar o código na próxima __sprint__.

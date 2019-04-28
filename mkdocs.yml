@@ -21,16 +21,16 @@ nav:
   - Projeto:
     - Documento de Visão: project/vision-document/README.md
     - Documento de Arquitetura: project/architecture-document/README.md
-  - Gerenciamento de Integração:
+  - Integração:
     - Gerenciamento de Integração: project-integration-management/README.md
     - Termo de Abertura de Projeto: project-integration-management/project-charter/README.md
     - Plano de Gerenciamento de Projeto: project-integration-management/project-management-plan/README.md
-  - Gerenciamento de Qualidade:
+  - Qualidade:
     - Modelo de Medição de Repositórios do GitHub: project-quality-management/measurement-model/README.md
-  - Gerenciamento de Riscos:
+  - Riscos:
     - Plano de Gestão de Riscos: project-risk-management/risk-management-plan/README.md
     - Registro dos Riscos: project-risk-management/risk-management-list/README.md
-  - Gerenciamento de Custos: project-cost-management/README.md
+  - Custos: project-cost-management/README.md
   - Roadmap:
     - Roadmap do Produto: product-roadmap/README.md
   - Pipelines:
@@ -42,6 +42,8 @@ nav:
     - Docker: training/docker/README.md
     - Git: training/git/README.md
     - Tecprog: training/tecprog/README.md
+    - Django: training/django/README.md
+    - Plugin Chrome: training/plugin_chrome/README.md
     - Testes Unitários: training/unit_test/README.md
   - Sprints:
     - Sprint 1 Planning: sprint/sprint-1-planning/README.md
@@ -52,3 +54,5 @@ nav:
     - Sprint 3 Review: sprint/sprint-3-review/README.md
     - Sprint 4 Planning: sprint/sprint-4-planning/README.md
     - Sprint 4 Review: sprint/sprint-4-review/README.md
+    - Sprint 5 Planning: sprint/sprint-5-planning/README.md
+    - Sprint 5 Review: sprint/sprint-5-review/README.md
