@@ -28,6 +28,7 @@ nav:
   - Riscos:
     - Plano de Gestão de Riscos: project-risk-management/risk-management-plan/README.md
     - Registro dos Riscos: project-risk-management/risk-management-list/README.md
+    - Burndown de Riscos: project-risk-management/burndown-risk/README.md
   - Custos: project-cost-management/README.md
   - Roadmap:
     - Roadmap do Produto: product-roadmap/README.md
@@ -46,7 +47,6 @@ nav:
     - Plugin Chrome: training/plugin_chrome/README.md
     - Testes Unitários: training/unit_test/README.md
   - Sprints:
-    - Burndown de Riscos: sprint/burndown-risk/README.md
     - Sprint 1 Planning: sprint/sprint-1-planning/README.md
     - Sprint 1 Review: sprint/sprint-1-review/README.md
     - Sprint 2 Planning: sprint/sprint-2-planning/README.md
