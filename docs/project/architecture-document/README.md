@@ -102,7 +102,7 @@ Os microsserviços são responsáveis por coletar os dados da API do GitHub e tr
 
 * Qualidade de aceitação de pull requests
 
-### 2.7. Visão Geral da arquitetura
+### 2.7. Visão Geral da Arquitetura
 
 <iframe frameborder="0" style="width:100%;height:594px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=eps_architecture.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vXER5G4wags_JHToZT-_3GOSGvpWjKYl%26export%3Ddownload"></iframe>
 
