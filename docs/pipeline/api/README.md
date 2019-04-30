@@ -17,6 +17,10 @@ O GitLab CI/CD é a ferramenta integrada do GitLab para desenvolvimento de softw
 * A Integração Contínua , ou CI, trabalha para integrar o código de sua equipe em um repositório compartilhado. Os desenvolvedores compartilham seu novo código em uma solicitação de mesclagem (pull), que aciona um pipeline para criar, testar e validar o novo código antes de mesclar as alterações em seu repositório.
 * A Entrega Contínua , ou CD, entrega o código validado pelo CI para o seu aplicativo.
 
+### Docker
+
+Docker é uma ferramenta que permite que desenvolvedores, administradores de sistema, etc. implantem facilmente seus aplicativos em uma sandbox (chamados containers) para serem executados no sistema operacional host, ou seja, no Linux. O principal benefício do Docker é que ele permite que os usuários empacotem um aplicativo com todas as suas dependências em uma unidade padronizada para desenvolvimento de software. Ao contrário das máquinas virtuais, os contêineres não têm a alta sobrecarga e, portanto, permitem um uso mais eficiente do sistema e dos recursos subjacentes.
+
 ### DockerHub
 
 O Docker Hub é a ferrameta utilizada para criar, gerenciar e entregar os aplicativos de contêiner do projeto.
@@ -25,8 +29,6 @@ O Docker Hub é a ferrameta utilizada para criar, gerenciar e entregar os aplica
 
 Auxilia você a fornecer o código com segurança, mostrando quais partes do seu código não são cobertas pelo seu conjunto de testes.
 
-### Orquestrador
-...
+### Rancher
 
-### DigitalOcean
-...
+É uma uma plataforma opensource para gerenciar infraestrutura de Docker e Kubernetes em produção, assim como efetuar deploy de apps usando Docker. O deploy é realizado em um server remoto na Digital Ocean. Ele é responsável por administrar e monitorar containers Docker.
