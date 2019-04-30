@@ -4,8 +4,8 @@
 
 ## Explicação sobre os estágios:
 
-* **teste:** Testes unitários são exucutados utikizando jest-js e é publicada a cobertura do código no coveralls;
-* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no dockerhub, são gerados apenas nas branchs master e devel; 
+* **teste:** Testes unitários são exucutados utikizando jest-js e é publicada a cobertura do código no codecov;
+* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no gitlab register, são gerados apenas nas branchs master e devel; 
 * **release:** Gera uma build do aplicativo e é publicada na chrome store utilizando a api do google, são gerados apenas no branch master e devel; 
 
 ## Ferramentas
@@ -17,10 +17,10 @@ O GitLab CI/CD é a ferramenta integrada do GitLab para desenvolvimento de softw
 * A Integração Contínua , ou CI, trabalha para integrar o código de sua equipe em um repositório compartilhado. Os desenvolvedores compartilham seu novo código em uma solicitação de mesclagem (pull), que aciona um pipeline para criar, testar e validar o novo código antes de mesclar as alterações em seu repositório.
 * A Entrega Contínua , ou CD, entrega o código validado pelo CI para o seu aplicativo.
 
-### DockerHub
+### Gitlab register
 
-O Docker Hub é a ferrameta utilizada para criar, gerenciar e entregar os aplicativos de contêiner do projeto.
+O Gitlab register é a ferrameta utilizada para criar, gerenciar e entregar os aplicativos de contêiner do projeto.
 
-### Coveralls
+### Codecov
 
 Auxilia você a fornecer o código com segurança, mostrando quais partes do seu código não são cobertas pelo seu conjunto de testes.
