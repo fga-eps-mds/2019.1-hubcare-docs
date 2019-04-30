@@ -5,8 +5,8 @@
 ## Explicação sobre os estágios:
 
 * **teste:** São executados testes unitários do python e é publicada a cobertura do código no coveralls. Também é verificada a folha de estilo utilizando pep8; 
-* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no dockerhub, são gerados apenas nas branchs master e devel; 
-* **deploy**: Atualiza a versão do sistema no deploy, são gerados apenas no branch master e devel (em desenvolvimento). O deploy será realizado no DigitalOcean, onde uma ferramenta de orquestração de container está configurada (estamos estudando kubernetes e o docker swarm para isso).
+* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no gitlab register, são gerados apenas nas branchs master e devel; 
+* **deploy**: Atualiza a versão do sistema no deploy, são gerados apenas no branch master e devel. O deploy de produção é realizado no DigitalOcean utilizando o Rancher para gerenciar todos os serviços, já o deploy de homologação, que é realizado na devel, está configurado no Heroku utilizando o register do próprio  Heroku para atualizar o deploy.
 
 ## Ferramentas
 
@@ -21,9 +21,9 @@ O GitLab CI/CD é a ferramenta integrada do GitLab para desenvolvimento de softw
 
 Docker é uma ferramenta que permite que desenvolvedores, administradores de sistema, etc. implantem facilmente seus aplicativos em uma sandbox (chamados containers) para serem executados no sistema operacional host, ou seja, no Linux. O principal benefício do Docker é que ele permite que os usuários empacotem um aplicativo com todas as suas dependências em uma unidade padronizada para desenvolvimento de software. Ao contrário das máquinas virtuais, os contêineres não têm a alta sobrecarga e, portanto, permitem um uso mais eficiente do sistema e dos recursos subjacentes.
 
-### DockerHub
+### Gitlab register
 
-O Docker Hub é a ferrameta utilizada para criar, gerenciar e entregar os aplicativos de contêiner do projeto.
+O Gitlab register é a ferrameta utilizada para criar, gerenciar e entregar os aplicativos de contêiner do projeto.
 
 ### Coveralls
 
