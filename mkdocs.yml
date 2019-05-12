@@ -27,12 +27,14 @@ nav:
     - Plano de Gerenciamento de Projeto: project-integration-management/project-management-plan/README.md
   - Qualidade:
     - Modelo de Medição de Repositórios do GitHub: project-quality-management/measurement-model/README.md
+    - Modelo de Testes de Aceitação: project-quality-management/acceptance-test-model/README.md
+    - Relatório dos Testes de Aceitação:
+      - Teste 1: project-quality-management/acceptance-tests/1st-test/README.md
   - Riscos:
     - Plano de Gestão de Riscos: project-risk-management/risk-management-plan/README.md
     - Registro dos Riscos: project-risk-management/risk-management-list/README.md
   - Custos: project-cost-management/README.md
-  - Roadmap:
-    - Roadmap do Produto: product-roadmap/README.md
+  - Roadmap do Produto: product-roadmap/README.md
   - Pipelines:
     - DevOps: pipeline/devops/README.md
     - Pipeline API: pipeline/api/README.md
