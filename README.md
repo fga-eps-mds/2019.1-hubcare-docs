@@ -15,7 +15,7 @@ For now, the only supported browser is Google Chrome, but NPM may build the Add-
 
 ### Installing from Chrome Store
 
-Just go to HubCare's page on [Chrome Store](https://chrome.google.com/webstore/detail/hubcare/oilkenamijbelpchecmfpllponcmlcbm) and be happy :winky:
+Just go to HubCare's page on [Chrome Store](https://chrome.google.com/webstore/detail/hubcare/oilkenamijbelpchecmfpllponcmlcbm) and be happy :wink:
 
 ### Running things locally
 
