@@ -20,6 +20,7 @@ nav:
   - Colaboradores: contributors/README.md
   - Projeto:
     - Documento de Visão: project/vision-document/README.md
+    - Protótipo de Alta Fidelidade: project/prototype/README.md
     - Documento de Arquitetura: project/architecture-document/README.md
   - Integração:
     - Gerenciamento de Integração: project-integration-management/README.md
