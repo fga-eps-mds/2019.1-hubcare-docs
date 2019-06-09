@@ -74,18 +74,32 @@ Para colorir algum **detalhe referente a commits**, recomenda-se esse tom de lar
 
 ### Linhas divisoras
 
-Para as linhas que marquem as divisórias entre painéis e outros elementos que componham a interface, recomenda-se esse tom de cinza: <span style="color:#B6B8BB; background: #000">#b6b8bb</span>. Toda divisória do GitHub se encontra nessa cor.
+Para as linhas que marquem as divisórias entre painéis e outros elementos que componham a interface, recomenda-se esse tom de cinza: <span style="color:#d1d5da; background: #000">#d1d5da</span>. Toda divisória do GitHub se encontra nessa cor.
 
-<div style="background-color:#b6b8bb;
+<div style="background-color:#d1d5da;
             width:80px;
             height:80px;
             border-radius: 50px;
             margin: auto;
             text-align: center;
             color: #000;">
-        <div style="padding-top: 35%">#b6b8bb</div>
+        <div style="padding-top: 35%">#d1d5da</div>
 </div>
 
+**Obs:** Não atentar apenas às cores, mas também ao estilo.
+
+<div style="border-radius: 3px;
+            border: 1px solid;
+            border-color: #d1d5da;
+            margin: auto;
+            text-align: center;
+            width:230px">
+    <div style="margin: 2px">
+        <p>border-radius: 3px;</p>
+        <p>border: 1px solid;</p>
+        <p>border-color: #d1d5da</p>
+    </div>        
+</div>
 
 ### Fundo Escuro
 
@@ -103,11 +117,26 @@ Alguns elementos do GitHub, como headers de tabelas, exigem um fundo um pouco ma
         <div style="padding-top: 32%">#f6f8fa</div>
 </div>
 
-<!-- ## Fontes
+## Fontes
 
 A fonte utilizada para escrever qualquer coisa na tela do GitHub deve ser sempre a que vem por padrão nos styles da página.
 
 Já a cor deve ser decidida em relação ao contexto, mas ainda respeitando a identididade visual do GitHub.
 
-### Títulos 
- -->
+### Títulos
+
+Os títulos de elementos, como gráficos por exemplo, devem ser `h2` e seguir a classe `"Subhead-heading"`, já definida na folha de estilo do GitHub. Alguns títulos devem ficar alinhados à esquerda, outros devem ficar ao centro da seção. Consulte protótipo.
+
+### Números Grandes
+
+Números que mereçam destaque, como os das barras de progresso definidas em protótipo, devem ser da tag `p` e da classe `"Subhead-heading"`, já definida na folha de estilo do GitHub.
+
+### Textos Descritivos
+
+Para pequenos textos de descrição, deve se utilizar a tag `spam` com a classe `"text-emphasized"` já definida na folha de estilo do GitHub.
+
+### Demais Textos
+
+Textos dentro de tabelas ou outros elementos que estejam densos devem seguir a tag `p`. O estilo padrão desse elemento no GitHub já é suficiente.
+
+<br>
