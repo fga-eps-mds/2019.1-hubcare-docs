@@ -71,3 +71,43 @@ Para colorir algum **detalhe referente a commits**, recomenda-se esse tom de lar
             color: #fff;">
         <div style="padding-top: 35%">#f66a0a</div>
 </div>
+
+### Linhas divisoras
+
+Para as linhas que marquem as divisórias entre painéis e outros elementos que componham a interface, recomenda-se esse tom de cinza: <span style="color:#B6B8BB; background: #000">#b6b8bb</span>. Toda divisória do GitHub se encontra nessa cor.
+
+<div style="background-color:#b6b8bb;
+            width:80px;
+            height:80px;
+            border-radius: 50px;
+            margin: auto;
+            text-align: center;
+            color: #000;">
+        <div style="padding-top: 35%">#b6b8bb</div>
+</div>
+
+
+### Fundo Escuro
+
+Alguns elementos do GitHub, como headers de tabelas, exigem um fundo um pouco mais escuro que o branco, para que se tenha uma ideia de diferenciação. Para isso, recomenda-se esse tom: <span style="color:#f6f8fA; background: #000">#f6f8fa</span>.
+
+<div style="background-color:#f6f8fa;
+            width:80px;
+            height:80px;
+            border-radius: 50px;
+            margin: auto;
+            text-align: center;
+            color: #000;
+            border:1px solid;
+            border-color: #b6b8bb">
+        <div style="padding-top: 32%">#f6f8fa</div>
+</div>
+
+<!-- ## Fontes
+
+A fonte utilizada para escrever qualquer coisa na tela do GitHub deve ser sempre a que vem por padrão nos styles da página.
+
+Já a cor deve ser decidida em relação ao contexto, mas ainda respeitando a identididade visual do GitHub.
+
+### Títulos 
+ -->
