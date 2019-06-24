@@ -1,19 +1,6 @@
-
-## Indicadores de Qualidade do Processo
-
 ### Fechamento da Sprint
 
 Apenas uma parte das histórias planejadas para a <i>sprint</i> foram concluídas.
-
-### _Burndown_
-
-![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-2-burndown.png?raw=true)
-
-
-### _Velocity_
-
-![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-2-velocity.png?raw=true)
-
 
 ### Quadro de Conhecimento
 

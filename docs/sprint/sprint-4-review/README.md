@@ -1,19 +1,5 @@
-
-## Indicadores de Qualidade do Processo
-
-
 ### Fechamento da Sprint
 As historia foram entregues incluindo todos as dividas técnicas.
-
-### _Burndown_
-
-![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-4-burndown.png?raw=true)
-
-
-### _Velocity_
-
-![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-4-velocity.png?raw=true)
-
 
 ### Melhorias em Relação a __Sprint__ 3
 * MDS parear sozinho

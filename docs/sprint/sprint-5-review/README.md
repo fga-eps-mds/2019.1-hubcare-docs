@@ -1,7 +1,3 @@
-
-## Indicadores de Qualidade do Processo
-
-
 ### Fechamento da Sprint
 As historia foram entregues incluindo todos as dividas técnicas.
 

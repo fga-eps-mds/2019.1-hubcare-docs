@@ -1,18 +1,5 @@
-
-## Indicadores de Qualidade do Processo
-
 ### Fechamento da Sprint
 O objetivo desta __sprint__ foi fechar os débitos deixados pelas sprint passada.
-
-### _Burndown_
-
-![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-3-burndown.png?raw=true)
-
-
-### _Velocity_
-
-![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-3-velocity.png?raw=true)
-
 
 ### Melhorias em Relação a __Sprint__ 2
 * Melhorar comunicar pelas issues
