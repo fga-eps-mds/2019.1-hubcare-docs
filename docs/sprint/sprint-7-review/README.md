@@ -3,12 +3,15 @@ A sprint foi fechada porém com a maioria de sua entregas no dia 19 o que demons
 
 ### Melhorias em Relação a __Sprint__ 6
 * Aprender testes
+
 Passamos links para video aulas
 
 * Melhorar comunicação
+
 Este é um problema recorrente para sua solução
 
 * Focar no front
+
 A maioria das issues desta sprint foram voltadas para o plugin
 
 ### Retrospectiva

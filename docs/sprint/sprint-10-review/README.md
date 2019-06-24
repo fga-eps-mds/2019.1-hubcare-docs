@@ -3,6 +3,7 @@ As historia foram entregues incluindo todos as dividas técnicas.
 
 ### Melhorias em Relação a __Sprint__ 9
 * MDS entregar issues
+
 Este é um problema recorrente para isso começamos a alocar menos pontos para MDS
 
 ### Retrospectiva

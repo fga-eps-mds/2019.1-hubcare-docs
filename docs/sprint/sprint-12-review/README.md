@@ -4,16 +4,19 @@ As historia foram entregues.
 
 ### Melhorias em Relação a __Sprint__ 11
 * Melhorar eficiência
+
 A equipe começou a trabalhar mais cedo para esta sprint
 
 * Melhorar testes
+
 Ainda não conseguimos melhorar isto nesta sprint
 
 * Estruturar do front end
+
 O front end foi reestruturado para ser menos acoplado
 
 ### Retrospectiva
-<iframe width="1100" height="500" frameborder="0" src="https://docs.google.com/document/d/e/2PACX-1vSCZdlVBn6VqAAvncfUBgmjCviPFpGcn6CXXelMpaXdqeIs00i8uozQA3f-c4k3n81O38qD53OuVmau/pub" scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
+<iframe width="1100" height="500" frameborder="0" src="https://docs.google.com/document/d/e/2PACX-1vQG2cs94-Lf0dAU2ceI10yxTYTn3VXkYCK648L6i2e6wVsiQRit3q_1WH01XtaNd5qfnC_FuinG3Uu0/pub" scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
 
 ### Quadro de Conhecimento
 

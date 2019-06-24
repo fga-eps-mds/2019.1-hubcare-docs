@@ -4,6 +4,7 @@ As historia foram entregues.
 
 ### Melhorias em Relação a __Sprint__ 8
 * Descobrir como motivar a equipe
+
 A fadiga de final de semestre é um evento comum não conseguimos resolver isso. 
 
 ### Retrospectiva

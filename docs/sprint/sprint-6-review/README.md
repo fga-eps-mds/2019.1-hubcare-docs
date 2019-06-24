@@ -3,21 +3,27 @@ As historias de refatoramento foram entregues infelizmente as de testes apesar d
 
 ### Melhorias em Relação a __Sprint__ 5
 * Agilizar os PR’s
+
 Com o auxilio do bot do github no telegram o tempo foi reduzido
 
 * Configurar SSL do deploy de produção
+
 Foi configurado
 
 * Melhorar a revisão dos PRs
+
 Os PR's nesta sprint foram revisados
 
 * Descrição de Issues
+
 A descrição foi mais detalhada nas issues e no planejamento
 
 * Velocidade no tempo de resposta das issues
+
 Com o auxilio do bot do github no telegram o tempo de resposta foi reduzido consideravelmente
 
 * Planejamento para trabalho paralelo
+
 As issues foram planejadas de forma a manter minima dependencia
 
 ### Retrospectiva

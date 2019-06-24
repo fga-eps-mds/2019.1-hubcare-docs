@@ -3,12 +3,15 @@ As historia foram entregues incluindo todos as dividas técnicas.
 
 ### Melhorias em Relação a __Sprint__ 3
 * MDS parear sozinho
+
 MDS conseguiu parear entre eles sem a necessidade de EPS
 
 * Aceitar PR mais rápido
+
 Os PR's foram avaliados em no máximo 1 dia
 
 * MDS melhorar produtividade
+
 MDS entregou todas as issues
 
 * Curso CB e OO
@@ -19,7 +22,6 @@ Foi disponibilizados links para cursos online
 " scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
 
 ### Quadro de Conhecimento
-
 <iframe width="1100" height="500" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQz4PB1QudgJp7Resl8wUHgxOGqkoSUCB47p7MJxv02Co7vuFXVY0JxMVbYuSR9alX9l6H8kZnjqhd3/pubhtml?gid=693249686&single=true
 " scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames</iframe>
 

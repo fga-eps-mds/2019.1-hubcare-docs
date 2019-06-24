@@ -4,15 +4,11 @@ As historia foram entregues, mas no final da sprint.
 
 ### Melhorias em Relação a __Sprint__ 7
 * Aprender a abrir PR
+
 O template de PR foi revisado
 
-* Olhar planilhas
-...
-
-* Lembrar de avisar provas e trabalhos
-...
-
 * Planejar para o DevOps e Arquiteto
+
 Foi planejado coisas para eles
 
 ### Retrospectiva
