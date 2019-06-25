@@ -22,7 +22,7 @@ A pipeline de entrega está configurada para que o [código do Plugin](https://g
 
 Gostaria de ver o sistema funcionando na sua máquina?
 
-Infelizmente, o Plugin não foi feito para interagir com a API de maneira local. O código do Plugin está configurado para procurar o domínio do Hubcare. Além disso, para autenticar de maneira correta, é necessário configurar algumas constantes no código que não devem ser commitadas. Detalhes de como fazer estão documentadas em um [Pull Request]
+Infelizmente, o Plugin não foi feito para interagir com a API de maneira local. O código do Plugin está configurado para procurar o domínio do Hubcare. Além disso, para autenticar de maneira correta, é necessário configurar algumas constantes no código que não devem ser commitadas. Mais detalhes adiante.
 
 Para instalação dos componentes, [Docker](https://docs.docker.com/install/) e [Docker-Compose](https://docs.docker.com/compose/install/) serão uma mão na roda! As instruções a partir daqui serão utilizadas com essas ferramentas.
 
