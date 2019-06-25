@@ -1,10 +1,11 @@
-# Hubcare - Docs
+# Hubcare - Documentation
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
 
-The Hubcare is an open-source project to manage if a repository is good or not to a newcomer, either a passing visitor, someone who looks for contributions or someone who just is interested in the software.
+The Hubcare is an open-source project intended to help free software users and potential contributors to decide which repositories they should use or on which they should contribute. It has an [API](https://github.com/fga-eps-mds/2019.1-hubcare-api) that pulls data from GitHub API and post it to a [Add-on](https://github.com/fga-eps-mds/2019.1-hubcare-plugin).
 
-This repository is destined to manage all documentation about the Hubcare. You can check it in our page: [Hubcare](https://fga-eps-mds.github.io/2019.1-hubcare-docs/)
+This repository, in special, is only to containing project [Documentation](https://cjjcastro.gitlab.io/2019-1-hubcare-docs/), which is mostly in Portuguese, due to Brazilian project stakeholders.
 
+For now, the only supported browser is Google Chrome, but NPM may build the Add-on for another browser.
 
 ## Technologies
 
@@ -12,7 +13,105 @@ This repository is destined to manage all documentation about the Hubcare. You c
 
 ## Installation
 
-Coming soon!
+### Installing from Chrome Store
+
+Just go to HubCare's page on [Chrome Store](https://chrome.google.com/webstore/detail/hubcare-check-github-repo/jaalemmhbmjojoppdncnekgnjgfbfbda) and be happy :wink:
+
+### Running things locally
+
+Wanna see it working on your machine, uh?
+
+Unfortunately, the Add-on code wasn't made for local interaction, you may want to up the API on some deploy service to see it working. But you can still run the API and the Add-On separately if you want.
+
+You'll need have [Docker](https://docs.docker.com/install/) and [Docker-Compose](https://docs.docker.com/compose/install/) installed to see the magic happenning.
+
+And I just know how to do it on a Linux machine. C'mon, Windows is just for gaming, y'know. And MacOS users surely can pay someone to discover how to do it.
+
+#### Running the API
+
+Downloading
+
+```bash
+cd ~/your/directory/
+git clone https://github.com/fga-eps-mds/2019.1-hubcare-api.git
+cd 2019.1-hubcare-api
+```
+
+The HubCare API need to send a GitHub username and an API token to authenticate on GitHub API. This is set by environment variables as shown below. You can generate tokens [here](https://github.com/settings/tokens).
+
+```bash
+export NAME='username'
+export TOKEN='token'
+```
+
+There you go!
+
+```bash
+docker-compose build
+docker-compose up
+```
+
+If everything was done right, you now have the HubCare running on your machine. Just navigate to `0.0.0.0:8000` and you should see something. There are services running on ports [8000..8003].
+
+Test it on http://0.0.0.0:8000/hubcare_indicators/fga-eps-mds/2019.1-hubcare-api
+
+#### Running the Add-on
+
+Downloading
+
+```bash
+cd ~/your/directory/
+git clone https://github.com/fga-eps-mds/2019.1-hubcare-plugin.git
+cd 2019.1-hubcare-plugin
+```
+
+Building and uping things:
+
+```bash
+docker-compose build
+docker-compose up
+```
+
+This should be enough to turn the service on ( ͡° ͜ʖ ͡°).
+
+Then, open Google Chrome on [chrome://extensions/](chrome://extensions/), activate `Developer mode` on top right corner.
+
+![Developer Mode](docs/images/chromeext.png)
+
+You now shoud see hubcare extension, just activate it.
+
+Just go to some GitHub repo to see it working. I recommend [this one](https://github.com/fga-eps-mds/2019.1-hubcare-api), you can even give it a star! :wink:
+
+#### Running the... Docs?
+
+Okay, I undertand, you don't believe on internet info, wanna see it on your own machine, right?
+
+There you go then
+
+```bash
+cd ~/your/directory/
+git clone https://github.com/fga-eps-mds/2019.1-hubcare-docs.git
+cd 2019.1-hubcare-docs
+```
+
+Yeah, now run the docs, girl! Run the docs, boy!
+
+```bash
+docker-compose up --build
+```
+
+Now, [localhost:8000](localhost:8000) should have a beautyful documentation page.
+
+**Obs:** If you ever want to contribute to docs, make sure to check if the MKDocs is rendering as you wish with the proceed above.
+
+
+## Deployment
+
+It's set on [GitLab](https://gitlab.com/cjjcastro/2019-1-hubcare-docs), so we can use GitLab CI.
+
+## Built With
+
+[MKDocs - Material](https://squidfunk.github.io/mkdocs-material/getting-started/)
 
 ## Contributing
 
@@ -20,8 +119,7 @@ Please make sure to read the [Contribution Guide](.github/CONTRIBUTING.md) befor
 
 ## License
 
-[MIT](./LICENSE)
-
+Do whatever you want with this code, bro/sis. This is under [MIT License](./LICENSE).
 
 ## Contributors
 
@@ -35,6 +133,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-### Dev's Recommendation to listen while Coding
+## Dev's Recommendation to listen while Coding
 
  <a href="https://open.spotify.com/playlist/3volu6WNAthdgivf0Ki4U1"><img src="https://mosaic.scdn.co/640/072be8c8070865cdbc15eb91bc78e270bdb2d9955fa3a6cc1848ea743a293d2088046746d1b096089e5288926fadb82f873ccf2b45300c3a6f65fa14e10a7d0572569ee5ec9159ed03c79a8b61b308ec" width="100" height="100" title="SO MUSICAO" alt="SO MUSICAO"></a>

@@ -5,6 +5,8 @@ repo_url: 'https://github.com/fga-eps-mds/2019.1-hubcare-docs'
 theme:
   name: 'material'
   language: 'pt'
+  logo: 'images/circle-icon.ico'
+  favicon: 'images/circle-icon.ico'
   palette:
     primary: 'indigo'
     accent: 'indigo'
@@ -18,6 +20,7 @@ nav:
   - Colaboradores: contributors/README.md
   - Projeto:
     - Documento de Visão: project/vision-document/README.md
+    - Protótipo de Alta Fidelidade: project/prototype/README.md
     - Documento de Arquitetura: project/architecture-document/README.md
   - Integração:
     - Gerenciamento de Integração: project-integration-management/README.md
@@ -25,13 +28,16 @@ nav:
     - Plano de Gerenciamento de Projeto: project-integration-management/project-management-plan/README.md
   - Qualidade:
     - Modelo de Medição de Repositórios do GitHub: project-quality-management/measurement-model/README.md
+    - Modelo de Testes de Aceitação: project-quality-management/acceptance-test-model/README.md
+    - Relatório dos Testes de Aceitação:
+      - Relatório 1: project-quality-management/acceptance-tests/1st-test/README.md
+      - Relatório 2: project-quality-management/acceptance-tests/2nd-test/README.md
   - Riscos:
     - Plano de Gestão de Riscos: project-risk-management/risk-management-plan/README.md
     - Registro dos Riscos: project-risk-management/risk-management-list/README.md
     - Burndown de Riscos: project-risk-management/burndown-risk/README.md
   - Custos: project-cost-management/README.md
-  - Roadmap:
-    - Roadmap do Produto: product-roadmap/README.md
+  - Roadmap do Produto: product-roadmap/README.md
   - Pipelines:
     - DevOps: pipeline/devops/README.md
     - Pipeline API: pipeline/api/README.md

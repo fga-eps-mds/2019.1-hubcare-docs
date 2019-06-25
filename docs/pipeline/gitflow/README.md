@@ -17,9 +17,9 @@ A branch master conterá a versão estável, o seu conteúdo será proveniente d
 
 A branch devel será utilizada para o desenvolvimento, onde a integração das funcionalidades desenvolvidas pela equipe nas branches auxiliares ocorrerá.
 
-As branches auxiliares serão utilizadas para o desenvolvimento das funcionalidades.Essas branches serão nomeadas de acordo com a issue qual ela é relacionada.
+As branches auxiliares serão utilizadas para o desenvolvimento das funcionalidades. Essas branches serão nomeadas de acordo com a issue qual ela é relacionada. O nome da branch será o número da issue no Github seguido do nome presente na issue.
 
-* Exemplo : "feature-create_new_user".
+* Exemplo : "01-create_new_user".
 
 Os bugs seguirão o formato padrão no projeto: bug-< Nome do bug> e dentro dele uma descrição do problema e se necessário o fluxo que levou até o bug.
 
@@ -42,5 +42,3 @@ Será cadastrada as tasks e os critérios de aceitação de cada história de us
 O nome das issues seguirão o seguinte padrão: <Tipo de Issue> - < Nome definido para a história pela equipe >.
 
 * Exemplo : "Feature - Register Product".
-
-<br>
