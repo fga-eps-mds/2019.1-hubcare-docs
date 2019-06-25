@@ -1,12 +1,14 @@
 # Pipeline da api
 
+**Autor: Cleber Castro**
+
 <iframe frameborder="0" style="width:100%;height:446px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=pipeline%20api#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-o7GaZhNaWqOITV1ssE8NWxC55tr1YjJ%26export%3Ddownload"></iframe>
 
 ## Explicação sobre os estágios:
 
-* **teste:** São executados testes unitários do python e é publicada a cobertura do código no coveralls. Também é verificada a folha de estilo utilizando pep8; 
-* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no gitlab register, são gerados apenas nas branchs master e devel; 
-* **deploy**: Atualiza a versão do sistema no deploy, são gerados apenas no branch master e devel. O deploy de produção é realizado no DigitalOcean utilizando o Rancher para gerenciar todos os serviços, já o deploy de homologação, que é realizado na devel, está configurado no Heroku utilizando o register do próprio  Heroku para atualizar o deploy.
+* **teste:** São executados testes unitários do python/django e, após isso, é publicada a cobertura do código no coveralls. Também é verificada a folha de estilo utilizando pep8; 
+* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no gitlab register, são gerados apenas nas branchs master e devel. Esse processo é executado para cada um dos serviços do Hubcare individualmente, por fim cada serviço terá sua respectiva imagem do docker publicada no Gitlab register; 
+* **deploy**: Atualiza a versão do sistema no deploy, são gerados apenas no branch master e devel. O deploy de produção é realizado no DigitalOcean utilizando o Rancher para gerenciar todos os serviços. Já o deploy de homologação, que é realizado na devel, está configurado no Heroku utilizando o register do próprio  Heroku para atualizar o deploy, nesse processo as imagens do docker geradas na fase anterior são publicadas em outro register, no caso do próprio Heroku, dessa forma, um comando para rodar as atualizações é executado utilizando o Heroku CLI.
 
 ## Ferramentas
 

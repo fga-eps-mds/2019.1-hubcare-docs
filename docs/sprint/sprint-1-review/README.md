@@ -1,19 +1,6 @@
-
-## Resultados da Sprint
-
 ### Fechamento da Sprint
 
 Grande parte do que foi planejado, ao início da Sprint, foi entregue porém o documento de arquitetura continua devido para a proxima sprint. 
-
-### _Burndown_
-
-![](https://github.com/fga-eps-mds/2019.1-hubcare-docs/blob/master/docs/sprint/images/sprint-1-burndown.png?raw=true)
-
-O __burndown__ foi consistente com o que se é esperado com entregas constantes.
-
-### _Velocity_
-
-Por ser a primeira <i>sprint</i> ainda não temos um <i>velocity</i>.
 
 ### Quadro de Conhecimento
 
