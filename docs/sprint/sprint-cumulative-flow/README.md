@@ -36,4 +36,4 @@
 ![Sprint 11](11.png)
 
 ### Sprint 12
-![Sprint 12(12.png)
+![Sprint 12](12.png)
