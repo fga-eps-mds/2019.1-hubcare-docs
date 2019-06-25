@@ -1,12 +1,14 @@
 # Pipeline do plugin de chrome
 
+**Autor: Cleber Castro**
+
 <iframe frameborder="0" style="width:100%;height:516px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=pipeline%20plugin#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1MIYlyS-hRLhXL6E_QW0VN7YmHnUUDcga%26export%3Ddownload"></iframe>
 
 ## Explicação sobre os estágios:
 
-* **teste:** Testes unitários são exucutados utikizando jest-js e é publicada a cobertura do código no codecov;
-* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no gitlab register, são gerados apenas nas branchs master e devel; 
-* **release:** Gera uma build do aplicativo e é publicada na chrome store utilizando a api do google, são gerados apenas no branch master e devel; 
+* **test:** Testes unitários são exucutados utilizando jest-js e é publicada a cobertura do código no codecov;
+* **release:** Gera uma build do aplicativo utilizando o docker e em seguida a imagem é publicada no gitlab register, apenas na branch master esse processo é executado. São geradas releases para homologação e para produção, no primeiro caso todo código que for para a branch master executa o processo de release, já as releases de produção são geradas a partir de Tags/Releases do Github;
+* **publish:** Gera uma build do aplicativo e é publicada na chrome store utilizando a api do google, apenas na branch master esse processo é executado. São publicados para homologação e para produção, no primeiro caso todo código que for para a branch master executa o processo de publicação, já e, produção são publicadas a partir de Tags/Releases do Github;
 
 ## Ferramentas
 
