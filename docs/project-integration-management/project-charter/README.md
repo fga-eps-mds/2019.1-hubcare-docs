@@ -81,8 +81,7 @@ Saber em quais projetos dentro da plataforma Github é recomendado contribuir de
 
 |Nome|Responsabilidades|
 |----|-----------------|
-| Lucas Hiroshi Horinouchi | Garantir que o projeto será concluído e os objetivos, alcançados. Definir responsabilidades e recursos. |
-| Filipe Toyoshima | Garantir que o projeto atende aos requisitos. Definir objetivos gerais e individuais, cronograma de atividades. |
+| Lucas Hiroshi Horinouchi; Filipe Toyoshima; Rômulo Vinícius de Souza; Cleber Júnior  | Garantir que o projeto será concluído e os objetivos, alcançados e atende aos requisitos. Definir responsabilidades, recursos, objetivos gerais e individuais e cronograma de atividades. |
 
 <br>
 
